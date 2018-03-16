@@ -1,2 +1,2 @@
-./logs/*.json
+./logs/*
 ./node_modules

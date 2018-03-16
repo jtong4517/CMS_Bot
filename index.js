@@ -12,6 +12,10 @@ function dispTime () {
     return ints.join(':');
 }
 
+function dispDate () {
+    return new Date().getFullYear() + '-' + (new Date().getMonth() + 1) + '-' + new Date().getDate();
+}
+
 var consoles = {
     list: [],
     onStream: false,
@@ -24,36 +28,33 @@ var consoles = {
         this.onStream = true;
         switch (type) {
             case 0:
-                type = "<@&422873287186710529>";
+                type = "<@&423931949426409482>";
             break;
             case 1:
-                type = "<@&422873346116419594>";
+                type = "<@&423932022155771908>";
             break;
             case 2:
-                type = "<@&422873415775420420>";
+                type = "<@&423932073854631936>";
             break;
             case 3:
-                type = "<@&423209869508870146>";
+                type = "<@&423932131388162049>";
             break;
             case 4:
-                type = "<@&422864998520586251>"
+                type = "<@&423932194508111872>"
         }
-        var ints = [new Date().getHours(), new Date().getMinutes(), new Date().getSeconds()], appendTo = this.list.find(c => c.caller == msg.id);
-        ints.forEach(a => {
-            a = a > 9 ? a : ('0' + a);
-        });
+        var appendTo = this.list.find(c => c.caller == msg.id);
         if (appendTo) {
-            appendTo.edit(appendTo.content + "\n`" + ints.join(':') + '` | ' + type + ' ' + val).then(() => {
+            appendTo.edit(appendTo.content + "\n`" + dispTime() + '` | ' + type + ' ' + val).then(() => {
                 if (type == "<@&423209869508870146>") {
                     for (let c = 0; c < this.list.length; c++) {
                         if (this.list[c].id == appendTo.id) this.list.splice(c, 1);
                     }
                 }
-                appendTo.content += "\n`" + ints.join(':') + '` | ' + type + ' ' + val;
+                appendTo.content += "\n`" + dispTime() + '` | ' + type + ' ' + val;
                 this.onStream = false;
             });
         } else {
-            msg.channel.send('`' + ints.join(':') + '` | ' + type + ' ' + val)
+            msg.channel.send('`' + dispTime() + '` | ' + type + ' ' + val)
             .then(r => {
                 r.caller = msg.id;
                 this.list.push(r);
@@ -112,7 +113,7 @@ var cmd = {
         ["num", true, function (m, args) {
             args[0] = parseInt(args[0]);
             if (isNaN(args[0]) || args[0] <= 0 || args[0] > 100) return consoles.append(m, "<arg1> must be a positive number less than or equal to 100.", 0);
-            var aborted = 0;
+            var aborted = 0, iter = 0;
             consoles.append(m, "Indexing messages...", 2);
             m.channel.fetchMessages({ limit: args })
                 .then(messages => {
@@ -121,7 +122,10 @@ var cmd = {
                         if (consoles.list.find(l => l.id == msg.id)) {
                             consoles.append(m, '(' + iter + '/' + args[0] + ") Active console waiting on finished stream, cannot delete [" + msg.id + '].', 1);
                             aborted++;
-                        } else return true;
+                        } else {
+                            reasons[msg.id] = "Reason: Numerical bulk delete by " + m.author.tag + ' (' + m.author.id + ').';
+                            return true
+                        };
                     })).then(() => {
                         consoles.append(m, "[CLI] Deleted `" + (args[0] - aborted) + "` messages, " + aborted + " deletions aborted.", 3);
                     });
@@ -135,21 +139,25 @@ var cmd = {
                 });
         }, "Deletes the last <arg1> messages in the channel."],
         ["user", true, function (m, args) {
-            if (!m.guild.members.find(u => u.id != args[0].substr(2, 21))) return consoles.append(m, "Cannot find member " + args[0] + '.', 0);
+            var id = args[0].includes('!') ? args[0].substr(3, 18) : args[0].substr(2, 18);
+            if (!m.guild.members.get(id)) return consoles.append(m, "Cannot find member " + args[0] + '.', 0);
             consoles.append(m, "Indexing messages...", 2);
-            var  deleted = 0;
+            var deleted = 0, iter = 0;
             m.channel.fetchMessages({ limit: 100 })
                 .then(messages => {
-                    consoles.append(m, "Deleting messages...", 1);
-                    m.channel.bulkDelete(messages.filter(msg => {
-                        if (msg.author.id == args[0].substr(2, 21)) {
+                    consoles.append(m, "Deleting messages...", 4);
+                    var delResult = m.channel.bulkDelete(messages.filter(msg => {
+                        if (msg.author.id == id) {
                             if (consoles.list.find(l => l.id == msg.id)) consoles.append(m, '(' + iter + '/' + args[0] + ") Active console waiting on finished stream, cannot delete [" + msg.id + '].', 1);
                             else {
                                 deleted++;
+                                reasons[msg.id] = "Reason: User bulk delete by " + m.author.tag + ' (' + m.author.id + ').';
                                 return true;
                             }
                         }
-                    })).then(() => consoles.append(m, "[CLI] Deleted `" + deleted + "` messages.", 3));
+                        iter++;
+                    }))
+                        .then(() => consoles.append(m, "[CLI] Deleted `" + deleted + "` messages.", 3))
                 })
                 .catch(err => {
                     consoles.append(m, "[CLI] Parse error encountered (retry in 1 second)", 1);
@@ -161,14 +169,10 @@ var cmd = {
         }, "Deletes all messages from the user <arg1> from the last 100 messages in the channel."],
         ["reason", true, function (m, args) {
             if (!args[0]) return consoles.append(m, "Reason not provided.", 0);
-            channel.fetchMessages({ limit: 1 })
+            m.channel.fetchMessages({ limit: 2 })
                 .then(messages => {
-                    messages.array()[0].delete().then(() => {
-                        for (let m of logs) {
-                            if (m.id == messages.array()[0].id) {
-                                m.reason = ["Moderator: " + m.author.tag + ' (' + m.author.id + ')', "Reason: " + args[0]];
-                            }
-                        }
+                    messages.last().delete().then(() => {
+                        reasons[messages.last()] = ["Moderator: " + m.author.tag + ' (' + m.author.id + ')', "Reason: " + args[0]];
                     })
                 });
         }, "Deletes the previous message in the channel with a reason(<arg1>) that will be included in the logs(if existing)."]
@@ -176,23 +180,47 @@ var cmd = {
 };
 
 const dateStr = new Date().getFullYear() + '-' + (new Date().getMonth() + 1) + '-' + new Date().getDate();
-var logs = [], savedLogs = 0, edits = 0;
-if (fs.existsSync("./logs/" + dateStr + ".json")) {
-    rd = fs.readFileSync("./logs/" + dateStr + ".json") || { length: 0 };
-    if (rd.length) logs = JSON.parse(rd);
+var logs = [], reasons = {}, savedLogs = 0, edits = 0;
+if (!fs.existsSync("./logs/" + dispDate() + ".json")) {
+    fs.writeFile("./logs/" + dispDate() + ".json", '[]', () => {
+        console.log("@" + new Date() + " | Created new log file for " + dispDate() + '.');
+    });
 }
+fs.readdir("./logs", function (err, files) {
+    files.forEach(file => {
+        if (!file.endsWith(".json")) return;
+        JSON.parse(fs.readFileSync("./logs/" + file)).forEach(entry => {
+            logs.push(Object.assign(entry, { date: file }));
+        });
+    });
+});
 
 bot.on("ready", () => {
-    // console.log(bot.guilds.array()[1].roles.array().map(r=>r.name + ' ' + r.id).join('\n'))
+    //console.log(bot.guilds.array()[0].roles.array().map(r=>r.name + ' ' + r.id).join('\n'))
     bot.user.setPresence({game: {name: 'Use CMSB', type: 0}});
     console.log("@" + new Date() + " | Started client");
     setInterval(() => {
         if (logs.length > savedLogs || edits) {
-            fs.writeFile("./logs/" + dateStr + ".json", JSON.stringify(logs, null, '\t'), function(err) {
-                console.log("@" + new Date() + " | Saved " + (logs.length - savedLogs) + " new log entries (" + edits + " edits).");
-                savedLogs = logs.length;
-                edits = 0;
-            });
+            var logMap = {};
+            for (let i = 0; i < logs.length; i++) {
+                for (let j = 0; j < logs[i].updates.length; j++) {
+                    if (logs[i].updates[j][0] == (logs[i].updates[j - 1] || [])[0]) logs[i].updates.splice(j, 1);
+                }
+                var date = logs[i].date + '';
+                if (!logMap[date]) logMap[date] = [];
+                delete logs[i].date;
+                logMap[date].push(logs[i]);
+                logs[i].date = dispDate() + ".json";
+            }
+            console.log("@" + new Date() + " | Saved " + (logs.length - savedLogs) + " new log entries (" + edits + " edits).");
+            for (let d in logMap) {
+                fs.writeFile("./logs/" + d, JSON.stringify(logMap[d], null, '\t'), function(err) {
+                    console.log("@" + new Date() + " | Written " + logMap[d].length + " entries to " + d + '.');
+                    savedLogs = logs.length;
+                    edits = 0;
+                });
+            }
+            reasons = {};
         }
     }, 1000);
 })
@@ -204,14 +232,27 @@ bot.on("messageUpdate", (old, message) => {
     edits++;
 });
 
+bot.on("messageDeleteBulk", function (messages) {
+    messages.forEach(msg => {
+        for (let i = 0; i < logs.length; i++) {
+            if (logs[i].id == msg.id) {
+                if (reasons[msg.id]) logs[i].reason = reasons[msg.id];
+                logs[i].updates.push(["DELETED " + dispTime()]);
+                if (logs[i].reason) {
+                    logs[i].updates[logs[i].updates.length - 1].push(logs[i].reason);
+                    delete logs[i].reason;
+                }
+                edits++;
+            }
+        }
+    });
+});
+
 bot.on("messageDelete", (message) => {
     for (let i = 0; i < logs.length; i++) {
         if (logs[i].id == message.id) {
             logs[i].updates.push(["DELETED " + dispTime()]);
-            if (logs[i].reason) {
-                logs[i].updates[logs[i].updates.length - 1].push(logs[i].reason[0], logs[i].reason[1]);
-                delete logs[i].reason;
-            }
+            if (reasons[logs[i].id]) logs[i].updates[logs[i].updates.length - 1].push( ... logs[i]);
         }
     }
     edits++;
@@ -222,7 +263,8 @@ bot.on("message", (message) => {
         author: message.author.tag + " (" + message.author.id + ')',
         id: message.id,
         channel: message.channel.name ? ('#' + message.channel.name + ' (' + message.channel.id + ')') : "DM",
-        updates: [["SENT " + dispTime(), ... message.content.split('\n')]]
+        updates: [["SENT " + dispTime(), ... message.content.split('\n')]],
+        date: dispDate() + ".json"
     }, message.channel.name ? { server: (message.guild.name + ' (' + message.guild.id + ')')} : {}));
     if (!message.content.startsWith("CMSB")) return;
     if (message.content == "CMSB") {
@@ -231,7 +273,7 @@ bot.on("message", (message) => {
                 title: "Help",
                 description: "By <@284799940843274240>\nThis bot is in active development, so there may be missing functionalities.",
                 fields: [{
-                    name: "Commands (put CMSB/ in front of each)",
+                    name: "Commands (put CMSB/ in front of each, separate arguments with ` : `)",
                     value: "**help** `(command)`: Displays bot information.\n" +
                     "**logs** `(branch [3 children])`: Handles server logs.\n" +
                     "**rand** `(branch [2 children])`: Generates random values.\n" +
@@ -243,8 +285,8 @@ bot.on("message", (message) => {
     }
     message.content = message.content.substr(5);
     var splits = message.content.split('/');
-    var a = splits[splits.length - 1].split('::').slice(1);
-    splits[splits.length - 1] = splits[splits.length - 1].split('::')[0];
+    var a = splits[splits.length - 1].split(' : ').slice(1);
+    splits[splits.length - 1] = splits[splits.length - 1].split(' : ')[0];
     var command = cmd[splits[0]];
     if (typeof command == "undefined") return consoles.append(message, "bash: " + splits + ": command not found", 0);
     if (typeof command[0] == "object" && splits.length == 1) {
