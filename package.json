@@ -1,0 +1,27 @@
+{
+  "name": "cms_bot",
+  "version": "1.0.0",
+  "description": "A furry bot developed to help maintain the CMS Discord Server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeffrey Tong",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "fs": "0.0.1-security"
+  },
+  "engines": {
+    "node": "8.1.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parscyn/CMS_Bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Parscyn/CMS_Bot/issues"
+  },
+  "homepage": "https://github.com/Parscyn/CMS_Bot#readme"
+}
