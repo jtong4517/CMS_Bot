@@ -4,11 +4,12 @@ const bot = new Discord.Client();
 
 bot.login(JSON.parse(fs.readFileSync("../SSH.json")));
 
-function dispTime () {
+function dispTime (check) {
     var ints = [new Date().getHours(), new Date().getMinutes(), new Date().getSeconds()];
     for (let i = 0; i < 3; i++) {
         if (ints[i] < 10) ints[i] = '0' + ints[i];
     }
+    if (check && dispDate() + ".json" != check) ints[2] += ' ' + dispDate();
     return ints.join(':');
 }
 
@@ -140,7 +141,7 @@ var cmd = {
         }, "Deletes the last <arg1> messages in the channel."],
         ["user", true, function (m, args) {
             var id = args[0].includes('!') ? args[0].substr(3, 18) : args[0].substr(2, 18);
-            if (!m.guild.members.get(id)) return consoles.append(m, "Cannot find member " + args[0] + '.', 0);
+            if (!m.guild.members.get(id)) return consoles.append(m, "Cannot find member " + args[0] + ' in this server.', 0);
             consoles.append(m, "Indexing messages...", 2);
             var deleted = 0, iter = 0;
             m.channel.fetchMessages({ limit: 100 })
@@ -172,7 +173,9 @@ var cmd = {
             m.channel.fetchMessages({ limit: 2 })
                 .then(messages => {
                     messages.last().delete().then(() => {
-                        reasons[messages.last()] = ["Moderator: " + m.author.tag + ' (' + m.author.id + ')', "Reason: " + args[0]];
+                        reasons[m.id] = ["Reason: Automatic delete for CMSB/del/reason call"]
+                        m.delete();
+                        reasons[messages.last().id] = ["Moderator: " + m.author.tag + ' (' + m.author.id + ')', "Reason: " + args[0]];
                     })
                 });
         }, "Deletes the previous message in the channel with a reason(<arg1>) that will be included in the logs(if existing)."]
@@ -190,7 +193,8 @@ fs.readdir("./logs", function (err, files) {
     files.forEach(file => {
         if (!file.endsWith(".json")) return;
         JSON.parse(fs.readFileSync("./logs/" + file)).forEach(entry => {
-            logs.push(Object.assign(entry, { date: file }));
+            entry.date = file;
+            logs.push(entry);
         });
     });
 });
@@ -210,7 +214,7 @@ bot.on("ready", () => {
                 if (!logMap[date]) logMap[date] = [];
                 delete logs[i].date;
                 logMap[date].push(logs[i]);
-                logs[i].date = dispDate() + ".json";
+                logs[i].date = date;
             }
             console.log("@" + new Date() + " | Saved " + (logs.length - savedLogs) + " new log entries (" + edits + " edits).");
             for (let d in logMap) {
@@ -227,7 +231,11 @@ bot.on("ready", () => {
 
 bot.on("messageUpdate", (old, message) => {
     for (let i = 0; i < logs.length; i++) {
-        if (logs[i].id == old.id) logs[i].updates.push(["EDITED " + dispTime(), ... message.content.split('\n')]);
+        if (logs[i].id == old.id) {
+            logs[i].updates.push(["EDITED " + dispTime() +
+            (dispDate() + ".json" == logs[i].date ? '': ' ' + dispDate()
+            ), ... message.content.split('\n')]);
+        }
     }
     edits++;
 });
@@ -237,7 +245,7 @@ bot.on("messageDeleteBulk", function (messages) {
         for (let i = 0; i < logs.length; i++) {
             if (logs[i].id == msg.id) {
                 if (reasons[msg.id]) logs[i].reason = reasons[msg.id];
-                logs[i].updates.push(["DELETED " + dispTime()]);
+                logs[i].updates.push(["DELETED " + dispTime(logs[i].date)]);
                 if (logs[i].reason) {
                     logs[i].updates[logs[i].updates.length - 1].push(logs[i].reason);
                     delete logs[i].reason;
@@ -273,11 +281,21 @@ bot.on("message", (message) => {
                 title: "Help",
                 description: "By <@284799940843274240>\nThis bot is in active development, so there may be missing functionalities.",
                 fields: [{
-                    name: "Commands (put CMSB/ in front of each, separate arguments with ` : `)",
-                    value: "**help** `(command)`: Displays bot information.\n" +
-                    "**logs** `(branch [3 children])`: Handles server logs.\n" +
-                    "**rand** `(branch [2 children])`: Generates random values.\n" +
-                    "**del** `(branch [3 children])`: Executes advanced message deletion.\n"
+                    name: "Commands (put CMSB/ in front of each, separate arguments with a colon surrounded by a space)",
+                    value: "**help** `(command)`:\
+                    \nDisplays bot information.\
+                    \n\
+                    \n**logs** `(branch)`:\
+                    \n`[3 children]`\
+                    \nHandles server logs.\
+                    \n\
+                    \n**rand** `(branch)`\
+                    \n`[2 children]`\
+                    \nGenerates random values.\
+                    \n\
+                    \n**del** `(branch)`\
+                    \n`[3 children]`\
+                    \nExecutes advanced message deletion.\n"
                 }]
             }
         });
@@ -296,7 +314,7 @@ bot.on("message", (message) => {
         command = command.find(v => v[0] == splits[1]);
         if (typeof command == "undefined") return consoles.append(message, "bash: " + splits.join('>') + ": command not found", 0);
     }
-    if (command[1] && ['284799940843274240', '302238344656715776', '409804347073888266'].indexOf(message.author.id) < 0) return consoles.append(message, "PermissionsError: Please run this command again as root/Administrator", 0)
+    if (command[1] && ['284799940843274240', '302238344656715776', '133024315602894848'].indexOf(message.author.id) < 0) return consoles.append(message, "PermissionsError: Please run this command again as root/Administrator", 0)
     try {
         command[2](message, a);
     } catch (err) {
