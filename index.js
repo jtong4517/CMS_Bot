@@ -121,7 +121,7 @@ var cmd = {
                     m.channel.bulkDelete(messages.filter(msg => {
                         iter++;
                         if (consoles.list.find(l => l.id == msg.id)) {
-                            consoles.append(m, '(' + iter + '/' + args[0] + ") Active console waiting on finished stream, cannot delete [" + msg.id + '].', 1);
+                            consoles.append(m, '(' + (iter + 1) + '/' + args[0] + ") Active console waiting on finished stream, cannot delete [" + msg.id + '].', 1);
                             aborted++;
                         } else {
                             reasons[msg.id] = "Reason: Numerical bulk delete by " + m.author.tag + ' (' + m.author.id + ').';
@@ -149,7 +149,7 @@ var cmd = {
                     consoles.append(m, "Deleting messages...", 4);
                     var delResult = m.channel.bulkDelete(messages.filter(msg => {
                         if (msg.author.id == id) {
-                            if (consoles.list.find(l => l.id == msg.id)) consoles.append(m, '(' + iter + '/' + args[0] + ") Active console waiting on finished stream, cannot delete [" + msg.id + '].', 1);
+                            if (consoles.list.find(l => l.id == msg.id)) consoles.append(m, '(' + (iter + 1) + '/' + 100 + ") Active console waiting on finished stream, cannot delete [" + msg.id + '].', 1);
                             else {
                                 deleted++;
                                 reasons[msg.id] = "Reason: User bulk delete by " + m.author.tag + ' (' + m.author.id + ').';
@@ -170,14 +170,20 @@ var cmd = {
         }, "Deletes all messages from the user <arg1> from the last 100 messages in the channel."],
         ["reason", true, function (m, args) {
             if (!args[0]) return consoles.append(m, "Reason not provided.", 0);
-            m.channel.fetchMessages({ limit: 2 })
-                .then(messages => {
-                    messages.last().delete().then(() => {
+            if (!args[1]) var toDelete = m.channel.fetchMessages({ limit: 2 });
+            else var toDelete = m.channel.fetchMessage(args[1]);
+            toDelete
+                .then(result => {
+                    if (!args[1]) result = result.last();
+                    result.delete().then(() => {
                         reasons[m.id] = ["Reason: Automatic delete for CMSB/del/reason call"]
                         m.delete();
-                        reasons[messages.last().id] = ["Moderator: " + m.author.tag + ' (' + m.author.id + ')', "Reason: " + args[0]];
+                        reasons[result.id] = ["Moderator: " + m.author.tag + ' (' + m.author.id + ')', "Reason: " + args[0]];
                     })
-                });
+                })
+                .catch(err => {
+                    consoles.append(m, args[1] ? "Error sending `GET` request to `<Channel>/" + args[1] + '`.' : err, 0);
+                })
         }, "Deletes the previous message in the channel with a reason(<arg1>) that will be included in the logs(if existing)."]
     ],
 };
@@ -202,7 +208,7 @@ fs.readdir("./logs", function (err, files) {
 bot.on("ready", () => {
     //console.log(bot.guilds.array()[0].roles.array().map(r=>r.name + ' ' + r.id).join('\n'))
     bot.user.setPresence({game: {name: 'Use CMSB', type: 0}});
-    console.log("@" + new Date() + " | Started client");
+    console.log("@" + dispDate() + " > Started client");
     setInterval(() => {
         if (logs.length > savedLogs || edits) {
             var logMap = {};
@@ -216,10 +222,10 @@ bot.on("ready", () => {
                 logMap[date].push(logs[i]);
                 logs[i].date = date;
             }
-            console.log("@" + new Date() + " | Saved " + (logs.length - savedLogs) + " new log entries (" + edits + " edits).");
+            console.log("@" + dispDate() + " > Saved " + (logs.length - savedLogs) + " new log entries (" + edits + " edits).");
             for (let d in logMap) {
                 fs.writeFile("./logs/" + d, JSON.stringify(logMap[d], null, '\t'), function(err) {
-                    console.log("@" + new Date() + " | Written " + logMap[d].length + " entries to " + d + '.');
+                    console.log("@" + dispDate() + " > Written " + logMap[d].length + " entries to " + d + '.');
                     savedLogs = logs.length;
                     edits = 0;
                 });
@@ -260,10 +266,9 @@ bot.on("messageDelete", (message) => {
     for (let i = 0; i < logs.length; i++) {
         if (logs[i].id == message.id) {
             logs[i].updates.push(["DELETED " + dispTime()]);
-            if (reasons[logs[i].id]) logs[i].updates[logs[i].updates.length - 1].push( ... logs[i]);
+            if (reasons[logs[i].id]) logs[i].updates[logs[i].updates.length - 1].push( ... reasons[logs[i].id]);
         }
     }
-    edits++;
 });
 
 bot.on("message", (message) => {
