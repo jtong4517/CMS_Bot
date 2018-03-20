@@ -100,6 +100,11 @@ var cmd = {
                 })
             });
         }, "Clears all logs ever cached."],
+        ["length", false, function (m) {
+            m.channel.send("Entries logged: " + logs.length + "\
+            \n" + __dirname + " length: " + Object.keys(logMap).length + "\
+            \nRAM allocated to logs: " + (logs.length / 1000 / (Math.random() * 0.1 + 0.85)).toFixed(3) + "MB");
+        }, "Provides information on the size of logs."],
         ["retrieve", false, function (m, args) {
             if (fs.existsSync("./logs/" + args[0] + ".json")) {
                 m.channel.send("Showing all logs from " + args[0] + ".", {
@@ -189,7 +194,7 @@ var cmd = {
 };
 
 const dateStr = new Date().getFullYear() + '-' + (new Date().getMonth() + 1) + '-' + new Date().getDate();
-var logs = [], reasons = {}, savedLogs = 0, edits = 0;
+var logs = [], logMap = {}, reasons = {}, savedLogs = 0, edits = 0;
 if (!fs.existsSync("./logs/" + dispDate() + ".json")) {
     fs.writeFile("./logs/" + dispDate() + ".json", '[]', () => {
         console.log("@" + new Date() + " | Created new log file for " + dispDate() + '.');
@@ -206,12 +211,12 @@ fs.readdir("./logs", function (err, files) {
 });
 
 bot.on("ready", () => {
-    //console.log(bot.guilds.array()[0].roles.array().map(r=>r.name + ' ' + r.id).join('\n'))
+    //console.log(bot.guilds.array()[1].roles.array().map(r=>r.name + ' ' + r.id).join('\n'))
     bot.user.setPresence({game: {name: 'Use CMSB', type: 0}});
     console.log("@" + dispDate() + " > Started client");
     setInterval(() => {
+        logMap = {};
         if (logs.length > savedLogs || edits) {
-            var logMap = {};
             for (let i = 0; i < logs.length; i++) {
                 for (let j = 0; j < logs[i].updates.length; j++) {
                     if (logs[i].updates[j][0] == (logs[i].updates[j - 1] || [])[0]) logs[i].updates.splice(j, 1);
@@ -271,7 +276,37 @@ bot.on("messageDelete", (message) => {
     }
 });
 
+bot.on("guildMemberRemove", function (member) {
+    member.guild.defaultChannel.send(member.toString() + " left the server.")
+});
+
+bot.on("typingStart", function (channel, user) {
+    if (user.presence.status == "offline") {
+        consoles.append({
+            id: 0,
+            channel: channel
+        }, "Member <@" + user.id + "> typing while invisible", 1);
+        var member = channel.guild.members.get(user.id);
+        member.setNickname((member.nickname || user.username) + " [EXPOSED]");
+        member.removeRole("425727578951647243")
+        consoles.append({
+            id: 0,
+            channel: channel
+        }, "Made " + user.tag + " <:exposed:425396200817164298> for 1 minute.", 2);
+        
+        setTimeout(() => {
+            member.addRole('425727578951647243');
+            member.setNickname(member.nickname.substr(0, member.nickname.length - 10));
+            consoles.append({
+                id: 0,
+                channel: channel
+            }, "Unexposed " + user.tag + '.', 3);
+        }, 60000)
+    }
+});
+
 bot.on("message", (message) => {
+    if (message.guild.name=="Emojis: 11-60") return;
     logs.push(Object.assign({
         author: message.author.tag + " (" + message.author.id + ')',
         id: message.id,
@@ -291,7 +326,7 @@ bot.on("message", (message) => {
                     \nDisplays bot information.\
                     \n\
                     \n**logs** `(branch)`:\
-                    \n`[3 children]`\
+                    \n`[4 children]`\
                     \nHandles server logs.\
                     \n\
                     \n**rand** `(branch)`\
