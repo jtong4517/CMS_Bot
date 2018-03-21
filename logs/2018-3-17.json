@@ -210,6 +210,13 @@
 			[
 				"SENT 17:15:50",
 				"CMSB/del/user : <@423937849461571594>"
+			],
+			[
+				"DELETED 19:45:01 2018-3-20",
+				"Reason: User bulk delete by ttechnoo#1376 (133024315602894848)."
+			],
+			[
+				"DELETED 19:45:02 2018-3-20"
 			]
 		],
 		"server": "CMS Discord Server (409906924050710539)",
@@ -228,6 +235,10 @@
 				"EDITED 17:15:51",
 				"`17:15:50` | <@&423932073854631936> Indexing messages...",
 				"`17:15:51` | <@&423932194508111872> Deleting messages..."
+			],
+			[
+				"DELETED 19:44:50 2018-3-20",
+				"Reason: User bulk delete by ttechnoo#1376 (133024315602894848)."
 			]
 		],
 		"server": "CMS Discord Server (409906924050710539)",

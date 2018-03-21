@@ -10,7 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "discord.js": "^11.3.2",
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "request": "^2.85.0"
   },
   "engines": {
     "node": "8.1.3"

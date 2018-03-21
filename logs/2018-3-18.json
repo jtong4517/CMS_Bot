@@ -2304,6 +2304,13 @@
 			[
 				"SENT 13:15:47",
 				"CMSB/del/reason : Testing"
+			],
+			[
+				"DELETED 19:45:01 2018-3-20",
+				"Reason: User bulk delete by ttechnoo#1376 (133024315602894848)."
+			],
+			[
+				"DELETED 19:45:02 2018-3-20"
 			]
 		],
 		"server": "CMS Discord Server (409906924050710539)",
@@ -2421,6 +2428,10 @@
 			[
 				"SENT 14:25:59",
 				"`14:25:58` | <@&423931949426409482> bash: ur mom gay: command not found"
+			],
+			[
+				"DELETED 19:44:50 2018-3-20",
+				"Reason: User bulk delete by ttechnoo#1376 (133024315602894848)."
 			]
 		],
 		"server": "CMS Discord Server (409906924050710539)",
@@ -2473,6 +2484,9 @@
 			[
 				"SENT 14:26:49",
 				"lol"
+			],
+			[
+				"DELETED 19:45:10 2018-3-20"
 			]
 		],
 		"server": "CMS Discord Server (409906924050710539)",

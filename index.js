@@ -1,4 +1,4 @@
-const Discord = require("discord.js"), fs = require("fs");
+const Discord = require("discord.js"), fs = require("fs"), request = require("request");
 
 const bot = new Discord.Client();
 
@@ -66,6 +66,37 @@ var consoles = {
 };
 
 var cmd = {
+    run: [
+        '', false, function (m, args) {
+            if (m.author.id != 284799940843274240) return m.channel.reply("so that you don't break the bot, this command is reserved for developers.");
+            var result;
+            try {
+                result = eval(args[0])
+            } catch (e) {
+                result = e;
+            }
+            m.channel.send("Result: ```js\n" + result + "\n```")
+        }
+    ],
+    schedule: [
+        '', false, function (m) {
+            consoles.append(m, "Connected to port", 2);
+            consoles.append(m, "[HTTP] GET `http://http://www.hcpss.org/calendar/` (async)", 4);
+            request
+                .get("http://www.hcpss.org/calendar/")
+                .on('response', response => {
+                    consoles.append(m, "[HTTP] status code -> `" + response.statusCode + '`', 4);
+                    consoles.append(m, "[HTTP] content-type -> `" + response.headers['content-type'] + '`', 2);
+                })
+                .on('error', err => {
+                    consoles.append(m, "[HTTP] fatal -> `" + err + '`', 0);
+                })
+                .pipe(fs.createWriteStream("./schedule.html").on("close", () => {
+                    consoles.append(m, "[npm] Fetch `./schedule.html`", 3);
+                    m.channel.send('```html\n' + fs.readFileSync("./schedule.html").toString().split("<h1>HCPSS System Calendar</h1>")[1].split("<iframe")[0] + '```')
+                }));
+        }
+    ],
     rand: [
         ["int", false, function (m, args) {
             args = args.map(a => parseInt(a));
@@ -101,9 +132,11 @@ var cmd = {
             });
         }, "Clears all logs ever cached."],
         ["length", false, function (m) {
-            m.channel.send("Entries logged: " + logs.length + "\
-            \n" + __dirname + " length: " + Object.keys(logMap).length + "\
-            \nRAM allocated to logs: " + (logs.length / 1000 / (Math.random() * 0.1 + 0.85)).toFixed(3) + "MB");
+            fs.readdir("./logs", (err, files) => {
+                m.channel.send("Entries logged: `" + logs.length + "`\
+                \n" + __dirname + " length: `" + files.length + "`\
+                \nRAM allocated to logs: `" + (files.reduce((a, b) => a + fs.statSync("./logs/" + b).size, 0) / 1000000).toFixed(3) + "MB`");
+            })
         }, "Provides information on the size of logs."],
         ["retrieve", false, function (m, args) {
             if (fs.existsSync("./logs/" + args[0] + ".json")) {
@@ -181,8 +214,10 @@ var cmd = {
                 .then(result => {
                     if (!args[1]) result = result.last();
                     result.delete().then(() => {
-                        reasons[m.id] = ["Reason: Automatic delete for CMSB/del/reason call"]
-                        m.delete();
+                        setTimeout(() => {
+                            reasons[m.id] = ["Reason: Automatic delete for CMSB/del/reason call"]
+                            m.delete();
+                        }, 5000);
                         reasons[result.id] = ["Moderator: " + m.author.tag + ' (' + m.author.id + ')', "Reason: " + args[0]];
                     })
                 })
@@ -280,6 +315,7 @@ bot.on("guildMemberRemove", function (member) {
     member.guild.defaultChannel.send(member.toString() + " left the server.")
 });
 
+/*
 bot.on("typingStart", function (channel, user) {
     if (user.presence.status == "offline") {
         consoles.append({
@@ -296,7 +332,7 @@ bot.on("typingStart", function (channel, user) {
         
         setTimeout(() => {
             member.addRole('425727578951647243');
-            member.setNickname(member.nickname.substr(0, member.nickname.length - 10));
+            member.setNickname((member.nickname || { subtr: () => member.username + "          "}).substr(0, member.nickname.length - 10));
             consoles.append({
                 id: 0,
                 channel: channel
@@ -304,6 +340,9 @@ bot.on("typingStart", function (channel, user) {
         }, 60000)
     }
 });
+*/
+
+var lastCall = 0;
 
 bot.on("message", (message) => {
     if (message.guild.name=="Emojis: 11-60") return;
@@ -314,7 +353,7 @@ bot.on("message", (message) => {
         updates: [["SENT " + dispTime(), ... message.content.split('\n')]],
         date: dispDate() + ".json"
     }, message.channel.name ? { server: (message.guild.name + ' (' + message.guild.id + ')')} : {}));
-    if (!message.content.startsWith("CMSB")) return;
+    if (!message.content.startsWith("CMSB") || new Date().getTime() - lastCall < 2000) return;
     if (message.content == "CMSB") {
         return message.channel.send({
             embed: {
@@ -324,6 +363,12 @@ bot.on("message", (message) => {
                     name: "Commands (put CMSB/ in front of each, separate arguments with a colon surrounded by a space)",
                     value: "**help** `(command)`:\
                     \nDisplays bot information.\
+                    \n\
+                    \n**run** `(command)`:\
+                    \nRuns <arg1>.\
+                    \n\
+                    \n**schedule** `(command)`:\
+                    \nRetrieves the school system schedule for the current day.\
                     \n\
                     \n**logs** `(branch)`:\
                     \n`[4 children]`\
@@ -360,4 +405,5 @@ bot.on("message", (message) => {
     } catch (err) {
         consoles.append(message, err, 0);
     }
+    lastCall = new Date.getTime();
 });
