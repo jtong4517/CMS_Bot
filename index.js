@@ -1,8 +1,38 @@
+/**
+    1 – 80: 2017 Mathcounts Chapter Countdown Problems
+*/
+
 const Discord = require("discord.js"), fs = require("fs"), request = require("request");
 
 const bot = new Discord.Client();
 
 bot.login(JSON.parse(fs.readFileSync("../SSH.json")));
+
+/* CD round! */
+var players = {};
+var startedAt = 0, startNum;
+var current = 0;
+var problemNum = 1, problems = JSON.parse(fs.readFileSync("./problems.json"));
+function problem () {
+    startNum = problemNum;
+    current = Math.floor(Math.random() * problems.length);
+    bot.channels.get('423932819786432512').send("**Problem #" + problemNum + ":**", {
+        files: [
+            "./problems/" + current + ".png"
+        ]
+    });
+    setTimeout(() => {
+        if (startNum == problemNum) {
+            bot.channels.get('423932819786432512').send("Time is up! The answer to the previous problem was `" + problems[current - 1] + "`.")
+            problemNum++;
+            for (let p in players) {
+                players[p].answered = false;
+            }
+            problem();
+        }
+    }, 45000);
+}
+//
 
 function dispTime (check) {
     var ints = [new Date().getHours(), new Date().getMinutes(), new Date().getSeconds()];
@@ -66,6 +96,38 @@ var consoles = {
 };
 
 var cmd = {
+    start: [
+        '', false, function (m) {
+            m.channel.send("CD game started! (except this doesn't actually work yet, sorry)");
+            m.guild.members.forEach(member => {
+                players[member.id] = {
+                    score: 0,
+                    answered: false
+                }
+            })
+            problem();
+            startedAt = new Date().getTime();
+        }
+    ],
+    end: [
+        '', false, function (m) {
+            m.channel.send("CD game ended.");
+            startedAt = 0;
+        }
+    ],
+    answer: [
+        '', false, function (m, args) {
+            if (!startedAt) return consoles.append(m, "No CD games are active currently. You can start one with `CMSB/start`", 0);
+            players[m.author.id].answered = true;
+            if (problems[current].split(' (')[0] == args[0]) {
+                m.reply("correct! Your score is now " + ++players[m.author.id].score);
+                if (players[m.author.id].score == 4) {
+                    m.channel.send(m.author.toString() + " has won the game!");
+                    cmd[end][2]();
+                } else problem();
+            } else m.reply("your answer is incorrect.");
+        }
+    ],
     run: [
         '', false, function (m, args) {
             if (m.author.id != 284799940843274240) return m.channel.reply("so that you don't break the bot, this command is reserved for developers.");
@@ -315,32 +377,20 @@ bot.on("guildMemberRemove", function (member) {
     member.guild.defaultChannel.send(member.toString() + " left the server.")
 });
 
-/*
 bot.on("typingStart", function (channel, user) {
-    if (user.presence.status == "offline") {
-        consoles.append({
-            id: 0,
-            channel: channel
-        }, "Member <@" + user.id + "> typing while invisible", 1);
-        var member = channel.guild.members.get(user.id);
-        member.setNickname((member.nickname || user.username) + " [EXPOSED]");
-        member.removeRole("425727578951647243")
-        consoles.append({
-            id: 0,
-            channel: channel
-        }, "Made " + user.tag + " <:exposed:425396200817164298> for 1 minute.", 2);
-        
-        setTimeout(() => {
-            member.addRole('425727578951647243');
-            member.setNickname((member.nickname || { subtr: () => member.username + "          "}).substr(0, member.nickname.length - 10));
-            consoles.append({
-                id: 0,
-                channel: channel
-            }, "Unexposed " + user.tag + '.', 3);
-        }, 60000)
+    if (channel.name == "mathcounts" && startedAt) {
+        if (typeof players[user.id] != "boolean") {
+            channel.send(user.toString() + " has buzzed in and has 5 seconds to enter their answer.")
+            players[user.id] = new Date().getTime();
+            setTimeout(() => {
+                if (typeof players[user.id] != "string") {
+                    players[user.id] = false;
+                    channel.send("Sorry " + user.toString() + ", your time is up. The other contestants have the remaining " + (45 - ((new Date().getTime() - startedAt) / 10000)) + " seconds to answer.")
+                }
+            }, 5000);
+        }
     }
 });
-*/
 
 var lastCall = 0;
 
@@ -405,5 +455,5 @@ bot.on("message", (message) => {
     } catch (err) {
         consoles.append(message, err, 0);
     }
-    lastCall = new Date.getTime();
+    lastCall = new Date().getTime();
 });

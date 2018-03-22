@@ -2208,5 +2208,1633 @@
 		],
 		"server": "CMS Discord Server (409906924050710539)",
 		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426090269864230922",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 14:50:36",
+				"CMSB"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426090270573199370",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 14:50:36",
+				""
+			],
+			[
+				"EDITED 14:50:36",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "426091068916891658",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 14:53:47",
+				"https://www.change.org/p/hcpss-let-mr-blackman-keep-his-job-at-river-hill-high-school?utm_medium=email&utm_source=petition_signer_receipt&utm_campaign=triggered&share_context=signature_receipt&recruiter=839522065&j=274350&sfmc_sub=578861550&l=32_HTML&u=49716585&mid=7233052&jb=593283"
+			],
+			[
+				"EDITED 14:53:47",
+				"https://www.change.org/p/hcpss-let-mr-blackman-keep-his-job-at-river-hill-high-school?utm_medium=email&utm_source=petition_signer_receipt&utm_campaign=triggered&share_context=signature_receipt&recruiter=839522065&j=274350&sfmc_sub=578861550&l=32_HTML&u=49716585&mid=7233052&jb=593283"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "426091078941147146",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 14:53:49",
+				"sign it"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426092835989618691",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 15:00:48",
+				"CMSB/run : bot.channels.get('423932686613217300').send({",
+				"embed:{",
+				"title: \"📜 | **Constitution of the United Students of Clarksville (CotUSoC)**\",",
+				"description:\"^ – Subject to moderator discretion",
+				"\" – Can quickly result in kick/ban",
+				"",
+				"Please observe all of the above rules, as they are guidelines to help foster a healthy community.\",",
+				"fields:[",
+				"{",
+				"name: \"Article I – Discussion\",",
+				"value: \"            ◽ Section I/Clause 1: Don't spam(consecutive low quality messages^) besides in <#424292529454972958>.",
+				"            ◽ Section II",
+				"                        ▫ Clause 1 \": Be respectful^ towards all members of the server. No heavy swearing.",
+				"                        ▫ Clause 2: Do not backtalk moderators/administrators.\"",
+				"},",
+				"{",
+				"name: \"Article II – Administrative\",",
+				"value: \"            ◽ Section I/Clause 1 \": Don't abuse^ your privileges.",
+				"            ◽ Section II/Clause 1: Do not ask for roles after being denied them multiple times.\"",
+				"},",
+				"{",
+				"name: \"Article III – General Conduct\",",
+				"value: \"            ◽ Section I",
+				"                        ▫ Clause 1: Try to minimize pinging of multiple users.",
+				"                        ▫ Clause 2: Do not attempt to break^ <@423937849461571594> or any other server functions.",
+				"            ◽ Section II/Clause 1 \": Don't do things just to annoy people^.",
+				"            ◽ Section III/Clause 1: Do not add users who do not a) attend CMS or b) have relevance to the school^ to this server.\"",
+				"},",
+				"{",
+				"name:\"Amendment I – Freedom of Expression\",",
+				"value:\"All persons are granted the freedom of view; to express their thoughts in a non-malicious manner, to be immune from prolonged rebuttal.\"",
+				"}",
+				"],",
+				"footer:{",
+				"timestamp: new Date(2018,3,21),",
+				"text: \"Last updated\"",
+				"}}});"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426092838590087178",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 15:00:49",
+				"`15:00:48` | <@&423931949426409482> bash: run : bot.channels.get('423932686613217300').send({",
+				"embed:{",
+				"title: \"📜 | **Constitution of the United Students of Clarksville (CotUSoC)**\",",
+				"description:\"^ – Subject to moderator discretion",
+				"\" – Can quickly result in kick,ban",
+				"",
+				"Please observe all of the above rules, as they are guidelines to help foster a healthy community.\",",
+				"fields:[",
+				"{",
+				"name: \"Article I – Discussion\",",
+				"value: \"            ◽ Section I,Clause 1: Don't spam(consecutive low quality messages^) besides in <#424292529454972958>.",
+				"            ◽ Section II",
+				"                        ▫ Clause 1 \": Be respectful^ towards all members of the server. No heavy swearing.",
+				"                        ▫ Clause 2: Do not backtalk moderators,administrators.\"",
+				"},",
+				"{",
+				"name: \"Article II – Administrative\",",
+				"value: \"            ◽ Section I,Clause 1 \": Don't abuse^ your privileges.",
+				"            ◽ Section II,Clause 1: Do not ask for roles after being denied them multiple times.\"",
+				"},",
+				"{",
+				"name: \"Article III – General Conduct\",",
+				"value: \"            ◽ Section I",
+				"                        ▫ Clause 1: Try to minimize pinging of multiple users.",
+				"                        ▫ Clause 2: Do not attempt to break^ <@423937849461571594> or any other server functions.",
+				"            ◽ Section II,Clause 1 \": Don't do things just to annoy people^.",
+				"            ◽ Section III,Clause 1: Do not add users who do not a) attend CMS or b) have relevance to the school^ to this server.\"",
+				"},",
+				"{",
+				"name:\"Amendment I – Freedom of Expression\",",
+				"value:\"All persons are granted the freedom of view; to express their thoughts in a non-malicious manner, to be immune from prolonged rebuttal.\"",
+				"}",
+				"],",
+				"footer:{",
+				"timestamp: new Date(2018,3,21),",
+				"text: \"Last updated\"",
+				"}}});: command not found"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426093953113260033",
+		"channel": "#constitution (423932686613217300)",
+		"updates": [
+			[
+				"SENT 15:05:14",
+				""
+			],
+			[
+				"EDITED 15:05:15",
+				""
+			],
+			[
+				"DELETED 15:05:35"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "426094061531824128",
+		"channel": "#constitution (423932686613217300)",
+		"updates": [
+			[
+				"SENT 15:05:40",
+				"no"
+			],
+			[
+				"DELETED 15:05:47"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426095721280700416",
+		"channel": "#constitution (423932686613217300)",
+		"updates": [
+			[
+				"SENT 15:12:16",
+				"📜 | **Constitution of the United Students of Clarksville (CotUSoC)**",
+				"Last updated: `March 21, 2018`",
+				"Effective starting: `March 23, 2018`",
+				"",
+				"^ – Subject to moderator discretion",
+				"\" – Can quickly result in kick/ban",
+				"",
+				"Please observe all of these rules, as they are guidelines to help foster a healthy community.",
+				"============================================================================================="
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426095740654190612",
+		"channel": "#constitution (423932686613217300)",
+		"updates": [
+			[
+				"SENT 15:12:21",
+				"*Article I – Discussion*",
+				"            ◽ `Section I`/`Clause 1`: Don't spam(consecutive low quality messages^) besides in <#424292529454972958>.",
+				"            ◽ `Section II`",
+				"                        ▫ `Clause 1` \": Be respectful^ towards all members of the server. No heavy swearing.",
+				"                        ▫ `Clause 2`: Do not backtalk moderators/administrators.",
+				"",
+				"*Article II – Administrative*",
+				"            ◽ `Section I`/`Clause 1` \": Don't abuse^ your privileges.",
+				"            ◽ `Section II`/`Clause 1`: Do not ask for roles after being denied them multiple times.",
+				"",
+				"*Article III – General Conduct*",
+				"            ◽ `Section I`",
+				"                        ▫ `Clause 1`: Try to minimize pinging of multiple users.",
+				"                        ▫ `Clause 2`: Do not attempt to break^ <@423937849461571594> or any other server functions.",
+				"            ◽ `Section II`/`Clause 1` \": Don't do things just to annoy people^.",
+				"            ◽ `Section III`/`Clause 1`: Do not add users who do not a) attend CMS or b) have relevance to the school^ to this server.",
+				"============================================================================================="
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426095766986293265",
+		"channel": "#constitution (423932686613217300)",
+		"updates": [
+			[
+				"SENT 15:12:27",
+				"*Amendment I – Freedom of Expression*",
+				"            ◽ All persons are granted the freedom of view; to express their thoughts in a non-malicious manner, to be immune from prolonged rebuttal.",
+				"============================================================================================="
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426096498464391171",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 15:15:21",
+				"leonardo dicaprio's romeo and juliet"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426096513018757151",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 15:15:25",
+				"juliet is claire danes"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426096562394103809",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 15:15:37",
+				"o boyyyy"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "426096603405877259",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 15:15:46",
+				"ay icu"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426096653498581002",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 15:15:58",
+				";)"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "426096736549863427",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 15:16:18",
+				"i got something even better"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "426096789670592533",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 15:16:31",
+				"https://www.youtube.com/watch?v=lK3omtLTScI"
+			],
+			[
+				"EDITED 15:16:31",
+				"https://www.youtube.com/watch?v=lK3omtLTScI"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "426096819135709184",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 15:16:38",
+				"techno making his own remixes"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "426122730962944010",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 16:59:36",
+				"anthony is technosexual"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "426122751095472179",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 16:59:40",
+				"confirmed"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "426122911372279810",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 17:00:19",
+				"is that anthony's youtube?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "426123004007677963",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 17:00:41",
+				"nvm"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426164686330003459",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 19:46:19",
+				"CMSB/schedule"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426164687294693384",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 19:46:19",
+				"`19:46:19` | <@&423932073854631936> Connected to port"
+			],
+			[
+				"EDITED 19:46:19",
+				"`19:46:19` | <@&423932073854631936> Connected to port",
+				"`19:46:19` | <@&423932194508111872> [HTTP] GET `http://http://www.hcpss.org/calendar/` (async)"
+			],
+			[
+				"EDITED 19:46:20",
+				"`19:46:19` | <@&423932073854631936> Connected to port",
+				"`19:46:19` | <@&423932194508111872> [HTTP] GET `http://http://www.hcpss.org/calendar/` (async)",
+				"`19:46:19` | <@&423932194508111872> [HTTP] status code -> `200`",
+				"`19:46:19` | <@&423932131388162049> [npm] Fetch `./schedule.html`"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426164689790173185",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 19:46:19",
+				"```html",
+				"",
+				"<p><em><strong>Calendar is subject to change.</strong></em></p>",
+				"<div class=\"full\">",
+				"<p><strong>Inclement Weather Make-Up Days Update (3/2/2018):</strong> To make up for the five inclement weather school closings this current school year, 2017-2018, schools will now be in session: Wednesday, April 4; Thursday, April 5; Friday, April 6; Friday, May 18 (dismiss three-hours early); and Friday, June 15 (dismiss three hours early). Additionally, to adjust for the June 15 last student day, Tuesday, June 12 is now a full day for students. <a href=\"/news-posts/2018/03/update-on-inclement-weather-make-up-days-for-2017-2018-school-year/\">Learn more about the calendar update&nbsp;&rarr;</a></p>",
+				"</div>",
+				"<div>```"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "426165041327374346",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 19:47:43",
+				"lmao are u guys seriously complaining that we dont have school tomorrow"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426165136936402944",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 19:48:06",
+				"tbh yes"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "426165211658190850",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 19:48:24",
+				"🤦"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426165815167942657",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 19:50:48",
+				"TAKE THAT https://www.quora.com/What-would-a-communist-version-of-the-board-game-Monopoly-look-like"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "426165955979247618",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 19:51:21",
+				"yea"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "426165971636453416",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 19:51:25",
+				"same here"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "426166003701907456",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 19:51:33",
+				"savop can add stuff and make harder"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "426166046580277258",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 19:51:43",
+				"bcuz we r supposed to be reviewing"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426166063991095317",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 19:51:47",
+				"here's what i don't get though"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426166089060319257",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 19:51:53",
+				"they keep saying we're really behind"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426166120660336643",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 19:52:01",
+				"but if they cancel a day they add it back at the end"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426166187471273984",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 19:52:16",
+				"so the actual class is postponed but you still have the same time to learn it"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426166332938125330",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 19:52:51",
+				"well we had 3 + 7 + 7 = **17 HOURS OF SCHOOL CANCELLED THIS WEEK**"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426168094743068682",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 19:59:51",
+				"i tihnk some places arent cleared yet in hcpss, so thats why"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "426168437774090244",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:01:13",
+				"no they r"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "426168446250647552",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:01:15",
+				"legit"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "426168470925737995",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:01:21",
+				"it was no school"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "426168483714301963",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:01:24",
+				"then yes schol"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "426168493994409984",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:01:26",
+				"then no school"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426168594632671234",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:01:50",
+				"did you check the entire county all the previous times>"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426168601154682880",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:01:52",
+				"?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "426169205499363340",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:04:16",
+				"yessssssssssssssssssssss"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "426169219751870464",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:04:20",
+				"i didddddddddddddddddddddd"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426169318821068810",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:04:43",
+				"<:thinkfish:425396201303572481>"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426169393794383873",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:05:01",
+				"ur the one thats making me strong"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426169436815491072",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:05:11",
+				"ayy french songs in my head"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426169436555182091",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:05:11",
+				"?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426169475037921280",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:05:20",
+				"j'ai cherche ftw"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426169476736614400",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:05:21",
+				"in your headddddd"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426175000085790720",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:27:17",
+				"wait"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426175006335041538",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:27:19",
+				"17 hours?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426175012366712833",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:27:21",
+				"wait i couldve sworn it was 6 hours, not 7 hours..."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426175020298141707",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:27:22",
+				"no way..."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426175204574887947",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:28:06",
+				"MY LIFE IS A !@#$ING LIE"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426175348829585408",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:28:41",
+				"um"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426175372640387083",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:28:46",
+				"well"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426175388927131648",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:28:50",
+				"more like 6.5"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426175626332995585",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:29:47",
+				"too bad"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426175634226544670",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:29:49",
+				"life = lie"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426175788249776128",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:30:25",
+				"If you take out the F in life, then it's a lie. ~Anthony"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426175852733005835",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:30:41",
+				"im i philosopher"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426177677725270017",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:37:56",
+				"there is no I in entellagence"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426177686667526155",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:37:58",
+				"~me"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "426180857871728651",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 20:50:34",
+				"wtf"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426198399751028736",
+		"channel": "#bot-discussion (423932668426715167)",
+		"updates": [
+			[
+				"SENT 22:00:16",
+				"jeffrey"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426198418692505621",
+		"channel": "#bot-discussion (423932668426715167)",
+		"updates": [
+			[
+				"SENT 22:00:21",
+				"you should make a program"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426198451294961704",
+		"channel": "#bot-discussion (423932668426715167)",
+		"updates": [
+			[
+				"SENT 22:00:29",
+				"idk if you can"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426198481527373834",
+		"channel": "#bot-discussion (423932668426715167)",
+		"updates": [
+			[
+				"SENT 22:00:36",
+				"but its like a math thing in discord"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "426198493032349696",
+		"channel": "#bot-discussion (423932668426715167)",
+		"updates": [
+			[
+				"SENT 22:00:39",
+				"a countdown in discord"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "426198549164720128",
+		"channel": "#bot-discussion (423932668426715167)",
+		"updates": [
+			[
+				"SENT 22:00:52",
+				"oooh"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426203904213254154",
+		"channel": "#bot-discussion (423932668426715167)",
+		"updates": [
+			[
+				"SENT 22:22:09",
+				"i could actually do that"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426203944033845258",
+		"channel": "#bot-discussion (423932668426715167)",
+		"updates": [
+			[
+				"SENT 22:22:18",
+				"i've made a bunch of bots for stuff like it"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426204117560721428",
+		"channel": "#bot-discussion (423932668426715167)",
+		"updates": [
+			[
+				"SENT 22:23:00",
+				"GUESS WHAT'LL I'LL BE WASTING MY TIME ON TOMORROW"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "426204586618126349",
+		"channel": "#bot-discussion (423932668426715167)",
+		"updates": [
+			[
+				"SENT 22:24:51",
+				"yayyyyyy"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "426204604670279680",
+		"channel": "#bot-discussion (423932668426715167)",
+		"updates": [
+			[
+				"SENT 22:24:56",
+				"why study for savop"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "426204625436147752",
+		"channel": "#bot-discussion (423932668426715167)",
+		"updates": [
+			[
+				"SENT 22:25:01",
+				"when u can waste ur time on some bot"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426209405856514058",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:44:00",
+				"CMSB/start"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426209406309367809",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:44:01",
+				"CD game started!"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "426209589017706497",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:44:44",
+				"wut game?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "426209627546320907",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:44:53",
+				"im confuzzled"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426209644025872390",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:44:57",
+				"anthony suggested making the bot host cd games"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426209653039300609",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:44:59",
+				"CMSB/start"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426209653391753217",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:45:00",
+				"CD game started!"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426209654654107649",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:45:00",
+				"**Problem #1:**"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426209681376149504",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:45:06",
+				"hm"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426210177205665802",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:47:04",
+				"CMSB/start"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426210177776091177",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:47:04",
+				"CD game started!"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426210178619277323",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:47:05",
+				"**Problem #1:**"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426210237654237195",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:47:19",
+				"toString() {",
+				"    return `<@${this.id}>`;",
+				"  } has buzzed in and has 5 seconds to enter their answer."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "426210244696342538",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:47:20",
+				"46 be hard"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426210252971704330",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:47:22",
+				"toString() {",
+				"    return `<@${this.id}>`;",
+				"  } has buzzed in and has 5 seconds to enter their answer."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426210258986205184",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:47:24",
+				"Sorry toString() {",
+				"    return `<@${this.id}>`;",
+				"  }, your time is up. The other contestants have the remaining time."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426210266297008129",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:47:26",
+				"why you no work"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426210273477525516",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:47:27",
+				"Sorry toString() {",
+				"    return `<@${this.id}>`;",
+				"  }, your time is up. The other contestants have the remaining time."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426210396752576525",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:47:57",
+				"CMSB/start"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426210397247373320",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:47:57",
+				"CD game started!"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426210398312726529",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:47:57",
+				"**Problem #1:**"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426210456420483082",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:48:11",
+				"<@284799940843274240> has buzzed in and has 5 seconds to enter their answer."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426210476330975245",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:48:16",
+				"Sorry <@284799940843274240>, your time is up. The other contestants have the remaining time."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426210494827724801",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:48:20",
+				"<@284799940843274240> has buzzed in and has 5 seconds to enter their answer."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426210507406573568",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:48:23",
+				"wait what why is it so slow"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426210515757301760",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:48:25",
+				"Sorry <@284799940843274240>, your time is up. The other contestants have the remaining time."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426210741326970880",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:49:19",
+				"CMSB/start"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426210742073688101",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:49:19",
+				"CD game started!"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426210743780638723",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:49:19",
+				"**Problem #1:**"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426210750353375232",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:49:21",
+				"<@284799940843274240> has buzzed in and has 5 seconds to enter their answer."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "426210771161186305",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:49:26",
+				"Sorry <@284799940843274240>, your time is up. The other contestants have the remaining time."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "426210772054573079",
+		"channel": "#mathcounts (423932819786432512)",
+		"updates": [
+			[
+				"SENT 22:49:26",
+				"ok that works"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-21.json"
 	}
 ]
