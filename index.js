@@ -10,27 +10,57 @@ bot.login(JSON.parse(fs.readFileSync("../SSH.json")));
 
 /* CD round! */
 var players = {};
-var startedAt = 0, startNum;
-var current = 0;
+var startedAt = 0, startNum, buzzed = false;
+var current = 0, answering, embedID, intervalID, timeouts = [];
 var problemNum = 1, problems = JSON.parse(fs.readFileSync("./problems.json"));
+
+function updateProblem (txt, params) {
+    if (answering) {
+        params.color = 0x00ffff;
+        txt = '*' + answering + " is answering...*";
+    }
+    bot.channels.get('426369194020306954').fetchMessage(embedID).then(msg => {
+        msg.edit({
+            embed: Object.assign({
+                title: "Problem #" + problemNum,
+                description: (params.override ? '' :
+                    ("You have " + Math.round(45 - ((new Date().getTime() - startedAt) / 1000)) + " seconds remaining")) + '\n' + txt,
+                footer: {
+                    timestamp: new Date(),
+                    text: "Problem ID: " + current
+                }
+            }, params)
+        });
+    });
+}
+
 function problem () {
-    startNum = problemNum;
-    current = Math.floor(Math.random() * problems.length);
-    bot.channels.get('423932819786432512').send("**Problem #" + problemNum + ":**", {
+    timeouts.forEach(t => clearTimeout(t));
+    clearInterval(intervalID);
+    problemNum++;
+    for (let p in players) {
+        players[p].lastAnswered = problemNum - 1;
+    }
+    startedAt = new Date().getTime();
+    current = Math.ceil(Math.random() * problems.length);
+    bot.channels.get('426369194020306954').send("Loading problem, please wait...", {
         files: [
             "./problems/" + current + ".png"
         ]
+    }).then(msg => {
+        embedID = msg.id;
+        updateProblem('', {})
     });
-    setTimeout(() => {
-        if (startNum == problemNum) {
-            bot.channels.get('423932819786432512').send("Time is up! The answer to the previous problem was `" + problems[current - 1] + "`.")
-            problemNum++;
-            for (let p in players) {
-                players[p].answered = false;
-            }
-            problem();
-        }
-    }, 45000);
+    intervalID = setInterval(() => {
+        updateProblem('', {});
+    }, 3000);
+    timeouts.push(setTimeout(() => {
+        updateProblem("**Time's up!** The answer was `" + problems[current - 1] + '`', {
+            override: true,
+            color: 0xff0000
+        });
+        problem();
+    }, 45000));
 }
 //
 
@@ -44,7 +74,9 @@ function dispTime (check) {
 }
 
 function dispDate () {
-    return new Date().getFullYear() + '-' + (new Date().getMonth() + 1) + '-' + new Date().getDate();
+    return new Date().getFullYear() + '-' +
+    (new Date().getMonth() + 1) + '-' +
+    new Date().getDate();
 }
 
 var consoles = {
@@ -96,37 +128,50 @@ var consoles = {
 };
 
 var cmd = {
-    start: [
-        '', false, function (m) {
-            m.channel.send("CD game started! (except this doesn't actually work yet, sorry)");
+    cd: [
+        ["notification", false, function (m) {
+            if (m.member.roles.get('426451155166429184')) m.member.removeRole('426451155166429184');
+            else m.member.addRole('426451155166429184');
+            consoles.append(m, "The Mathcounts Notification role has been " + (m.member.roles.get('426451155166429184') ? "removed from" : "added to") + " you.", 3);
+        }, "Removes the Mathcounts Notification role from you if you have it, otherwise gives it to you."],
+        ["start", false, function (m) {
+            if (m.channel.id != '426369194020306954') return m.channel.send("Please only do CD games in <#426369194020306954>.")
+            if (startedAt) return consoles.append(m, "A CD game has already been started.", 0)
+            m.channel.send("<@&426451155166429184>: CD game started!");
             m.guild.members.forEach(member => {
                 players[member.id] = {
                     score: 0,
-                    answered: false
+                    lastAnswered: 0
                 }
             })
             problem();
             startedAt = new Date().getTime();
-        }
-    ],
-    end: [
-        '', false, function (m) {
+        }, "Starts a CD game (<#426369194020306954> only)"],
+        ["end", false, function (m) {
+            timeouts.forEach(t => clearTimeout(t));
+            clearInterval(intervalID);
+            problemNum = 1;
             m.channel.send("CD game ended.");
             startedAt = 0;
-        }
-    ],
-    answer: [
-        '', false, function (m, args) {
+        }, "Ends the current CD game."],
+        ["answer", false, function (m, args) {
             if (!startedAt) return consoles.append(m, "No CD games are active currently. You can start one with `CMSB/start`", 0);
-            players[m.author.id].answered = true;
-            if (problems[current].split(' (')[0] == args[0]) {
-                m.reply("correct! Your score is now " + ++players[m.author.id].score);
+            if (players[m.author.id].lastAnswered == problemNum) return consoles.append(m, m.author.toString() + ": You have already answered this question!", 0)
+            if ('<@' + m.author.id + '>' != answering) return consoles.append(m, m.author.toString() + ": Another player is answering!", 0)
+            players[m.author.id].lastAnswered = problemNum;
+            answering = '';
+            if (problems[current - 1].split(' (')[0] == args[0]) {
+                players[m.author.id].score++;
+                updateProblem("*Problem correctly answered by " + m.author.toString() + "*\n**Scoreboard:**\n" + Object.keys(players).map(p => '<@' + p + '>: ' + players[p].score + " points").join('\n'), {
+                    color: 0x00ff00
+                });
+                clearInterval(intervalID);
                 if (players[m.author.id].score == 4) {
                     m.channel.send(m.author.toString() + " has won the game!");
-                    cmd[end][2]();
+                    cmd.cd[2][2]();
                 } else problem();
             } else m.reply("your answer is incorrect.");
-        }
+        }, "Checks your answer for the current CD problem."]
     ],
     run: [
         '', false, function (m, args) {
@@ -378,16 +423,16 @@ bot.on("guildMemberRemove", function (member) {
 });
 
 bot.on("typingStart", function (channel, user) {
-    if (channel.name == "mathcounts" && startedAt) {
-        if (typeof players[user.id] != "boolean") {
-            channel.send(user.toString() + " has buzzed in and has 5 seconds to enter their answer.")
-            players[user.id] = new Date().getTime();
-            setTimeout(() => {
-                if (typeof players[user.id] != "string") {
-                    players[user.id] = false;
-                    channel.send("Sorry " + user.toString() + ", your time is up. The other contestants have the remaining " + (45 - ((new Date().getTime() - startedAt) / 10000)) + " seconds to answer.")
+    if (channel.id == '426369194020306954' && startedAt && !answering) {
+        if (players[user.id].lastAnswered < problemNum) {
+            answering = user.toString();
+            updateProblem(user.toString() + " is answering...", {});
+            timeouts.push(setTimeout(() => {
+                if (players[user.id].lastAnswered < problemNum) {
+                    channel.send("Sorry " + user.toString() + ", your time is up. The other contestants have the remaining " + Math.round(45 - ((new Date().getTime() - startedAt) / 10000)) + " seconds to answer.")
+                    color = 0;
                 }
-            }, 5000);
+            }, 8000));
         }
     }
 });
@@ -410,9 +455,10 @@ bot.on("message", (message) => {
                 title: "Help",
                 description: "By <@284799940843274240>\nThis bot is in active development, so there may be missing functionalities.",
                 fields: [{
-                    name: "Commands (put CMSB/ in front of each, separate arguments with a colon surrounded by a space)",
-                    value: "**help** `(command)`:\
-                    \nDisplays bot information.\
+                    name: "Commands (put CMSB> in front of each, separate arguments with a colon surrounded by a space)",
+                    value: "**cd** `(branch)`:\
+                    \n`[4 children]`\
+                    \nContains commands for running in-server Mathcounts Countdown games.\
                     \n\
                     \n**run** `(command)`:\
                     \nRuns <arg1>.\
@@ -434,20 +480,20 @@ bot.on("message", (message) => {
                 }]
             }
         });
-        
+
     }
     message.content = message.content.substr(5);
-    var splits = message.content.split('/');
+    var splits = message.content.split('>');
     var a = splits[splits.length - 1].split(' : ').slice(1);
     splits[splits.length - 1] = splits[splits.length - 1].split(' : ')[0];
     var command = cmd[splits[0]];
     if (typeof command == "undefined") return consoles.append(message, "bash: " + splits + ": command not found", 0);
     if (typeof command[0] == "object" && splits.length == 1) {
-        return message.channel.send("*Commands in branch* **" + splits + '**:\n' + command.map(a => a[0] + (a[1] ? '\\*' : '') + ': ' + a[3]).join('\n'));
+        return message.channel.send("*Commands in branch* **" + splits + '**:\n' + command.map(a => '`' + a[0] + '`' + (a[1] ? '\\*' : '') + ': ' + a[3]).join('\n'));
     }
     if (splits.length == 2) {
         command = command.find(v => v[0] == splits[1]);
-        if (typeof command == "undefined") return consoles.append(message, "bash: " + splits.join('>') + ": command not found", 0);
+        if (typeof command == "undefined") return consoles.append(message, "bash: " + splits.join('/') + ": command not found", 0);
     }
     if (command[1] && ['284799940843274240', '302238344656715776', '133024315602894848'].indexOf(message.author.id) < 0) return consoles.append(message, "PermissionsError: Please run this command again as root/Administrator", 0)
     try {
