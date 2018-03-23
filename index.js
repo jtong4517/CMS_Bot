@@ -9,7 +9,7 @@ const bot = new Discord.Client();
 bot.login(JSON.parse(fs.readFileSync("../SSH.json")));
 
 /* CD round! */
-var players = {};
+var players = {}, numJoined;
 var startedAt = 0, startNum, buzzed = false;
 var current = 0, answering, embedID, intervalID, timeouts = [];
 var problemNum = 1, problems = JSON.parse(fs.readFileSync("./problems.json"));
@@ -35,9 +35,9 @@ function updateProblem (txt, params) {
 }
 
 function problem () {
+    answering = '';
     timeouts.forEach(t => clearTimeout(t));
     clearInterval(intervalID);
-    problemNum++;
     for (let p in players) {
         players[p].lastAnswered = problemNum - 1;
     }
@@ -55,10 +55,12 @@ function problem () {
         updateProblem('', {});
     }, 3000);
     timeouts.push(setTimeout(() => {
+        answering = '';
         updateProblem("**Time's up!** The answer was `" + problems[current - 1] + '`', {
             override: true,
             color: 0xff0000
         });
+        problemNum++;
         problem();
     }, 45000));
 }
@@ -129,28 +131,58 @@ var consoles = {
 
 var cmd = {
     cd: [
+        ["rules", false, function (m) {
+            m.channel.send("Attached is a document containing rules for CD games.", {
+                files: ["./CDrules.pdf"]
+            });
+        }, "Returns a document of the rules for CMSB Countdown games."],
         ["notification", false, function (m) {
             if (m.member.roles.get('426451155166429184')) m.member.removeRole('426451155166429184');
             else m.member.addRole('426451155166429184');
             consoles.append(m, "The Mathcounts Notification role has been " + (m.member.roles.get('426451155166429184') ? "removed from" : "added to") + " you.", 3);
         }, "Removes the Mathcounts Notification role from you if you have it, otherwise gives it to you."],
-        ["start", false, function (m) {
+        ["open", true, function (m) {
             if (m.channel.id != '426369194020306954') return m.channel.send("Please only do CD games in <#426369194020306954>.")
-            if (startedAt) return consoles.append(m, "A CD game has already been started.", 0)
-            m.channel.send("<@&426451155166429184>: CD game started!");
+            if (startedAt) return consoles.append(m, "A CD game has already been started.", 0);
             m.guild.members.forEach(member => {
-                players[member.id] = {
+                if (!players[member.id]) players[member.id] = { rating: 1200 };
+                Object.assign(players[member.id], {
                     score: 0,
-                    lastAnswered: 0
-                }
-            })
-            problem();
-            startedAt = new Date().getTime();
-        }, "Starts a CD game (<#426369194020306954> only)"],
+                    lastAnswered: 0,
+                    joined: false
+                });
+            });
+            numJoined = 0;
+            players[m.author.id].joined = true;
+            m.channel.send("<@&426451155166429184>: CD game opened!\
+            \nUse `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.\
+            \nIt is recommended that you copy `CMSB>cd>answer : _` into your clipboard before you begin for speed.\
+            \n\
+            \n*React with :inbox_tray: to join the game*\
+            \n*The host(" + m.author.tag + ") can react with :white_check_mark: to start the game once there are multiple players*").then(msg => {
+                msg.react('📥');
+                msg.react('✅');
+                msg.createReactionCollector((r, u) => {
+                    if (r.emoji.name == '📥') players[u.id].joined = true;
+                    if (r.emoji.name == '✅' && u.id == m.author.id) {
+                        if (numJoined) {
+                            problemNum = 1;
+                            msg.edit("*Starting game in 3 seconds");
+                            setTimeout(() => msg.edit("*Starting game in 2 seconds"), 1000);
+                            setTimeout(() => msg.edit("*Starting game in 1 second"), 2000);
+                            setTimeout(() => {
+                                msg.delete();
+                                startedAt = new Date().getTime();
+                                problem();
+                            }, 3000);
+                        } else consoles.append(m, "Cannot start game with only one player(for prevention of farming/problem memorization.)", 0);
+                    }
+                });
+            });
+        }, "Opens a CD game (<#426369194020306954> only)"],
         ["end", false, function (m) {
             timeouts.forEach(t => clearTimeout(t));
             clearInterval(intervalID);
-            problemNum = 1;
             m.channel.send("CD game ended.");
             startedAt = 0;
         }, "Ends the current CD game."],
@@ -162,15 +194,21 @@ var cmd = {
             answering = '';
             if (problems[current - 1].split(' (')[0] == args[0]) {
                 players[m.author.id].score++;
-                updateProblem("*Problem correctly answered by " + m.author.toString() + "*\n**Scoreboard:**\n" + Object.keys(players).map(p => '<@' + p + '>: ' + players[p].score + " points").join('\n'), {
+                updateProblem("*Problem correctly answered by " + m.author.toString() + "*\n**Scoreboard:**\n" + Object.keys(players).map(p => '<@' + p + '>(' + players[p].rating + '): ' + players[p].score + " points").join('\n'), {
                     color: 0x00ff00
                 });
+                players[m.author.id].rating += 5;
+                problemNum++;
                 clearInterval(intervalID);
                 if (players[m.author.id].score == 4) {
-                    m.channel.send(m.author.toString() + " has won the game!");
+                    m.channel.send(m.author.toString() + " has won the game! 20 rating awarded.");
+                    players[m.author.id].rating += 20;
                     cmd.cd[2][2]();
                 } else problem();
-            } else m.reply("your answer is incorrect.");
+            } else {
+                m.reply("your answer is incorrect.");
+                players[m.author.id].rating -= 3;
+            }
         }, "Checks your answer for the current CD problem."]
     ],
     run: [
@@ -339,7 +377,7 @@ const dateStr = new Date().getFullYear() + '-' + (new Date().getMonth() + 1) + '
 var logs = [], logMap = {}, reasons = {}, savedLogs = 0, edits = 0;
 if (!fs.existsSync("./logs/" + dispDate() + ".json")) {
     fs.writeFile("./logs/" + dispDate() + ".json", '[]', () => {
-        console.log("@" + new Date() + " | Created new log file for " + dispDate() + '.');
+        console.log("@" + dispDate() + " | Created new log file for " + dispDate() + '.');
     });
 }
 fs.readdir("./logs", function (err, files) {
@@ -371,12 +409,16 @@ bot.on("ready", () => {
             }
             console.log("@" + dispDate() + " > Saved " + (logs.length - savedLogs) + " new log entries (" + edits + " edits).");
             for (let d in logMap) {
-                fs.writeFile("./logs/" + d, JSON.stringify(logMap[d], null, '\t'), function(err) {
+                fs.writeFile("./logs/" + d, JSON.stringify(logMap[d], null, '\t'), function (err) {
                     console.log("@" + dispDate() + " > Written " + logMap[d].length + " entries to " + d + '.');
                     savedLogs = logs.length;
                     edits = 0;
                 });
             }
+            fs.writeFile("./players.json", JSON.stringify(players, null, '\t'), function (err) {
+                if (err) console.log(err);
+                console.log("@" + dispDate() + " > Saved player data.");
+            });
             reasons = {};
         }
     }, 1000);
@@ -429,10 +471,13 @@ bot.on("typingStart", function (channel, user) {
             updateProblem(user.toString() + " is answering...", {});
             timeouts.push(setTimeout(() => {
                 if (players[user.id].lastAnswered < problemNum) {
-                    channel.send("Sorry " + user.toString() + ", your time is up. The other contestants have the remaining " + Math.round(45 - ((new Date().getTime() - startedAt) / 10000)) + " seconds to answer.")
+                    answering = '';
+                    players[user.id].lastAnswered = problemNum;
+                    channel.send("Sorry " + user.toString() + ", your time is up. The other contestants have the remaining " + Math.round(45 - ((new Date().getTime() - startedAt) / 1000)) + " seconds to answer.")
                     color = 0;
+                    players[m.author.id].rating -= 2;
                 }
-            }, 8000));
+            }, 5000));
         }
     }
 });
