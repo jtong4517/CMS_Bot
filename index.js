@@ -9,12 +9,13 @@ const bot = new Discord.Client();
 bot.login(JSON.parse(fs.readFileSync("../SSH.json")));
 
 /* CD round! */
-var players = {}, numJoined;
+var players = {}, chat, joined;
 var startedAt = 0, startNum, buzzed = false;
 var current = 0, answering, embedID, intervalID, timeouts = [];
 var problemNum = 1, problems = JSON.parse(fs.readFileSync("./problems.json"));
 
 function updateProblem (txt, params) {
+    chat = chat.slice(chat.length - 11);
     if (answering) {
         params.color = 0x00ffff;
         txt = '*' + answering + " is answering...*";
@@ -25,6 +26,16 @@ function updateProblem (txt, params) {
                 title: "Problem #" + problemNum,
                 description: (params.override ? '' :
                     ("You have " + Math.round(45 - ((new Date().getTime() - startedAt) / 1000)) + " seconds remaining")) + '\n' + txt,
+                fields: [
+                    {
+                        name: "Scoreboard",
+                        value: joined.map(p => '<@' + p + '>(' + players[p].rating + '): ' + players[p].score + " points").join('\n')
+                    },
+                    {
+                        name: "Chat",
+                        value: chat.join('\n')
+                    }
+                ],
                 footer: {
                     timestamp: new Date(),
                     text: "Problem ID: " + current
@@ -35,6 +46,7 @@ function updateProblem (txt, params) {
 }
 
 function problem () {
+    chat.push(":arrow_right: | **Problem #" + problemNum + " started!**")
     answering = '';
     timeouts.forEach(t => clearTimeout(t));
     clearInterval(intervalID);
@@ -47,13 +59,13 @@ function problem () {
         files: [
             "./problems/" + current + ".png"
         ]
-    }).then(msg => {
-        embedID = msg.id;
+    }).then(result => {
+        embedID = result.id;
         updateProblem('', {})
     });
     intervalID = setInterval(() => {
         updateProblem('', {});
-    }, 3000);
+    }, 5000);
     timeouts.push(setTimeout(() => {
         answering = '';
         updateProblem("**Time's up!** The answer was `" + problems[current - 1] + '`', {
@@ -141,7 +153,7 @@ var cmd = {
             else m.member.addRole('426451155166429184');
             consoles.append(m, "The Mathcounts Notification role has been " + (m.member.roles.get('426451155166429184') ? "removed from" : "added to") + " you.", 3);
         }, "Removes the Mathcounts Notification role from you if you have it, otherwise gives it to you."],
-        ["open", true, function (m) {
+        ["open", false, function (m) {
             if (m.channel.id != '426369194020306954') return m.channel.send("Please only do CD games in <#426369194020306954>.")
             if (startedAt) return consoles.append(m, "A CD game has already been started.", 0);
             m.guild.members.forEach(member => {
@@ -152,7 +164,8 @@ var cmd = {
                     joined: false
                 });
             });
-            numJoined = 0;
+            joined = [];
+            chat = [":beginner: | **Game started by " + m.author.toString() + "**"];
             players[m.author.id].joined = true;
             m.channel.send("<@&426451155166429184>: CD game opened!\
             \nUse `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.\
@@ -163,15 +176,17 @@ var cmd = {
                 msg.react('📥');
                 msg.react('✅');
                 msg.createReactionCollector((r, u) => {
-                    if (r.emoji.name == '📥') players[u.id].joined = true;
+                    if (r.emoji.name == '📥' && u.id != bot.user.id) {
+                        players[u.id].joined = true;
+                        msg.edit(msg.content.split('\n\n**')[0] + '\n\n**Players**\n```diff\n- ' + m.author.tag + ' (' + m.author.id + ')\n' + joined.map(p => '+ ' + players[p].rating + ': ' + bot.users.get(p).tag + ' (' + p + ')').join('\n') + '```');
+                        joined.push(u.id);
+                    }
                     if (r.emoji.name == '✅' && u.id == m.author.id) {
-                        if (numJoined) {
+                        if (joined.length || m.author.id == '284799940843274240') {
                             problemNum = 1;
-                            msg.edit("*Starting game in 3 seconds");
-                            setTimeout(() => msg.edit("*Starting game in 2 seconds"), 1000);
-                            setTimeout(() => msg.edit("*Starting game in 1 second"), 2000);
+                            msg.delete();
+                            m.channel.send("* Starting game in 3 seconds");
                             setTimeout(() => {
-                                msg.delete();
                                 startedAt = new Date().getTime();
                                 problem();
                             }, 3000);
@@ -188,13 +203,16 @@ var cmd = {
         }, "Ends the current CD game."],
         ["answer", false, function (m, args) {
             if (!startedAt) return consoles.append(m, "No CD games are active currently. You can start one with `CMSB/start`", 0);
-            if (players[m.author.id].lastAnswered == problemNum) return consoles.append(m, m.author.toString() + ": You have already answered this question!", 0)
-            if ('<@' + m.author.id + '>' != answering) return consoles.append(m, m.author.toString() + ": Another player is answering!", 0)
+            if (players[m.author.id].lastAnswered == problemNum) return chat.push(":no_entry: | " + m.author.toString() + ": You have already answered this question!**");
+            if ('<@' + m.author.id + '>' != answering) return chat.push(":octagonal_sign: | " + m.author.toString() + ": Another player is answering!**");
+            if (!players[m.author.id].joined) return;
             players[m.author.id].lastAnswered = problemNum;
             answering = '';
             if (problems[current - 1].split(' (')[0] == args[0]) {
                 players[m.author.id].score++;
-                updateProblem("*Problem correctly answered by " + m.author.toString() + "*\n**Scoreboard:**\n" + Object.keys(players).map(p => '<@' + p + '>(' + players[p].rating + '): ' + players[p].score + " points").join('\n'), {
+                m.react('☑');
+                chat.push("☑ | **Problem correctly answered by " + m.author.toString() + "!**")
+                updateProblem("*Answer correct!*", {
                     color: 0x00ff00
                 });
                 players[m.author.id].rating += 5;
@@ -203,10 +221,11 @@ var cmd = {
                 if (players[m.author.id].score == 4) {
                     m.channel.send(m.author.toString() + " has won the game! 20 rating awarded.");
                     players[m.author.id].rating += 20;
-                    cmd.cd[2][2]();
+                    cmd.cd[3][2](m);
                 } else problem();
             } else {
-                m.reply("your answer is incorrect.");
+                m.react('❌');
+                chat.push('❌ | **' + m.author.toString() + " is incorrect.**")
                 players[m.author.id].rating -= 3;
             }
         }, "Checks your answer for the current CD problem."]
@@ -466,16 +485,16 @@ bot.on("guildMemberRemove", function (member) {
 
 bot.on("typingStart", function (channel, user) {
     if (channel.id == '426369194020306954' && startedAt && !answering) {
-        if (players[user.id].lastAnswered < problemNum) {
+        if (players[user.id].lastAnswered < problemNum && players[user.id].joined) {
             answering = user.toString();
             updateProblem(user.toString() + " is answering...", {});
             timeouts.push(setTimeout(() => {
                 if (players[user.id].lastAnswered < problemNum) {
                     answering = '';
                     players[user.id].lastAnswered = problemNum;
-                    channel.send("Sorry " + user.toString() + ", your time is up. The other contestants have the remaining " + Math.round(45 - ((new Date().getTime() - startedAt) / 1000)) + " seconds to answer.")
+                    chat.push(":timer: | **Sorry " + user.toString() + ", your time is up. (" + Math.round(45 - ((new Date().getTime() - startedAt) / 1000)) + " seconds remaining)**")
                     color = 0;
-                    players[m.author.id].rating -= 2;
+                    players[user.id].rating -= 2;
                 }
             }, 5000));
         }
@@ -493,7 +512,19 @@ bot.on("message", (message) => {
         updates: [["SENT " + dispTime(), ... message.content.split('\n')]],
         date: dispDate() + ".json"
     }, message.channel.name ? { server: (message.guild.name + ' (' + message.guild.id + ')')} : {}));
-    if (!message.content.startsWith("CMSB") || new Date().getTime() - lastCall < 2000) return;
+    if (message.channel.id == '426369194020306954' && startedAt && message.author.id != bot.user.id) {
+        if (!message.content.startsWith("CMSB>cd>answer : ") || players[message.author.id].lastAnswered == problemNum || !players[message.author.id].joined) {
+            chat.push('**' + message.author.username + '**: ' + message.content
+                .replace('\n', ' ')
+                .replace('*', '\\*')
+                .replace('_', '\\_')
+                .replace('~', '\\~')
+                .replace('```', '\\`\\`\\`')
+                .substr(0, 128));
+            message.delete();
+        }
+    }
+    if (!message.content.startsWith("CMSB") || new Date().getTime() - lastCall < 2000 || (message.channel.id == "426369194020306954" && !message.content.startsWith("CMSB>cd>"))) return;
     if (message.content == "CMSB") {
         return message.channel.send({
             embed: {
