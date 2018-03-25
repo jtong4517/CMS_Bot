@@ -9,13 +9,15 @@ const bot = new Discord.Client();
 bot.login(JSON.parse(fs.readFileSync("../SSH.json")));
 
 /* CD round! */
-var players = {}, chat, joined;
-var startedAt = 0, startNum, buzzed = false;
+var players = JSON.parse(fs.readFileSync("./players.json")), chat, joined, gameNum;
+var startedAt = 0, endAt, winner, startNum, buzzed = false;
 var current = 0, answering, embedID, intervalID, timeouts = [];
 var problemNum = 1, problems = JSON.parse(fs.readFileSync("./problems.json"));
 
 function updateProblem (txt, params) {
     chat = chat.slice(chat.length - 11);
+    endAt = startedAt;
+    joined.sort((a, b) => players[b].score > players[a.score] ? 1 : 0);
     if (answering) {
         params.color = 0x00ffff;
         txt = '*' + answering + " is answering...*";
@@ -25,11 +27,11 @@ function updateProblem (txt, params) {
             embed: Object.assign({
                 title: "Problem #" + problemNum,
                 description: (params.override ? '' :
-                    ("You have " + Math.round(45 - ((new Date().getTime() - startedAt) / 1000)) + " seconds remaining")) + '\n' + txt,
+                    ("You have " + Math.round(45 - ((new Date().getTime() - endAt) / 1000)) + " seconds remaining")) + '\n' + txt,
                 fields: [
                     {
                         name: "Scoreboard",
-                        value: joined.map(p => '<@' + p + '>(' + players[p].rating + '): ' + players[p].score + " points").join('\n')
+                        value: joined.map(p => '<@' + p + ">(<:rating:426837451563335713>" + players[p].rating + '): ' + players[p].score + " points").join('\n')
                     },
                     {
                         name: "Chat",
@@ -38,7 +40,7 @@ function updateProblem (txt, params) {
                 ],
                 footer: {
                     timestamp: new Date(),
-                    text: "Problem ID: " + current
+                    text: "Problem ID: " + current + ", Game ID: " + gameNum
                 }
             }, params)
         });
@@ -46,7 +48,7 @@ function updateProblem (txt, params) {
 }
 
 function problem () {
-    chat.push(":arrow_right: | **Problem #" + problemNum + " started!**")
+    chat.push(":arrow_right: | **Problem #" + problemNum + " started!**");
     answering = '';
     timeouts.forEach(t => clearTimeout(t));
     clearInterval(intervalID);
@@ -55,26 +57,41 @@ function problem () {
     }
     startedAt = new Date().getTime();
     current = Math.ceil(Math.random() * problems.length);
-    bot.channels.get('426369194020306954').send("Loading problem, please wait...", {
-        files: [
-            "./problems/" + current + ".png"
-        ]
-    }).then(result => {
-        embedID = result.id;
-        updateProblem('', {})
-    });
-    intervalID = setInterval(() => {
-        updateProblem('', {});
-    }, 5000);
-    timeouts.push(setTimeout(() => {
-        answering = '';
-        updateProblem("**Time's up!** The answer was `" + problems[current - 1] + '`', {
-            override: true,
-            color: 0xff0000
+    if (winner) {
+        joined.forEach(p => {
+            players[p].ratingChange = Math.round(players[p].ratingChange);
+            players[p].rating += players[p].ratingChange;
         });
-        problemNum++;
-        problem();
-    }, 45000));
+        bot.channels.get('426369194020306954').send("Loading final results!").then(result => {
+            embedID = result.id;
+            updateProblem("Congratulations " + winner + "!\n**Rating changes:**\n" + joined.map(p => '<@' + p + ">: <:rating:426837451563335713>" + players[p].ratingChange).join('\n') + "\n*The scoreboard below reflects ratings after this game.*", {
+                title: "Final results: Game #" + gameNum,
+                color: 0xffff00,
+                override: true
+            });
+        });
+    } else {
+        bot.channels.get('426369194020306954').send("Loading problem, please wait...", {
+            files: [
+                "./problems/" + current + ".png"
+            ]
+        }).then(result => {
+            embedID = result.id;
+            updateProblem('', {})
+        });
+        intervalID = setInterval(() => {
+            updateProblem('', {});
+        }, 5000);
+        timeouts.push(setTimeout(() => {
+            answering = '';
+            updateProblem("**Time's up!** The answer was `" + problems[current - 1] + '`', {
+                override: true,
+                color: 0xff0000
+            });
+            problemNum++;
+            problem();
+        }, 45000));
+    }
 }
 //
 
@@ -161,10 +178,13 @@ var cmd = {
                 Object.assign(players[member.id], {
                     score: 0,
                     lastAnswered: 0,
-                    joined: false
+                    joined: false,
+                    ratingChange: 0
                 });
             });
-            joined = [];
+            joined = [m.author.id];
+            winner = '';
+            gameNum = Math.ceil(Math.random() * 1000000);
             chat = [":beginner: | **Game started by " + m.author.toString() + "**"];
             players[m.author.id].joined = true;
             m.channel.send("<@&426451155166429184>: CD game opened!\
@@ -176,13 +196,13 @@ var cmd = {
                 msg.react('📥');
                 msg.react('✅');
                 msg.createReactionCollector((r, u) => {
-                    if (r.emoji.name == '📥' && u.id != bot.user.id) {
+                    if (r.emoji.name == '📥' && u.id != bot.user.id && !players[u.id].joined) {
                         players[u.id].joined = true;
                         msg.edit(msg.content.split('\n\n**')[0] + '\n\n**Players**\n```diff\n- ' + m.author.tag + ' (' + m.author.id + ')\n' + joined.map(p => '+ ' + players[p].rating + ': ' + bot.users.get(p).tag + ' (' + p + ')').join('\n') + '```');
                         joined.push(u.id);
                     }
                     if (r.emoji.name == '✅' && u.id == m.author.id) {
-                        if (joined.length || m.author.id == '284799940843274240') {
+                        if (joined.length - 1 || m.author.id == '284799940843274240') {
                             problemNum = 1;
                             msg.delete();
                             m.channel.send("* Starting game in 3 seconds");
@@ -202,7 +222,7 @@ var cmd = {
             startedAt = 0;
         }, "Ends the current CD game."],
         ["answer", false, function (m, args) {
-            if (!startedAt) return consoles.append(m, "No CD games are active currently. You can start one with `CMSB/start`", 0);
+            if (!startedAt) return consoles.append(m, "No CD games are active currently. You can start one with `CMSB>cd>open`", 0);
             if (players[m.author.id].lastAnswered == problemNum) return chat.push(":no_entry: | " + m.author.toString() + ": You have already answered this question!**");
             if ('<@' + m.author.id + '>' != answering) return chat.push(":octagonal_sign: | " + m.author.toString() + ": Another player is answering!**");
             if (!players[m.author.id].joined) return;
@@ -219,14 +239,24 @@ var cmd = {
                 problemNum++;
                 clearInterval(intervalID);
                 if (players[m.author.id].score == 4) {
-                    m.channel.send(m.author.toString() + " has won the game! 20 rating awarded.");
-                    players[m.author.id].rating += 20;
+                    chat.push(":tada: | **" + m.author.toString() + " has won the game! Awarded <:rating:426837451563335713>" + Math.round(joined.length * Math.random() * 10 + 14) + ".**");
+                    winner = m.author.toString();
+                    players[m.author.id].ratingChange += joined.length * Math.random() * 10 + 14;
+                    for (let p of joined) {
+                        if (p != m.author.id) players[m.author.id].ratingChange -= Math.random() * 8 + 12;
+                    }
+                    problem();
                     cmd.cd[3][2](m);
                 } else problem();
             } else {
                 m.react('❌');
                 chat.push('❌ | **' + m.author.toString() + " is incorrect.**")
-                players[m.author.id].rating -= 3;
+                players[m.author.id].ratingChange -= Math.random() * 3 + 1;
+                for (let p in players) {
+                    if (players[p].lastAnswered < problemNum && players[p].joined) return;
+                }
+                chat.push(":exclamation: | **All players answered incorrectly, advancing to next question.**");
+                problem();
             }
         }, "Checks your answer for the current CD problem."]
     ],
@@ -494,7 +524,7 @@ bot.on("typingStart", function (channel, user) {
                     players[user.id].lastAnswered = problemNum;
                     chat.push(":timer: | **Sorry " + user.toString() + ", your time is up. (" + Math.round(45 - ((new Date().getTime() - startedAt) / 1000)) + " seconds remaining)**")
                     color = 0;
-                    players[user.id].rating -= 2;
+                    players[user.id].rating -= Math.random() * 4 + 1;
                 }
             }, 5000));
         }

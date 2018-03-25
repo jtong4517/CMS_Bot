@@ -2,67 +2,78 @@
 	"133024315602894848": {
 		"rating": 1200,
 		"score": 0,
-		"lastAnswered": 4,
-		"joined": false
+		"lastAnswered": 8,
+		"joined": false,
+		"ratingChange": 0
 	},
 	"284799940843274240": {
-		"rating": 1199,
-		"score": 1,
-		"lastAnswered": 4,
-		"joined": true
+		"rating": 1318,
+		"score": 4,
+		"lastAnswered": 8,
+		"joined": true,
+		"ratingChange": 10
 	},
 	"297168847692234753": {
 		"rating": 1200,
 		"score": 0,
-		"lastAnswered": 4,
-		"joined": false
+		"lastAnswered": 8,
+		"joined": false,
+		"ratingChange": 0
 	},
 	"302238344656715776": {
 		"rating": 1200,
 		"score": 0,
-		"lastAnswered": 4,
-		"joined": false
+		"lastAnswered": 8,
+		"joined": false,
+		"ratingChange": 0
 	},
 	"321070340950196224": {
 		"rating": 1200,
 		"score": 0,
-		"lastAnswered": 4,
-		"joined": false
+		"lastAnswered": 8,
+		"joined": false,
+		"ratingChange": 0
 	},
 	"323461426297438208": {
 		"rating": 1200,
 		"score": 0,
-		"lastAnswered": 4,
-		"joined": false
+		"lastAnswered": 8,
+		"joined": false,
+		"ratingChange": 0
 	},
 	"347194907414233088": {
 		"rating": 1200,
 		"score": 0,
-		"lastAnswered": 4,
-		"joined": false
+		"lastAnswered": 8,
+		"joined": false,
+		"ratingChange": 0
 	},
 	"373294118958268418": {
 		"rating": 1200,
 		"score": 0,
-		"lastAnswered": 4,
-		"joined": false
+		"lastAnswered": 8,
+		"joined": false,
+		"ratingChange": 0
 	},
 	"385179266306015232": {
 		"rating": 1200,
 		"score": 0,
-		"lastAnswered": 4,
-		"joined": false
+		"lastAnswered": 8,
+		"joined": false,
+		"ratingChange": 0
 	},
 	"409804347073888266": {
 		"rating": 1200,
 		"score": 0,
-		"lastAnswered": 4,
-		"joined": false
+		"lastAnswered": 8,
+		"joined": false,
+		"ratingChange": 0
 	},
 	"423937849461571594": {
 		"rating": 1200,
 		"score": 0,
-		"lastAnswered": 4,
-		"joined": false
+		"lastAnswered": 8,
+		"joined": false,
+		"ratingChange": 0
 	}
 }

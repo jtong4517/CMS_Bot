@@ -2039,5 +2039,1924 @@
 		],
 		"server": "CMS Discord Server (409906924050710539)",
 		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427268659623362581",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 20:53:06",
+				"CMSB>cd>open"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427268662815358987",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 20:53:07",
+				"<@&426451155166429184>: CD game opened!            ",
+				"Use `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.            ",
+				"It is recommended that you copy `CMSB>cd>answer : _` into your clipboard before you begin for speed.            ",
+				"            ",
+				"*React with :inbox_tray: to join the game*            ",
+				"*The host(Oh noes!#4565) can react with :white_check_mark: to start the game once there are multiple players*"
+			],
+			[
+				"EDITED 20:53:09",
+				"<@&426451155166429184>: CD game opened!            ",
+				"Use `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.            ",
+				"It is recommended that you copy `CMSB>cd>answer : _` into your clipboard before you begin for speed.            ",
+				"            ",
+				"*React with :inbox_tray: to join the game*            ",
+				"*The host(Oh noes!#4565) can react with :white_check_mark: to start the game once there are multiple players*",
+				"",
+				"**Players**",
+				"```diff",
+				"- Oh noes!#4565 (284799940843274240)",
+				"```"
+			],
+			[
+				"DELETED 20:53:10"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427268675368648719",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 20:53:10",
+				"* Starting game in 3 seconds"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427268688677175342",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 20:53:13",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 20:53:13",
+				""
+			],
+			[
+				"EDITED 20:53:18",
+				""
+			],
+			[
+				"EDITED 20:53:23",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427268729647398922",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 20:53:23",
+				"CMSB>cd>answer : 4033"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427268731048034314",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 20:53:23",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 20:53:24",
+				""
+			],
+			[
+				"EDITED 20:53:28",
+				""
+			],
+			[
+				"EDITED 20:53:30",
+				""
+			],
+			[
+				"EDITED 20:53:33",
+				""
+			],
+			[
+				"EDITED 20:53:34",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427268775096614915",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 20:53:34",
+				"CMSB>cd>answer : 12"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427268776506032129",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 20:53:34",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 20:53:34",
+				""
+			],
+			[
+				"EDITED 20:53:38",
+				""
+			],
+			[
+				"EDITED 20:53:39",
+				""
+			],
+			[
+				"EDITED 20:53:41",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427268804620451842",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 20:53:41",
+				"CMSB>cd>answer : 15"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427268806033801227",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 20:53:41",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 20:53:41",
+				""
+			],
+			[
+				"EDITED 20:53:46",
+				""
+			],
+			[
+				"EDITED 20:53:51",
+				""
+			],
+			[
+				"EDITED 20:53:56",
+				""
+			],
+			[
+				"EDITED 20:54:01",
+				""
+			],
+			[
+				"EDITED 20:54:02",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427268844139315212",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 20:53:50",
+				"CMSB>cd>answer : 5sqrt(13)"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427268892386263040",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 20:54:02",
+				"CMSB>cd>answer : 5sqrt(13)"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427268892742647829",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 20:54:02",
+				"<@284799940843274240> has won the game! 20 rating awarded."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427268893556342784",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 20:54:02",
+				"CD game ended."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427273595144634369",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:12:43",
+				"CMSB>cd>open"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427273597720068096",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:12:44",
+				"<@&426451155166429184>: CD game opened!            ",
+				"Use `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.            ",
+				"It is recommended that you copy `CMSB>cd>answer : _` into your clipboard before you begin for speed.            ",
+				"            ",
+				"*React with :inbox_tray: to join the game*            ",
+				"*The host(Oh noes!#4565) can react with :white_check_mark: to start the game once there are multiple players*"
+			],
+			[
+				"EDITED 21:12:46",
+				"<@&426451155166429184>: CD game opened!            ",
+				"Use `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.            ",
+				"It is recommended that you copy `CMSB>cd>answer : _` into your clipboard before you begin for speed.            ",
+				"            ",
+				"*React with :inbox_tray: to join the game*            ",
+				"*The host(Oh noes!#4565) can react with :white_check_mark: to start the game once there are multiple players*",
+				"",
+				"**Players**",
+				"```diff",
+				"- Oh noes!#4565 (284799940843274240)",
+				"```"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427273608696561664",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:12:46",
+				"* Starting game in 3 seconds"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427273790897127435",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:13:30",
+				"CMSB>cd>open"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427273791543050241",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:13:30",
+				"<@&426451155166429184>: CD game opened!            ",
+				"Use `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.            ",
+				"It is recommended that you copy `CMSB>cd>answer : _` into your clipboard before you begin for speed.            ",
+				"            ",
+				"*React with :inbox_tray: to join the game*            ",
+				"*The host(Oh noes!#4565) can react with :white_check_mark: to start the game once there are multiple players*"
+			],
+			[
+				"EDITED 21:13:32",
+				"<@&426451155166429184>: CD game opened!            ",
+				"Use `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.            ",
+				"It is recommended that you copy `CMSB>cd>answer : _` into your clipboard before you begin for speed.            ",
+				"            ",
+				"*React with :inbox_tray: to join the game*            ",
+				"*The host(Oh noes!#4565) can react with :white_check_mark: to start the game once there are multiple players*",
+				"",
+				"**Players**",
+				"```diff",
+				"- Oh noes!#4565 (284799940843274240)",
+				"```"
+			],
+			[
+				"DELETED 21:13:32"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427273801898917901",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:13:32",
+				"* Starting game in 3 seconds"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427273952306528266",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:14:08",
+				"CMSB>cd>open"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427273952881016852",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:14:08",
+				"<@&426451155166429184>: CD game opened!            ",
+				"Use `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.            ",
+				"It is recommended that you copy `CMSB>cd>answer : _` into your clipboard before you begin for speed.            ",
+				"            ",
+				"*React with :inbox_tray: to join the game*            ",
+				"*The host(Oh noes!#4565) can react with :white_check_mark: to start the game once there are multiple players*"
+			],
+			[
+				"EDITED 21:14:11",
+				"<@&426451155166429184>: CD game opened!            ",
+				"Use `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.            ",
+				"It is recommended that you copy `CMSB>cd>answer : _` into your clipboard before you begin for speed.            ",
+				"            ",
+				"*React with :inbox_tray: to join the game*            ",
+				"*The host(Oh noes!#4565) can react with :white_check_mark: to start the game once there are multiple players*",
+				"",
+				"**Players**",
+				"```diff",
+				"- Oh noes!#4565 (284799940843274240)",
+				"```"
+			],
+			[
+				"DELETED 21:14:12"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427273968526032910",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:14:12",
+				"* Starting game in 3 seconds"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427273982107058176",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:14:15",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 21:14:15",
+				""
+			],
+			[
+				"EDITED 21:14:20",
+				""
+			],
+			[
+				"EDITED 21:14:23",
+				""
+			],
+			[
+				"EDITED 21:14:25",
+				""
+			],
+			[
+				"EDITED 21:14:27",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427274030270382082",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:14:27",
+				"CMSB>cd>answer : 15"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427274034204377090",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:14:28",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 21:14:28",
+				""
+			],
+			[
+				"EDITED 21:14:32",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427274552662294528",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:16:31",
+				"CMSB>cd>answer : 15"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427274553388040194",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:16:31",
+				"`21:16:31` | <@&423931949426409482> No CD games are active currently. You can start one with `CMSB/start`"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427274572060950528",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:16:36",
+				"CMSB>cd>start"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427274572807536641",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:16:36",
+				"`21:16:36` | <@&423931949426409482> bash: cd/start: command not found"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427274589777690634",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:16:40",
+				"CMSB>cd>open"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427274590935318538",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:16:40",
+				"<@&426451155166429184>: CD game opened!            ",
+				"Use `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.            ",
+				"It is recommended that you copy `CMSB>cd>answer : _` into your clipboard before you begin for speed.            ",
+				"            ",
+				"*React with :inbox_tray: to join the game*            ",
+				"*The host(Oh noes!#4565) can react with :white_check_mark: to start the game once there are multiple players*"
+			],
+			[
+				"EDITED 21:16:44",
+				"<@&426451155166429184>: CD game opened!            ",
+				"Use `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.            ",
+				"It is recommended that you copy `CMSB>cd>answer : _` into your clipboard before you begin for speed.            ",
+				"            ",
+				"*React with :inbox_tray: to join the game*            ",
+				"*The host(Oh noes!#4565) can react with :white_check_mark: to start the game once there are multiple players*",
+				"",
+				"**Players**",
+				"```diff",
+				"- Oh noes!#4565 (284799940843274240)",
+				"```"
+			],
+			[
+				"DELETED 21:16:44"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427274607238840320",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:16:44",
+				"* Starting game in 3 seconds"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427274620559818752",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:16:47",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 21:16:48",
+				""
+			],
+			[
+				"EDITED 21:16:53",
+				""
+			],
+			[
+				"EDITED 21:16:57",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427274659671572481",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:16:57",
+				"CMSB>cd>answer : 25"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427274660552507393",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:16:57",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 21:16:57",
+				""
+			],
+			[
+				"EDITED 21:17:02",
+				""
+			],
+			[
+				"EDITED 21:17:07",
+				""
+			],
+			[
+				"EDITED 21:17:09",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427274718002020362",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:17:11",
+				"CMSB>cd>end"
+			],
+			[
+				"DELETED 21:17:11"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427274718668914698",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:17:11",
+				"CD game ended."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427275647732416525",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:20:52",
+				"CMSB>cd>open"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427275648411762691",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:20:53",
+				"<@&426451155166429184>: CD game opened!            ",
+				"Use `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.            ",
+				"It is recommended that you copy `CMSB>cd>answer : _` into your clipboard before you begin for speed.            ",
+				"            ",
+				"*React with :inbox_tray: to join the game*            ",
+				"*The host(Oh noes!#4565) can react with :white_check_mark: to start the game once there are multiple players*"
+			],
+			[
+				"EDITED 21:20:54",
+				"<@&426451155166429184>: CD game opened!            ",
+				"Use `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.            ",
+				"It is recommended that you copy `CMSB>cd>answer : _` into your clipboard before you begin for speed.            ",
+				"            ",
+				"*React with :inbox_tray: to join the game*            ",
+				"*The host(Oh noes!#4565) can react with :white_check_mark: to start the game once there are multiple players*",
+				"",
+				"**Players**",
+				"```diff",
+				"- Oh noes!#4565 (284799940843274240)",
+				"```"
+			],
+			[
+				"DELETED 21:20:55"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427275657177989123",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:20:55",
+				"* Starting game in 3 seconds"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427275670561882114",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:20:58",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 21:20:58",
+				""
+			],
+			[
+				"EDITED 21:21:03",
+				""
+			],
+			[
+				"EDITED 21:21:08",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427275702954491905",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:21:05",
+				"CMSB>cd>answer : 45"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427275703218733068",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:21:06",
+				"`21:21:05` | <@&423931949426409482> No CD games are active currently. You can start one with `CMSB/start`"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427276390904365056",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:23:50",
+				"CMSB>cd>open"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427276391344635905",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:23:50",
+				"<@&426451155166429184>: CD game opened!            ",
+				"Use `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.            ",
+				"It is recommended that you copy `CMSB>cd>answer : _` into your clipboard before you begin for speed.            ",
+				"            ",
+				"*React with :inbox_tray: to join the game*            ",
+				"*The host(Oh noes!#4565) can react with :white_check_mark: to start the game once there are multiple players*"
+			],
+			[
+				"DELETED 21:23:52"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427276399221669898",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:23:51",
+				"* Starting game in 3 seconds"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427276412748169237",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:23:55",
+				"Loading problem, please wait..."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427276920116477952",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:25:56",
+				"CMSB>cd>open"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427276920640503810",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:25:56",
+				"<@&426451155166429184>: CD game opened!            ",
+				"Use `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.            ",
+				"It is recommended that you copy `CMSB>cd>answer : _` into your clipboard before you begin for speed.            ",
+				"            ",
+				"*React with :inbox_tray: to join the game*            ",
+				"*The host(Oh noes!#4565) can react with :white_check_mark: to start the game once there are multiple players*"
+			],
+			[
+				"EDITED 21:25:58",
+				"<@&426451155166429184>: CD game opened!            ",
+				"Use `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.            ",
+				"It is recommended that you copy `CMSB>cd>answer : _` into your clipboard before you begin for speed.            ",
+				"            ",
+				"*React with :inbox_tray: to join the game*            ",
+				"*The host(Oh noes!#4565) can react with :white_check_mark: to start the game once there are multiple players*",
+				"",
+				"**Players**",
+				"```diff",
+				"- Oh noes!#4565 (284799940843274240)",
+				"+ 1250: Oh noes!#4565 (284799940843274240)```"
+			],
+			[
+				"DELETED 21:25:58"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427276930132475915",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:25:58",
+				"* Starting game in 3 seconds"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427276943633678337",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:26:01",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 21:26:02",
+				""
+			],
+			[
+				"EDITED 21:26:06",
+				""
+			],
+			[
+				"EDITED 21:26:07",
+				""
+			],
+			[
+				"EDITED 21:26:11",
+				""
+			],
+			[
+				"EDITED 21:26:16",
+				""
+			],
+			[
+				"EDITED 21:26:21",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427276984045797399",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:26:11",
+				"CMSB>cd>answer : 8/9"
+			],
+			[
+				"DELETED 21:26:11"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427277209204555806",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:27:05",
+				"CMSB>cd>open"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427277209359876107",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:27:05",
+				"<@&426451155166429184>: CD game opened!            ",
+				"Use `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.            ",
+				"It is recommended that you copy `CMSB>cd>answer : _` into your clipboard before you begin for speed.            ",
+				"            ",
+				"*React with :inbox_tray: to join the game*            ",
+				"*The host(Oh noes!#4565) can react with :white_check_mark: to start the game once there are multiple players*"
+			],
+			[
+				"DELETED 21:27:07"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427277218977415168",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:27:07",
+				"* Starting game in 3 seconds"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427277231815917591",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:27:10",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 21:27:10",
+				""
+			],
+			[
+				"EDITED 21:27:15",
+				""
+			],
+			[
+				"EDITED 21:27:21",
+				""
+			],
+			[
+				"EDITED 21:27:22",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427277279610011658",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:27:21",
+				"CMSB>cd>answer : 30"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427277280725696514",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:27:22",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 21:27:22",
+				""
+			],
+			[
+				"EDITED 21:27:27",
+				""
+			],
+			[
+				"EDITED 21:27:32",
+				""
+			],
+			[
+				"EDITED 21:27:33",
+				""
+			],
+			[
+				"EDITED 21:27:37",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427277342491017236",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:27:36",
+				"CMSB>cd>answer : 1"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427277343565021185",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:27:37",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 21:27:37",
+				""
+			],
+			[
+				"EDITED 21:27:42",
+				""
+			],
+			[
+				"EDITED 21:27:47",
+				""
+			],
+			[
+				"EDITED 21:27:52",
+				""
+			],
+			[
+				"EDITED 21:27:57",
+				""
+			],
+			[
+				"EDITED 21:28:01",
+				""
+			],
+			[
+				"EDITED 21:28:02",
+				""
+			],
+			[
+				"EDITED 21:28:06",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427277462431334413",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:28:05",
+				"CMSB>cd>answer : 1/69"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427277464989990917",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:28:06",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 21:28:06",
+				""
+			],
+			[
+				"EDITED 21:28:10",
+				""
+			],
+			[
+				"EDITED 21:28:11",
+				""
+			],
+			[
+				"EDITED 21:28:15",
+				""
+			],
+			[
+				"EDITED 21:28:16",
+				""
+			],
+			[
+				"EDITED 21:28:20",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427277522422464522",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:28:19",
+				"CMSB>cd>answer : 100"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427277523064324097",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:28:19",
+				"<@284799940843274240> has won the game! 20 rating awarded."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427277524591181827",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:28:20",
+				"CD game ended."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427281977213845505",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:46:01",
+				"CMSB>cd>open"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427281977977208843",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:46:02",
+				"<@&426451155166429184>: CD game opened!            ",
+				"Use `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.            ",
+				"It is recommended that you copy `CMSB>cd>answer : _` into your clipboard before you begin for speed.            ",
+				"            ",
+				"*React with :inbox_tray: to join the game*            ",
+				"*The host(Oh noes!#4565) can react with :white_check_mark: to start the game once there are multiple players*"
+			],
+			[
+				"DELETED 21:46:06"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427281994750361600",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:46:06",
+				"* Starting game in 3 seconds"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427282008079728641",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:46:09",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 21:46:09",
+				""
+			],
+			[
+				"EDITED 21:46:14",
+				""
+			],
+			[
+				"EDITED 21:46:19",
+				""
+			],
+			[
+				"EDITED 21:46:24",
+				""
+			],
+			[
+				"EDITED 21:46:25",
+				""
+			],
+			[
+				"EDITED 21:46:29",
+				""
+			],
+			[
+				"EDITED 21:46:34",
+				""
+			],
+			[
+				"EDITED 21:46:39",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427282091311366155",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:46:29",
+				"CMSB>cd>answer : 72"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427282299181203456",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:47:18",
+				"CMSB>cd>open"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427282299873132556",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:47:18",
+				"<@&426451155166429184>: CD game opened!            ",
+				"Use `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.            ",
+				"It is recommended that you copy `CMSB>cd>answer : _` into your clipboard before you begin for speed.            ",
+				"            ",
+				"*React with :inbox_tray: to join the game*            ",
+				"*The host(Oh noes!#4565) can react with :white_check_mark: to start the game once there are multiple players*"
+			],
+			[
+				"DELETED 21:47:22"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427282312988852236",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:47:22",
+				"* Starting game in 3 seconds"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427282326888906784",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:47:25",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 21:47:25",
+				""
+			],
+			[
+				"EDITED 21:47:28",
+				""
+			],
+			[
+				"EDITED 21:47:30",
+				""
+			],
+			[
+				"EDITED 21:47:32",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427282354684428288",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:47:31",
+				"CMSB>cd>answer : 8/9"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427282355883999232",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:47:32",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 21:47:32",
+				""
+			],
+			[
+				"EDITED 21:47:37",
+				""
+			],
+			[
+				"EDITED 21:47:42",
+				""
+			],
+			[
+				"EDITED 21:47:47",
+				""
+			],
+			[
+				"EDITED 21:47:52",
+				""
+			],
+			[
+				"EDITED 21:47:57",
+				""
+			],
+			[
+				"EDITED 21:48:02",
+				""
+			],
+			[
+				"EDITED 21:48:07",
+				""
+			],
+			[
+				"EDITED 21:48:12",
+				""
+			],
+			[
+				"EDITED 21:48:17",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427282544590061596",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:48:17",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 21:48:17",
+				""
+			],
+			[
+				"EDITED 21:48:22",
+				""
+			],
+			[
+				"EDITED 21:48:27",
+				""
+			],
+			[
+				"EDITED 21:48:29",
+				""
+			],
+			[
+				"EDITED 21:48:32",
+				""
+			],
+			[
+				"EDITED 21:48:37",
+				""
+			],
+			[
+				"EDITED 21:48:42",
+				""
+			],
+			[
+				"EDITED 21:48:47",
+				""
+			],
+			[
+				"EDITED 21:48:52",
+				""
+			],
+			[
+				"EDITED 21:48:57",
+				""
+			],
+			[
+				"EDITED 21:49:02",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427282611489210369",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:48:33",
+				"CMSB>cd>answer : 3/4"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427282685833248798",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:48:50",
+				"how"
+			],
+			[
+				"DELETED 21:48:50"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427282733333610497",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:49:02",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 21:49:02",
+				""
+			],
+			[
+				"EDITED 21:49:07",
+				""
+			],
+			[
+				"EDITED 21:49:12",
+				""
+			],
+			[
+				"EDITED 21:49:17",
+				""
+			],
+			[
+				"EDITED 21:49:22",
+				""
+			],
+			[
+				"EDITED 21:49:27",
+				""
+			],
+			[
+				"EDITED 21:49:32",
+				""
+			],
+			[
+				"EDITED 21:49:37",
+				""
+			],
+			[
+				"EDITED 21:49:42",
+				""
+			],
+			[
+				"EDITED 21:49:47",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427282921980952578",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:49:47",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 21:49:47",
+				""
+			],
+			[
+				"EDITED 21:49:52",
+				""
+			],
+			[
+				"EDITED 21:49:57",
+				""
+			],
+			[
+				"EDITED 21:50:01",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427282980382310401",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:50:01",
+				"CMSB>cd>answer : 95"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427282982009569280",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:50:01",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 21:50:01",
+				""
+			],
+			[
+				"EDITED 21:50:06",
+				""
+			],
+			[
+				"EDITED 21:50:11",
+				""
+			],
+			[
+				"EDITED 21:50:12",
+				""
+			],
+			[
+				"EDITED 21:50:15",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427283038398054412",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:50:14",
+				"CMSB>cd>answer : 12"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427283039576653825",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:50:15",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 21:50:15",
+				""
+			],
+			[
+				"EDITED 21:50:20",
+				""
+			],
+			[
+				"EDITED 21:50:25",
+				""
+			],
+			[
+				"EDITED 21:50:30",
+				""
+			],
+			[
+				"EDITED 21:50:35",
+				""
+			],
+			[
+				"EDITED 21:50:39",
+				""
+			],
+			[
+				"EDITED 21:50:40",
+				""
+			],
+			[
+				"EDITED 21:50:45",
+				""
+			],
+			[
+				"EDITED 21:50:50",
+				""
+			],
+			[
+				"EDITED 21:50:55",
+				""
+			],
+			[
+				"EDITED 21:51:00",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427283159932076042",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:50:43",
+				"CMSB>cd>answer : 1/4"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427283228882370561",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:51:00",
+				"Loading problem, please wait..."
+			],
+			[
+				"EDITED 21:51:00",
+				""
+			],
+			[
+				"EDITED 21:51:05",
+				""
+			],
+			[
+				"EDITED 21:51:10",
+				""
+			],
+			[
+				"EDITED 21:51:15",
+				""
+			],
+			[
+				"EDITED 21:51:15",
+				""
+			],
+			[
+				"EDITED 21:51:18",
+				""
+			],
+			[
+				"EDITED 21:51:18",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "427283303846903818",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:51:18",
+				"CMSB>cd>answer : 1233"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427283304266334210",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:51:18",
+				"Loading final results!"
+			],
+			[
+				"EDITED 21:51:18",
+				""
+			],
+			[
+				"EDITED 21:51:18",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "427283305193537556",
+		"channel": "#countdown (426369194020306954)",
+		"updates": [
+			[
+				"SENT 21:51:18",
+				"CD game ended."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-3-24.json"
 	}
 ]
