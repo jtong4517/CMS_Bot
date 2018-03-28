@@ -420,6 +420,19 @@ var cmd = {
                 })
         }, "Deletes the previous message in the channel with a reason(<arg1>) that will be included in the logs(if existing)."]
     ],
+    warn: [
+        '', true, function (m, args) {
+            if (args.length < 2) consoles.append(m, "This command requires two arguments!", 0);
+            m.guild.channels.find("name", "member_logs").send({
+                color: 0xff8800,
+                title: "Warn issued",
+                description: args[0] + ':\n' + args[1],
+                footer: {
+                    text: "Moderator: " + m.author.tag
+                }
+            });
+        }, "Issues <arg1> a warning with reason <arg2>. Although warnings are not used for any administrative purposes within the bot currently, they may be in the future."
+    ]
 };
 
 const dateStr = new Date().getFullYear() + '-' + (new Date().getMonth() + 1) + '-' + new Date().getDate();
@@ -459,7 +472,7 @@ bot.on("ready", () => {
             console.log("@" + dispDate() + " > Saved " + (logs.length - savedLogs) + " new log entries (" + edits + " edits).");
             for (let d in logMap) {
                 fs.writeFile("./logs/" + d, JSON.stringify(logMap[d], null, '\t'), function (err) {
-                    console.log("@" + dispDate() + " > Written " + logMap[d].length + " entries to " + d + '.');
+                    console.log("@" + dispDate() + " > Written " + (logMap[d] || { length : '?' }).length + " entries to " + d + '.');
                     savedLogs = logs.length;
                     edits = 0;
                 });
@@ -509,8 +522,36 @@ bot.on("messageDelete", (message) => {
     }
 });
 
+bot.on("guildBanAdd", function (guild, user) {
+    guild.channels.find("name", "member_logs").send({
+        color: 0xff0000,
+        title: "Member Banned",
+        description: user.toString() + " banned"
+    });
+});
+
+bot.on("guildBanRemove", function (guild, user) {
+    guild.channels.find("name", "member_logs").send({
+        color: 0xffff00,
+        title: "Member unbanned",
+        description: user.toString() + " unbanned"
+    });
+});
+
+bot.on("guildMemberBan", function (member) {
+    member.guild.channels.find("name", "member_logs").send({
+        color: 0x00ff00,
+        title: "Member joined",
+        description: member.toString() + ", welcome to the server! Please refer to <#423932686613217300> for a list of guidelines."
+    });
+});
+
 bot.on("guildMemberRemove", function (member) {
-    member.guild.defaultChannel.send(member.toString() + " left the server.")
+    member.guild.channels.find("name", "member_logs").send({
+        color: 0x000088,
+        title: "Member left",
+        description: member.toString() + " left the server."
+    });
 });
 
 bot.on("typingStart", function (channel, user) {
