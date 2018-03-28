@@ -569,8 +569,6 @@ bot.on("guildMemberRemove", function (member) {
     });
 });
 
-bo
-
 bot.on("typingStart", function (channel, user) {
     if (channel.id == '426369194020306954' && startedAt && !answering) {
         if (players[user.id].lastAnswered < problemNum && players[user.id].joined) {
