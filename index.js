@@ -553,7 +553,7 @@ bot.on("guildBanRemove", function (guild, user) {
     });
 });
 
-bot.on("guildMemberBan", function (member) {
+bot.on("guildMemberAdd", function (member) {
     member.guild.channels.find("name", "member_logs").send({
         color: 0x00ff00,
         title: "Member joined",
@@ -568,6 +568,8 @@ bot.on("guildMemberRemove", function (member) {
         description: member.toString() + " left the server."
     });
 });
+
+bo
 
 bot.on("typingStart", function (channel, user) {
     if (channel.id == '426369194020306954' && startedAt && !answering) {
