@@ -270,7 +270,7 @@ var cmd = {
                 result = e;
             }
             m.channel.send("Result: ```js\n" + result + "\n```")
-        }
+        }, "Runs <arg1>."
     ],
     schedule: [
         '', false, function (m) {
@@ -289,7 +289,7 @@ var cmd = {
                     consoles.append(m, "[npm] Fetch `./schedule.html`", 3);
                     m.channel.send('```html\n' + fs.readFileSync("./schedule.html").toString().split("<h1>HCPSS System Calendar</h1>")[1].split("<iframe")[0] + '```')
                 }));
-        }
+        }, "Retrieves the HCPSS master schedule."
     ],
     rand: [
         ["int", false, function (m, args) {
@@ -311,6 +311,20 @@ var cmd = {
                 consoles.append(m, "Logs from " + args[0] + " deleted.", 3);
             });
         }, "Deletes logs from <arg1>."],
+        ["getEntry", false, function (m, args) {
+            var entry = logs.findIndex(e => e.id == args[0]);
+            consoles.append(m, "Collating logs...", 4);
+            if (entry < 0) consoles.append(m, "Cannot find log entry with ID <arg1>.", 0);
+            else {
+                var entryCode = JSON.stringify(logs[entry], null, '\t');
+                consoles.append(m, "Found entry at `idx/" + entry + '`.', 2);
+                if (entryCode.length > 1988) consoles.append(m, "Entry length greater than API size threshold, splitting into " + Math.ceil(entryCode.length / 1988) + " messages.", 1);
+                for (let c = 0; c < entryCode.length; c += 1988) {
+                    m.channel.send("```JSON\n" + entryCode.substr(c, 1988) + "\n```");
+                }
+            }
+        }, "Finds the log entry with ID <arg1> from the bot's logs, if existing."],
+        /*
         ["clear", true, function (m) {
             fs.readdir("./logs", (err, files) => {
                 consoles.append(m, "Detected `./logs`, begin file deletion", 2);
@@ -325,6 +339,7 @@ var cmd = {
                 })
             });
         }, "Clears all logs ever cached."],
+        */
         ["length", false, function (m) {
             fs.readdir("./logs", (err, files) => {
                 m.channel.send("Entries logged: `" + logs.length + "`\
@@ -602,32 +617,13 @@ bot.on("message", (message) => {
                 title: "Help",
                 description: "By <@284799940843274240>\nThis bot is in active development, so there may be missing functionalities.",
                 fields: [{
-                    name: "Commands (put CMSB> in front of each, separate arguments with a colon surrounded by a space)",
-                    value: "**cd** `(branch)`:\
-                    \n`[4 children]`\
-                    \nContains commands for running in-server Mathcounts Countdown games.\
-                    \n\
-                    \n**run** `(command)`:\
-                    \nRuns <arg1>.\
-                    \n\
-                    \n**schedule** `(command)`:\
-                    \nRetrieves the school system schedule for the current day.\
-                    \n\
-                    \n**logs** `(branch)`:\
-                    \n`[4 children]`\
-                    \nHandles server logs.\
-                    \n\
-                    \n**rand** `(branch)`\
-                    \n`[2 children]`\
-                    \nGenerates random values.\
-                    \n\
-                    \n**del** `(branch)`\
-                    \n`[3 children]`\
-                    \nExecutes advanced message deletion.\n"
+                    name: "Commands\n(put CMSB> in front of each, separate arguments with a colon surrounded by a space)",
+                    value: Object.keys(cmd).map(k => 
+                        `**${k}** \`(${typeof cmd[k][0] == "string" ? "command" : "branch"})\`\n${typeof cmd[k][0] == "string" ? cmd[k][3] : '`[' + cmd[k].length + " children]`"}`
+                    ).join('\n\n')
                 }]
             }
         });
-
     }
     message.content = message.content.substr(5);
     var splits = message.content.split('>');
