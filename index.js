@@ -1,5 +1,7 @@
 /**
-    1 – 80: 2017 Mathcounts Chapter Countdown Problems
+    1 – 80     : 2017 Mathcounts Chapter Countdown Problems
+    ===========:===========================================
+    81 - 105   : 1985 AJHSME Problems
 */
 
 const Discord = require("discord.js"), fs = require("fs"), request = require("request");
@@ -228,7 +230,7 @@ var cmd = {
             if (!players[m.author.id].joined) return;
             players[m.author.id].lastAnswered = problemNum;
             answering = '';
-            if (problems[current - 1].split(' (')[0] == args[0]) {
+            if (problems[current - 1].split('|').map(a => a.split(' (')[0]).indexOf(args[0].toLowerCase()) >= 0) {
                 players[m.author.id].score++;
                 m.react('☑');
                 chat.push("☑ | **Problem correctly answered by " + m.author.toString() + "!**")
@@ -343,7 +345,7 @@ var cmd = {
         ["length", false, function (m) {
             fs.readdir("./logs", (err, files) => {
                 m.channel.send("Entries logged: `" + logs.length + "`\
-                \n" + __dirname + " length: `" + files.length + "`\
+                \n" + __dirname + "/logs length: `" + files.length + "`\
                 \nRAM allocated to logs: `" + (files.reduce((a, b) => a + fs.statSync("./logs/" + b).size, 0) / 1000000).toFixed(3) + "MB`");
             })
         }, "Provides information on the size of logs."],
