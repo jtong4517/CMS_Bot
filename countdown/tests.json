@@ -1,0 +1,20 @@
+{
+    "MC_Ccd2017": {
+        "full": "2017 Mathcounts Chapter Countdown Round",
+        "URLs": [
+            "https://www.mathcounts.org/sites/default/files/u5328/2017%20Chapter%20Competition%20Countdown%20Round.pdf",
+            "https://www.mathcounts.org/sites/default/files/u5328/2017%20Chapter%20Competition%20Answer%20Key.pdf"
+        ],
+        "numProblems": 80,
+        "difficulty": 3
+    },
+    "AJHSME1985": {
+        "full": "1985 American Junior High School Mathematics Examination",
+        "URLs": [
+            "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Problems",
+            "https://artofproblemsolving.com/wiki/index.php?title=1985_AJHSME_Answer_Key"
+        ],
+        "numProblems": 25,
+        "difficulty": 4
+    }
+}

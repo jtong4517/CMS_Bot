@@ -2,6 +2,7 @@
     1 – 80     : 2017 Mathcounts Chapter Countdown Problems
     ===========:===========================================
     81 - 105   : 1985 AJHSME Problems
+    106        : 1986 AJHSME #s 3, 4*, 5*, 6-9
 */
 
 const Discord = require("discord.js"), fs = require("fs"), request = require("request");
@@ -11,10 +12,28 @@ const bot = new Discord.Client();
 bot.login(JSON.parse(fs.readFileSync("../SSH.json")));
 
 /* CD round! */
-var players = JSON.parse(fs.readFileSync("./players.json")), chat, joined, gameNum;
-var startedAt = 0, endAt, winner, startNum, buzzed = false;
+var players = JSON.parse(fs.readFileSync("./countdown/players.json")), chat, joined, gameNum;
+var startedAt = 0, problemNum = 1, endAt, winner, startNum, buzzed = false;
 var current = 0, answering, embedID, intervalID, timeouts = [];
-var problemNum = 1, problems = JSON.parse(fs.readFileSync("./problems.json"));
+var cTest, cNum = 1, problems = [], pJSON = JSON.parse(fs.readFileSync("./countdown/problems.json")), tJSON = JSON.parse(fs.readFileSync("./countdown/tests.json"));
+for (let i = 0; i < pJSON.length; i++) {
+    switch (typeof pJSON[i]) {
+        case "string":
+            cNum = 1;
+            cTest = tJSON[pJSON[i]];
+        break;
+        case "number":
+            cNum += pJSON[i];
+        break;
+        default:
+            problems.push({
+                test: cTest,
+                number: cNum,
+                answers: pJSON[i]
+            });
+            cNum++;
+    }
+}
 
 function updateProblem (txt, params) {
     chat = chat.slice(chat.length - 11);
@@ -173,6 +192,7 @@ var cmd = {
             consoles.append(m, "The Mathcounts Notification role has been " + (m.member.roles.get('426451155166429184') ? "removed from" : "added to") + " you.", 3);
         }, "Removes the Mathcounts Notification role from you if you have it, otherwise gives it to you."],
         ["open", false, function (m) {
+            return consoles.append(m, "Sorry, this feature is current under maintenance.", 0);
             if (m.channel.id != '426369194020306954') return m.channel.send("Please only do CD games in <#426369194020306954>.")
             if (startedAt) return consoles.append(m, "A CD game has already been started.", 0);
             m.guild.members.forEach(member => {
@@ -494,7 +514,7 @@ bot.on("ready", () => {
                     edits = 0;
                 });
             }
-            fs.writeFile("./players.json", JSON.stringify(players, null, '\t'), function (err) {
+            fs.writeFile("./countdown/players.json", JSON.stringify(players, null, '\t'), function (err) {
                 if (err) console.log(err);
                 console.log("@" + dispDate() + " > Saved player data.");
             });
@@ -541,33 +561,41 @@ bot.on("messageDelete", (message) => {
 
 bot.on("guildBanAdd", function (guild, user) {
     guild.channels.find("name", "member_logs").send({
-        color: 0xff0000,
-        title: "Member Banned",
-        description: user.toString() + " banned"
+        embed: {
+            color: 0xff0000,
+            title: "Member Banned",
+            description: user.toString() + " banned"
+        }
     });
 });
 
 bot.on("guildBanRemove", function (guild, user) {
     guild.channels.find("name", "member_logs").send({
-        color: 0xffff00,
-        title: "Member unbanned",
-        description: user.toString() + " unbanned"
+        embed: {
+            color: 0xffff00,
+            title: "Member unbanned",
+            description: user.toString() + " unbanned"
+        }
     });
 });
 
 bot.on("guildMemberAdd", function (member) {
     member.guild.channels.find("name", "member_logs").send({
-        color: 0x00ff00,
-        title: "Member joined",
-        description: member.toString() + ", welcome to the server! Please refer to <#423932686613217300> for a list of guidelines."
+        embed: {
+            color: 0x00ff00,
+            title: "Member joined",
+            description: member.toString() + ", welcome to the server! Please refer to <#423932686613217300> for a list of guidelines."
+        }
     });
 });
 
 bot.on("guildMemberRemove", function (member) {
     member.guild.channels.find("name", "member_logs").send({
-        color: 0x000088,
-        title: "Member left",
-        description: member.toString() + " left the server."
+        embed: {
+            color: 0x000088,
+            title: "Member left",
+            description: member.toString() + " left the server."
+        }
     });
 });
 
