@@ -6,12 +6,32 @@
 */
 
 const Discord = require("discord.js"), fs = require("fs"), request = require("request");
+var express = require("express"), app = express();
+
+
 
 const bot = new Discord.Client();
 
-bot.login("NDIzOTM3ODQ5NDYxNTcxNTk0.DYxmag.Ryny9aAAiZfkvCoXPrUzrtitUiQ"
-    //JSON.parse(fs.readFileSync("../SSH.json"))
-);
+app.set("port", process.env.PORT || 5000);
+
+app.use(express.static(__dirname + '/public'));
+
+// root directory initialization for template files
+app.set('views', __dirname + '/views');
+app.set('view engine', 'ejs');
+
+app.listen(app.get("port"), function() {
+    console.log('Node app is running on port', app.get('port'));
+});
+
+app.get('/', function(request, response) {
+    //response.render('pages/index');
+    response.send("Success")
+});
+
+bot.login("NDIzOTM3ODQ5NDYxNTcxNTk0.DYxmag.Ryny9aAAiZfkvCoXPrUzrtitUiQ");
+//JSON.parse(fs.readFileSync("../SSH.json"))
+
 /* CD round! */
 var players = JSON.parse(fs.readFileSync("./countdown/players.json")), chat, joined, gameNum;
 var startedAt = 0, problemNum = 1, endAt, winner, startNum, buzzed = false;
