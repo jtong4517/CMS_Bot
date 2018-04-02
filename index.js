@@ -12,7 +12,6 @@ const bot = new Discord.Client();
 bot.login("NDIzOTM3ODQ5NDYxNTcxNTk0.DYxmag.Ryny9aAAiZfkvCoXPrUzrtitUiQ"
     //JSON.parse(fs.readFileSync("../SSH.json"))
 );
-
 /* CD round! */
 var players = JSON.parse(fs.readFileSync("./countdown/players.json")), chat, joined, gameNum;
 var startedAt = 0, problemNum = 1, endAt, winner, startNum, buzzed = false;
