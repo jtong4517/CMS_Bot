@@ -231,8 +231,8 @@ var cmd = {
             chat = [":beginner: | **Game started by " + m.author.toString() + "**"];
             players[m.author.id].joined = true;
             m.channel.send("<@&426451155166429184>: CD game opened!\
-            \nUse `CMSB>cd>rules` to get a list of instructions and rules if you are not familiar with them.\
-            \nIt is recommended that you copy `CMSB>cd>answer : _` into your clipboard before you begin for speed.\
+            \nUse `CMSB%cd%rules` to get a list of instructions and rules if you are not familiar with them.\
+            \nIt is recommended that you copy `CMSB%cd%answer : _` into your clipboard before you begin for speed.\
             \n\
             \n*React with :inbox_tray: to join the game*\
             \n*The host(" + m.author.tag + ") can react with :white_check_mark: to start the game once there are multiple players*").then(msg => {
@@ -265,7 +265,7 @@ var cmd = {
             startedAt = 0;
         }, "Ends the current CD game."],
         ["answer", false, function (m, args) {
-            if (!startedAt) return consoles.append(m, "No CD games are active currently. You can start one with `CMSB>cd>open`", 0);
+            if (!startedAt) return consoles.append(m, "No CD games are active currently. You can start one with `CMSB%cd%open`", 0);
             if (players[m.author.id].lastAnswered == problemNum) return chat.push(":no_entry: | " + m.author.toString() + ": You have already answered this question!**");
             if ('<@' + m.author.id + '>' != answering) return chat.push(":octagonal_sign: | " + m.author.toString() + ": Another player is answering!**");
             if (!players[m.author.id].joined) return;
@@ -650,7 +650,7 @@ bot.on("message", (message) => {
         date: dispDate() + ".json"
     }, message.channel.name ? { server: (message.guild.name + ' (' + message.guild.id + ')')} : {}));
     if (message.channel.id == '426369194020306954' && startedAt && message.author.id != bot.user.id) {
-        if (!message.content.startsWith("CMSB>cd>answer : ") || players[message.author.id].lastAnswered == problemNum || !players[message.author.id].joined) {
+        if (!message.content.startsWith("CMSB%cd%answer : ") || players[message.author.id].lastAnswered == problemNum || !players[message.author.id].joined) {
             chat.push('**' + message.author.username + '**: ' + message.content
                 .replace('\n', ' ')
                 .replace('*', '\\*')
@@ -661,14 +661,14 @@ bot.on("message", (message) => {
             message.delete();
         }
     }
-    if (!message.content.startsWith("CMSB") || new Date().getTime() - lastCall < 2000 || (message.channel.id == "426369194020306954" && !message.content.startsWith("CMSB>cd>"))) return;
+    if (!message.content.startsWith("CMSB") || new Date().getTime() - lastCall < 2000 || (message.channel.id == "426369194020306954" && !message.content.startsWith("CMSB%cd%"))) return;
     if (message.content == "CMSB") {
         return message.channel.send({
             embed: {
                 title: "Help",
                 description: "By <@284799940843274240>\nThis bot is in active development, so there may be missing functionalities.",
                 fields: [{
-                    name: "Commands\n(put CMSB> in front of each, separate arguments with a colon surrounded by a space)",
+                    name: "Commands\n(put CMSB% in front of each, separate arguments with a colon surrounded by a space)",
                     value: Object.keys(cmd).map(k => 
                         `**${k}** \`(${typeof cmd[k][0] == "string" ? "command" : "branch"})\`\n${typeof cmd[k][0] == "string" ? cmd[k][3] : '`[' + cmd[k].length + " children]`"}`
                     ).join('\n\n')
@@ -677,7 +677,7 @@ bot.on("message", (message) => {
         });
     }
     message.content = message.content.substr(5);
-    var splits = message.content.split('>');
+    var splits = message.content.split('%');
     var a = splits[splits.length - 1].split(' : ').slice(1);
     splits[splits.length - 1] = splits[splits.length - 1].split(' : ')[0];
     var command = cmd[splits[0]];
