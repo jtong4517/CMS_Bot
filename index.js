@@ -33,7 +33,7 @@ bot.login("NDIzOTM3ODQ5NDYxNTcxNTk0.DYxmag.Ryny9aAAiZfkvCoXPrUzrtitUiQ");
 //JSON.parse(fs.readFileSync("../SSH.json"))
 
 /* CD round! */
-var players = JSON.parse(fs.readFileSync("./countdown/players.json")), chat, joined, gameNum;
+var players = JSON.parse(fs.readFileSync("./countdown/players.json")), configs = JSON.parse(fs.readFileSync("./countdown/configs.json")), chat, joined, gameNum;
 var startedAt = 0, problemNum = 1, endAt, winner, startNum, buzzed = false;
 var current = 0, answering, embedID, intervalID, timeouts = [];
 var cTest, cNum = 1, problems = [], pJSON = JSON.parse(fs.readFileSync("./countdown/problems.json")), tJSON = JSON.parse(fs.readFileSync("./countdown/tests.json"));
@@ -202,6 +202,21 @@ var consoles = {
 
 var cmd = {
     cd: [
+        ["config", false, function (m, args) {
+            if (!args[0]) {
+                m.channel.send(
+                    ":pencil: | **Instructions for creating a Countdown Configuration Set**\
+                    \n1. Choose a six-character alphanumeric identifier as <arg1>. You can also edit an existing set by using its identifier.\
+                    \n2. Select at least one test from the following list:\
+                    \n" + Object.keys(tJSON).map(k => `\t\`${k}\`(${tJSON[k].full}): Difficulty ${tJSON[k].difficulty}/10, ${tJSON[k].numProblems} problems`).join('\n') + "\
+                    \n*(Join the abbreviations of the tests together into a single string separated by a comma in <arg2>.)*\
+                    \n3. Specify the number of correct answers needed to win and add the number at the end of <arg2>."
+                )
+            } else {
+                m.channel.send("This doesn't work yet, sorry!")
+            }
+
+        }, "Creates a new configuration set <arg1> with data <arg2>. If the arguments are omitted, instructions will be given for hoe to create the set."],
         ["rules", false, function (m) {
             m.channel.send("Attached is a document containing rules for CD games.", {
                 files: ["./CDrules.pdf"]
@@ -213,7 +228,7 @@ var cmd = {
             consoles.append(m, "The Mathcounts Notification role has been " + (m.member.roles.get('426451155166429184') ? "removed from" : "added to") + " you.", 3);
         }, "Removes the Mathcounts Notification role from you if you have it, otherwise gives it to you."],
         ["open", false, function (m) {
-            return consoles.append(m, "Sorry, this feature is current under maintenance.", 0);
+            return consoles.append(m, "Sorry, this feature is currently under maintenance.", 0);
             if (m.channel.id != '426369194020306954') return m.channel.send("Please only do CD games in <#426369194020306954>.")
             if (startedAt) return consoles.append(m, "A CD game has already been started.", 0);
             m.guild.members.forEach(member => {
@@ -278,7 +293,7 @@ var cmd = {
                 updateProblem("*Answer correct!*", {
                     color: 0x00ff00
                 });
-                players[m.author.id].rating += 5;
+                players[m.author.id].ratingChange += 5;
                 problemNum++;
                 clearInterval(intervalID);
                 if (players[m.author.id].score == 4) {
@@ -482,11 +497,13 @@ var cmd = {
         '', true, function (m, args) {
             if (args.length < 2) consoles.append(m, "This command requires two arguments!", 0);
             m.guild.channels.find("name", "member_logs").send({
-                color: 0xff8800,
-                title: "Warn issued",
-                description: args[0] + ':\n' + args[1],
-                footer: {
-                    text: "Moderator: " + m.author.tag
+                embed: {
+                    color: 0xff8800,
+                    title: "Warn issued",
+                    description: args[0] + ':\n' + args[1],
+                    footer: {
+                        text: "Moderator: " + m.author.tag
+                    }
                 }
             });
         }, "Issues <arg1> a warning with reason <arg2>. Although warnings are not used for any administrative purposes within the bot currently, they may be in the future."
@@ -495,11 +512,6 @@ var cmd = {
 
 const dateStr = new Date().getFullYear() + '-' + (new Date().getMonth() + 1) + '-' + new Date().getDate();
 var logs = [], logMap = {}, reasons = {}, savedLogs = 0, edits = 0;
-if (!fs.existsSync("./logs/" + dispDate() + ".json")) {
-    fs.writeFile("./logs/" + dispDate() + ".json", '[]', () => {
-        console.log("@" + dispDate() + " | Created new log file for " + dispDate() + '.');
-    });
-}
 fs.readdir("./logs", function (err, files) {
     files.forEach(file => {
         if (!file.endsWith(".json")) return;
@@ -529,6 +541,7 @@ bot.on("ready", () => {
             }
             console.log("@" + dispDate() + " > Saved " + (logs.length - savedLogs) + " new log entries (" + edits + " edits).");
             for (let d in logMap) {
+                if (!fs.existsSync("./logs/" + d)) console.log("@" + dispDate() + " | Created new log file for " + d + '.');
                 fs.writeFile("./logs/" + d, JSON.stringify(logMap[d], null, '\t'), function (err) {
                     console.log("@" + dispDate() + " > Written " + (logMap[d] || { length : '?' }).length + " entries to " + d + '.');
                     savedLogs = logs.length;
@@ -631,7 +644,7 @@ bot.on("typingStart", function (channel, user) {
                     players[user.id].lastAnswered = problemNum;
                     chat.push(":timer: | **Sorry " + user.toString() + ", your time is up. (" + Math.round(45 - ((new Date().getTime() - startedAt) / 1000)) + " seconds remaining)**")
                     color = 0;
-                    players[user.id].rating -= Math.random() * 4 + 1;
+                    players[user.id].ratingChange -= Math.random() * 4 + 1;
                 }
             }, 5000));
         }
@@ -661,7 +674,7 @@ bot.on("message", (message) => {
             message.delete();
         }
     }
-    if (!message.content.startsWith("CMSB") || new Date().getTime() - lastCall < 2000 || (message.channel.id == "426369194020306954" && !message.content.startsWith("CMSB%cd%"))) return;
+    if (!message.content.startsWith("CMSB") || new Date().getTime() - lastCall < 2000 || (message.channel.id == "426369194020306954" && !message.content.startsWith("CMSB%cd%") && startedAt)) return;
     if (message.content == "CMSB") {
         return message.channel.send({
             embed: {

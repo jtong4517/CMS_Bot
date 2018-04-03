@@ -1440,5 +1440,933 @@
 		],
 		"server": "CMS Discord Server (409906924050710539)",
 		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "430523172539072513",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 20:25:23",
+				"CMSB"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "430523173130207246",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 20:25:23",
+				""
+			],
+			[
+				"EDITED 20:25:23",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "430523227291385877",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 20:25:36",
+				"CMSB%warn : <@!423937849461571594> : Test"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "430523530837229580",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 20:26:48",
+				"CMSB%warn : <@&424008353380040704> v2.4 : Test"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "430523531466375201",
+		"channel": "#member_logs (426464529107517458)",
+		"updates": [
+			[
+				"SENT 20:26:48",
+				""
+			],
+			[
+				"EDITED 20:26:48",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "13lade88#4277 (253374331839578114)",
+		"id": "430525502026022942",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 20:34:38",
+				"CMSB% schedule"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "430525504358187008",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 20:34:39",
+				"`20:34:38` | <@&423931949426409482> bash:  schedule: command not found"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "13lade88#4277 (253374331839578114)",
+		"id": "430525519172468736",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 20:34:42",
+				"oh"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "13lade88#4277 (253374331839578114)",
+		"id": "430525641906192386",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 20:35:11",
+				"CMSB%>schedule"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "430525643160027136",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 20:35:12",
+				"`20:35:11` | <@&423931949426409482> bash: >schedule: command not found"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "13lade88#4277 (253374331839578114)",
+		"id": "430525653020966915",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 20:35:14",
+				"oh"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430531934670684190",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:00:12",
+				"wow"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430531960113201154",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:00:18",
+				"looks like we all kaevunists"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430532010080075786",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:00:30",
+				"must be a coincidence!"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430532117126971402",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:00:55",
+				"lol jeffrey u can change it back"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "430532167165280258",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:01:07",
+				"Wait"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "430532191139790848",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:01:13",
+				"kaevunists is higher than moderator?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430532209385144330",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:01:17",
+				"yup"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430532227307143189",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:01:21",
+				"this is a communist regime"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430532248408817664",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:01:26",
+				"kaevunist*"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430532362858921989",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:01:54",
+				"ALL WHO SUPPORT KAEVUNISTS SHALL BE BETTER THAN MODERATOR"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430533119578210304",
+		"channel": "#political-bickering (430425904796270602)",
+		"updates": [
+			[
+				"SENT 21:04:54",
+				"EVERYONE SUPPORTS KAEVUNISM"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430533147596161030",
+		"channel": "#political-bickering (430425904796270602)",
+		"updates": [
+			[
+				"SENT 21:05:01",
+				"EVERYONE GETS A COOKIE"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430533201513938946",
+		"channel": "#political-bickering (430425904796270602)",
+		"updates": [
+			[
+				"SENT 21:05:14",
+				"IN KAEVUNISM, EVERYONE IS EQUAL"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430533250369191936",
+		"channel": "#political-bickering (430425904796270602)",
+		"updates": [
+			[
+				"SENT 21:05:25",
+				"IN KAEVUNISM, EVERYONE GETS COOKIES"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430533296422912000",
+		"channel": "#political-bickering (430425904796270602)",
+		"updates": [
+			[
+				"SENT 21:05:36",
+				"IN KAEVUNISM, EVERYONE IS HAPPY"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430533317691965460",
+		"channel": "#political-bickering (430425904796270602)",
+		"updates": [
+			[
+				"SENT 21:05:41",
+				"*cue applause/cheering"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "430533917477699585",
+		"channel": "#political-bickering (430425904796270602)",
+		"updates": [
+			[
+				"SENT 21:08:04",
+				"kevin"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "430533949358342144",
+		"channel": "#political-bickering (430425904796270602)",
+		"updates": [
+			[
+				"SENT 21:08:12",
+				"kevin is a dictator"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "430534203403272196",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:09:13",
+				"Wow Era of Good Feelings!"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430534576650059778",
+		"channel": "#political-bickering (430425904796270602)",
+		"updates": [
+			[
+				"SENT 21:10:42",
+				"i like to be called"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430534628089004033",
+		"channel": "#political-bickering (430425904796270602)",
+		"updates": [
+			[
+				"SENT 21:10:54",
+				"mr. president"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430534647240458241",
+		"channel": "#political-bickering (430425904796270602)",
+		"updates": [
+			[
+				"SENT 21:10:58",
+				"i mean mr. dictator"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430534776420696074",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:11:29",
+				"jeffrey change it back lol"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430534798302511114",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:11:34",
+				"and just delete all the roles"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430534864295428098",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:11:50",
+				"just delete the anthonian and kaevunist roles"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "430535079148912640",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:12:41",
+				"<:thonk:425396200787804161>"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "430535114993303572",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:12:50",
+				"i suppose so then"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430535491025371148",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:14:20",
+				"i think i fixed it"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "430535681794637834",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:15:05",
+				"but now what will be the incentive for discussion?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430535709451878400",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:15:12",
+				"?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "430535758152073236",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:15:23",
+				"what will make people talk about stuff"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430535777370505237",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:15:28",
+				"dunno"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430535796768899073",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:15:33",
+				"we can be a dead discord chat"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430535858983010304",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:15:47",
+				"well honestly just wait for homework assignments"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430535880869019658",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:15:52",
+				"then people will talk"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "430535915879006213",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:16:01",
+				"so ironic"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "430535941568987147",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:16:07",
+				"Discord is meant to be a gaming chat"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "430535988037550080",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:16:18",
+				"and we only get activity when there's a really big test/assignment"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430536256066289676",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:17:22",
+				"yea"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430536330171383810",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:17:40",
+				"i remodded anthony"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430536341009465347",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:17:42",
+				"cuz why not"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430536530554257408",
+		"channel": "#moderator-discussion (423980007107330049)",
+		"updates": [
+			[
+				"SENT 21:18:28",
+				"congratulations to fei-yuxi for re-becoming moderator"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "430536647847837697",
+		"channel": "#moderator-discussion (423980007107330049)",
+		"updates": [
+			[
+				"SENT 21:18:55",
+				"Is that his Chinese nae"
+			],
+			[
+				"EDITED 21:19:02",
+				"Is that his Chinese name"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430537106373214249",
+		"channel": "#moderator-discussion (423980007107330049)",
+		"updates": [
+			[
+				"SENT 21:20:45",
+				"fay-yux-yi"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "430537364771831809",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 21:21:46",
+				"CMSB%schedule"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "430537367317905408",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 21:21:47",
+				"`21:21:46` | <@&423932073854631936> Connected to port"
+			],
+			[
+				"EDITED 21:21:47",
+				"`21:21:46` | <@&423932073854631936> Connected to port",
+				"`21:21:47` | <@&423932194508111872> [HTTP] GET `http://http://www.hcpss.org/calendar/` (async)"
+			],
+			[
+				"EDITED 21:21:48",
+				"`21:21:46` | <@&423932073854631936> Connected to port",
+				"`21:21:47` | <@&423932194508111872> [HTTP] GET `http://http://www.hcpss.org/calendar/` (async)"
+			],
+			[
+				"EDITED 21:21:49",
+				"`21:21:46` | <@&423932073854631936> Connected to port",
+				"`21:21:47` | <@&423932194508111872> [HTTP] GET `http://http://www.hcpss.org/calendar/` (async)",
+				"`21:21:48` | <@&423932194508111872> [HTTP] status code -> `200`",
+				"`21:21:48` | <@&423932194508111872> [HTTP] status code -> `200`",
+				"`21:21:48` | <@&423932073854631936> [HTTP] content-type -> `text/html; charset=UTF-8`"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "430537373382737921",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 21:21:48",
+				"```html",
+				"",
+				"<p><em><strong>Calendar is subject to change.</strong></em></p>",
+				"<div class=\"full\">",
+				"<p><strong>Inclement Weather Make-Up Days Update (3/2/2018):</strong> To make up for the five inclement weather school closings this current school year, 2017-2018, schools will now be in session: Wednesday, April 4; Thursday, April 5; Friday, April 6; Friday, May 18 (dismiss three-hours early); and Friday, June 15 (dismiss three hours early). Additionally, to adjust for the June 15 last student day, Tuesday, June 12 is now a full day for students. <a href=\"/news-posts/2018/03/update-on-inclement-weather-make-up-days-for-2017-2018-school-year/\">Learn more about the calendar update&nbsp;&rarr;</a></p>",
+				"</div>",
+				"<div>```"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "430537432816025600",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 21:22:02",
+				"they still haven't updated it"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "430537445147410432",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 21:22:05",
+				"<:thinkfish:425396201303572481>"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "430538953972645901",
+		"channel": "#moderator-discussion (423980007107330049)",
+		"updates": [
+			[
+				"SENT 21:28:05",
+				"inauguration ceremony:"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "430539187960414219",
+		"channel": "#moderator-discussion (423980007107330049)",
+		"updates": [
+			[
+				"SENT 21:29:01",
+				"I, fei-yux-yi, do solemnly swear that I will faithfully execute the Office of President of the United States, and will to the best of my Ability, preserve, protect and defend the Constitution of the United States."
+			],
+			[
+				"EDITED 21:29:18",
+				"I, fei-yux-yi, do solemnly swear that I will faithfully execute the Office of President of the United States, and will to the best of my Ability, preserve, protect and defend the CotUSoC."
+			],
+			[
+				"EDITED 21:29:35",
+				"I, fei-yux-yi, do solemnly swear that I will faithfully execute the Office of Moderator of the CMS Discord Server, and will to the best of my Ability, preserve, protect and defend the CotUSoC."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "430539992843026432",
+		"channel": "#moderator-discussion (423980007107330049)",
+		"updates": [
+			[
+				"SENT 21:32:13",
+				"fay yux yi*"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "430548540264022016",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 22:06:11",
+				"also"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "430548558169636864",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 22:06:15",
+				"wai r u so gay"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "13lade88#4277 (253374331839578114)",
+		"id": "430560120510873610",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 22:52:12",
+				"yes"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "13lade88#4277 (253374331839578114)",
+		"id": "430560159098732556",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 22:52:21",
+				"oops you werent asking me"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "430560562368217109",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 22:53:57",
+				"lmao"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-2.json"
 	}
 ]
