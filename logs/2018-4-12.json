@@ -1,0 +1,5138 @@
+[
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "433944723523239936",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 07:01:24",
+				"u twisted ur ankle"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "433944739868442627",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 07:01:28",
+				"but its fine?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434077329086742529",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 15:48:20",
+				"seems legit"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434083126013329409",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 16:11:22",
+				"https://www.youtube.com/watch?v=4TTUSrQl6zw"
+			],
+			[
+				"EDITED 16:11:23",
+				"https://www.youtube.com/watch?v=4TTUSrQl6zw"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "em_wang#9793 (390460931446013954)",
+		"id": "434083659495112724",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 16:13:29",
+				"LOL"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "em_wang#9793 (390460931446013954)",
+		"id": "434083683243130881",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 16:13:35",
+				"i've seen that before"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434084010482728980",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 16:14:53",
+				"lol same"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434093581586923520",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:52:54",
+				"CMSB"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "434093583662972938",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:52:55",
+				""
+			],
+			[
+				"EDITED 16:52:56",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434093601438564382",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:52:59",
+				"CMS%cd"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434093628277915650",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:53:06",
+				"CMSB%cd"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "434093629041147914",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:53:06",
+				"*Commands in branch* **cd**:",
+				"`config`: Creates a new configuration set <arg1> with data <arg2>. If the arguments are omitted, instructions will be given for hoe to create the set.",
+				"`rules`: Returns a document of the rules for CMSB Countdown games.",
+				"`notification`: Removes the Mathcounts Notification role from you if you have it, otherwise gives it to you.",
+				"`open`: Opens a CD game (<#426369194020306954> only)",
+				"`end`: Ends the current CD game.",
+				"`answer`: Checks your answer for the current CD problem."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434093660955607051",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:53:13",
+				"CMSB%config"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "434093661916233729",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:53:14",
+				"`16:53:13` | <@&423931949426409482> bash: config: command not found"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434093687853678592",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:53:20",
+				"CMSB%cd%config"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "434093688348737537",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:53:20",
+				":pencil: | **Instructions for creating a Countdown Configuration Set**                    ",
+				"1. Choose a six-character alphanumeric identifier as <arg1>. You can also edit an existing set by using its identifier.                    ",
+				"2. Select at least one test from the following list:                    ",
+				"\t`MC_Ccd2017`(2017 Mathcounts Chapter Countdown Round): Difficulty 3/10, 80 problems",
+				"\t`AJHSME1985`(1985 American Junior High School Mathematics Examination): Difficulty 4/10, 25 problems                    ",
+				"*(Join the abbreviations of the tests together into a single string separated by a comma in <arg2>.)*                    ",
+				"3. Specify the number of correct answers needed to win and add the number at the end of <arg2>."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434094317662109736",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:55:50",
+				"CMSB%cd%config"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "434094318429405193",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:55:50",
+				":pencil: | **Instructions for creating a Countdown Configuration Set**                    ",
+				"1. Choose a six-character alphanumeric identifier as <arg1>. You can also edit an existing set by using its identifier.                    ",
+				"2. Select at least one test from the following list:                    ",
+				"\t`MC_Ccd2017`(2017 Mathcounts Chapter Countdown Round):",
+				"\t\tDifficulty 3/10,",
+				"\t\t80 problems",
+				"\t`AJHSME1985`(1985 American Junior High School Mathematics Examination):",
+				"\t\tDifficulty 4/10,",
+				"\t\t25 problems                    ",
+				"*(Join the abbreviations of the tests together into a single string separated by a comma in <arg2>.)*                    ",
+				"3. Specify the number of correct answers needed to win and add the number at the end of <arg2>."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434094418752962580",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:56:14",
+				"\\▫"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434094776988598312",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:57:39",
+				"CMSB%cd%config"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "434094777525338113",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:57:40",
+				":pencil: | **Instructions for creating a Countdown Configuration Set**                    ",
+				"1. Choose a six-character alphanumeric identifier as <arg1>. You can also edit an existing set by using its identifier.                    ",
+				"2. Select at least one test from the following list:                    ",
+				"\t▫`MC_Ccd2017`(2017 Mathcounts Chapter Countdown Round):",
+				"\t\tDifficulty 3/10,",
+				"\t\t80 problems",
+				"\t▫`AJHSME1985`(1985 American Junior High School Mathematics Examination):",
+				"\t\tDifficulty 4/10,",
+				"\t\t25 problems                    ",
+				"*(Join the abbreviations of the tests together into a single string separated by a comma in <arg2>.)*                    ",
+				"3. Specify the number of correct answers needed to win and add the number at the end of <arg2>."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434094951953989634",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:58:21",
+				"\\1⃣"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434094978336030730",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:58:27",
+				"1⃣"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434095351805378560",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:59:57",
+				"CMSB%cd%config"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "434095352581324800",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:59:57",
+				":pencil: | **Instructions for creating a Countdown Configuration Set**                    ",
+				"1⃣ Choose a six-character alphanumeric identifier as <arg1>. You can also edit an existing set by using its identifier.                    ",
+				"                    ",
+				"2⃣ Select at least one test from the following list:                    ",
+				"\t▫`MC_Ccd2017`(2017 Mathcounts Chapter Countdown Round):",
+				"\t\tDifficulty 3/10,",
+				"\t\t80 problems",
+				"\t▫`AJHSME1985`(1985 American Junior High School Mathematics Examination):",
+				"\t\tDifficulty 4/10,",
+				"\t\t25 problems                    ",
+				"*(Join the abbreviations of the tests together into a single string separated by a comma in <arg2>.)*                    ",
+				"                    ",
+				"3⃣ Specify the number of correct answers needed to win and add the number at the end of <arg2>."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434107556680564736",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 17:48:26",
+				"CMSB%cd%config"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "434107557452447744",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 17:48:27",
+				":pencil: | **Instructions for creating a Countdown Configuration Set**                    ",
+				"1⃣ Choose a six-character alphanumeric identifier(underscores also allowed) as <arg1>. You can also edit an existing set by using its identifier.                    ",
+				"                    ",
+				"2⃣ Specify the number of correct answers needed to win in <arg2>.                    ",
+				"                    ",
+				"3⃣ Enter the time in seconds for each problem as <arg3>.                    ",
+				"                    ",
+				"4⃣ Select at least one test from the following list:                    ",
+				"\t▫`MC_Ccd2017`(2017 Mathcounts Chapter Countdown Round):",
+				"\t\tDifficulty 3/10,",
+				"\t\t80 problems",
+				"\t▫`AJHSME1985`(1985 American Junior High School Mathematics Examination):",
+				"\t\tDifficulty 4/10,",
+				"\t\t25 problems                    ",
+				"*Join the abbreviations of the tests together into a single string separated by a comma and a space(, ) in <arg4>. Leave this argument as \"all\" to include all tests.*"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434108769517961246",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 17:53:16",
+				"CMSB%cd%config : MC_CDR : 4 : 45 : all"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "434108770302296074",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 17:53:16",
+				"`17:53:16` | <@&423932194508111872> Parsing configuration set..."
+			],
+			[
+				"EDITED 17:53:16",
+				"`17:53:16` | <@&423932194508111872> Parsing configuration set...",
+				"`17:53:16` | <@&423931949426409482> The number of problems must be at least 5."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434108787918635009",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 17:53:20",
+				"<:thonk:425396200787804161>"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434108932655677441",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 17:53:54",
+				"CMSB%cd%config : MC_CDR : 4 : 45 : all"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "434108933402001408",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 17:53:55",
+				"`17:53:54` | <@&423932194508111872> Parsing configuration set..."
+			],
+			[
+				"EDITED 17:53:55",
+				"`17:53:54` | <@&423932194508111872> Parsing configuration set...",
+				"`17:53:55` | <@&423932131388162049> Configuration set successfully created!"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434109516783812620",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 17:56:14",
+				"CMSB%cd%config : MC_CDR : 4 : 45 : all"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "434109517958217728",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 17:56:14",
+				"`17:56:14` | <@&423932194508111872> Parsing configuration set..."
+			],
+			[
+				"EDITED 17:56:14",
+				"`17:56:14` | <@&423932194508111872> Parsing configuration set...",
+				"`17:56:14` | <@&423932131388162049> Configuration set successfully created!"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "434120972736397312",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 18:41:45",
+				"steams down"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "434121153968340992",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 18:42:28",
+				"ok it got slightly better"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "ttechnoo#1376 (133024315602894848)",
+		"id": "434121377004519435",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 18:43:21",
+				"broken again lmao"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434136094498619432",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 19:41:50",
+				"anyone doing history hw"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "em_wang#9793 (390460931446013954)",
+		"id": "434143612218114050",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:11:43",
+				"did anyone finish the pieplow discussion question?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434145628004548610",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:19:43",
+				"nooooooooNOOOOOOOOO"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434145665610678274",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:19:52",
+				"WHY DA FRIK DID I GET A 0/41 ON A ELA TEST"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434145723861172260",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:20:06",
+				"NOW I HAVE A FRIKIN 89.14"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434145727531188225",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:20:07",
+				"NO"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434145731809509377",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:20:08",
+				"NOOOO"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "em_wang#9793 (390460931446013954)",
+		"id": "434145888294666260",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:20:45",
+				"oof"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434145997392707595",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:21:11",
+				"imma ask her tomorrow"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434146262703538186",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:22:15",
+				"and if IF she cant change it..."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434146292659257345",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:22:22",
+				"im gonna gdiah"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434149405399056404",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 20:34:44",
+				"me"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434149462584328203",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:34:58",
+				"0/41?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434149465947897856",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:34:58",
+				"wtf"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434149468456353792",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:34:59",
+				"how"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434149704582955008",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 20:35:55",
+				"i havent started yet"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434149771637424138",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:36:11",
+				"HAHAHAHAHAAHAHAHAHHAAHHAHAHAHAAHAHHAHA"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434149786145259530",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:36:15",
+				"I GOT A 39"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434149823516770334",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:36:24",
+				"wait wtf"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434149853568958464",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:36:31",
+				"how did that only bring u down to a 89.14"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434149989447368716",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:37:03",
+				"i have a rly high grade"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434150003355942912",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:37:06",
+				"like a 96"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434150071538548736",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:37:23",
+				"asorry meant 94"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434150144548536320",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:37:40",
+				"I SWEAR TO GOD IF SHE CANT CHANGE IT.................."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434150349801127961",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:38:29",
+				"*had"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434150710678913034",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:39:55",
+				"well i had a 0/49 for the \"ain't I a woman\" at one point so i relate"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434151475405651980",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:42:57",
+				"oOf"
+			],
+			[
+				"DELETED 20:46:17"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434152371606519828",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:46:31",
+				"legit tho why dont we have an oof emoji"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434152681758785548",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:47:45",
+				"wait grades r due tomorrow right?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434152763841052675",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:48:06",
+				"because nobody has added it"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434153514382393344",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:51:04",
+				"?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434153522909544452",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:51:06",
+				"yea i guess"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434153527804297227",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:51:07",
+				"idk"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434153540114710530",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:51:10",
+				"ur in mcneese tho"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434153553112727558",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:51:13",
+				"idk how that works"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434153559886397440",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:51:14",
+				"soooo yea"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434153600491454484",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:51:24",
+				"omg if she turns them in"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434153628685828106",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:51:31",
+				"and she cant change it"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434153651502841866",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:51:36",
+				"im gonna jump off a clikk"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434153660143108116",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:51:38",
+				"*cliff"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434154127639969793",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:53:30",
+				"yes"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434154163463782420",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:53:38",
+				"<:GDI:425396200590540830> <:AH:425396199839891476>"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434154240458620928",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:53:57",
+				"if i get"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434154248461221918",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:53:59",
+				"on da frikin"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "em_wang#9793 (390460931446013954)",
+		"id": "434154259848757268",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:54:01",
+				"i think grades r finalized on wednesday"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434154263950917632",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:54:02",
+				"gold honor roll"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434154271991136258",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:54:04",
+				"WUT"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434154273446690818",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:54:05",
+				"NO"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434154275011166208",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:54:05",
+				"No"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434154276147822594",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:54:05",
+				"NO"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434154290349735936",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:54:09",
+				"OMG"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "em_wang#9793 (390460931446013954)",
+		"id": "434154304211779605",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:54:12",
+				"no like this coming wednesday"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434154312491335680",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:54:14",
+				"oh wait"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434154340673126400",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:54:21",
+				"wait wut?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "em_wang#9793 (390460931446013954)",
+		"id": "434154358993715200",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:54:25",
+				"yeah"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434154360713248769",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:54:25",
+				"when do we get report cards"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "em_wang#9793 (390460931446013954)",
+		"id": "434154393982468097",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:54:33",
+				"after this coming wednesday"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434154543995944960",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:55:09",
+				"yay im gonna ask her why i got a 0"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434154602435444736",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:55:23",
+				"<:ooof:434154502061424640>"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434154614267314176",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:55:26",
+				"Good enough?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434154646806724610",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:55:34",
+				"~~and then you have me quietly sitting in the corner with two Bs~~"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434154713638895619",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:55:50",
+				"right I should calculate my GPA"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "em_wang#9793 (390460931446013954)",
+		"id": "434155601522851852",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:59:21",
+				"i can't fail the discussion question"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434155675808038924",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 20:59:39",
+				"what r u guys gonna draw"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434155737493536788",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:59:54",
+				"if she doesnt change it"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434155750009470986",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 20:59:57",
+				"and i get a b"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434155768263081985",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:00:01",
+				"lol"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "em_wang#9793 (390460931446013954)",
+		"id": "434155908269080599",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 21:00:34",
+				"yash is triggered again"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434155947250810880",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 21:00:44",
+				"justin shut up lmao"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "434156723255902208",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 21:03:49",
+				"wait"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "434156741375295499",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 21:03:53",
+				"justin u got a 0/41 on what"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "em_wang#9793 (390460931446013954)",
+		"id": "434156802095972363",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 21:04:07",
+				"no that's yash"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "434157232159195136",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 21:05:50",
+				"on what"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "434158281326460945",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:10:00",
+				"GUYSSSSS"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "434158297826852864",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:10:04",
+				"george bush once said"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "434158329812484128",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:10:12",
+				"\"Our enemies are innovative and resourceful, and so are we. They never stop thinking about new ways to harm our country and our people, and neither do we.\""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "434158411568119809",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:10:31",
+				"They never stop thinking about new ways to harm our country and our people"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "434158426076217344",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:10:35",
+				"AND NEITHER DO WE"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "434158478337114113",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:10:47",
+				"WE ALSO THINK OF NEW WAYS TO HARM OUR COUNTRY AND PEOPLE"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "434158501531615232",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:10:53",
+				"SAID BY GEORGE BUSH"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434159121814519809",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 21:13:21",
+				"english test"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "434159980736806924",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 21:16:45",
+				"how"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434160060588097578",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 21:17:04",
+				"idk"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "434162080539475979",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 21:25:06",
+				"did u do it"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "434162134545334283",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 21:25:19",
+				"were u supposed to get a good grade?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434163029005828096",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 21:28:52",
+				"i did do"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434163037793026063",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 21:28:54",
+				"it"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434163047016169482",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 21:28:56",
+				"its a test"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434163079861764098",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 21:29:04",
+				"i mean i cant fail that bad"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434163129895747604",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:29:16",
+				"wut did u nurds draw for the hw"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434164244305543168",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 21:33:42",
+				"* cue \"Bush did 9/11\" propaganda"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434165410850406401",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:38:20",
+				"just started"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434165416882077707",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:38:21",
+				"idk"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434165436611821568",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:38:26",
+				"what are u drawing"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434165491188236295",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:38:39",
+				"um"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434165590094249985",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:39:03",
+				"cherokees in front of worn-out tents and blankets, weeping, fighting, etc."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434165610939809823",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:39:08",
+				"i can't draw though"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434165613154533388",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:39:08",
+				"nurd"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434165635988324352",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:39:14",
+				"yes  u can"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434165662458445834",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:39:20",
+				"ur probably the best artitsrt"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434165677553877003",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:39:24",
+				"*artist"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434165848316575745",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:40:04",
+				"no"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434165848731549697",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:40:04",
+				"cuz u \"map\" out the angles at which to draw it and find the rgb code of the colors"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434165922438053899",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:40:22",
+				"huh"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434165948971483156",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:40:28",
+				"and then evaluate all ur previous errors using a summation series"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434165985470185474",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:40:37",
+				"and then find the mean to see how good/bad u did"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434166023915307008",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:40:46",
+				"idk what im saying rn lol"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434166058098622484",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:40:54",
+				"see she's going to go up to people like michelle and anthony and be like \"Wow, such talent you guys have!\" and then go up to us scrubs"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434166092466749461",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:41:02",
+				"ikr"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434166100876460052",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:41:04",
+				"lmao"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434166103040589837",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:41:05",
+				"\"well...i mean...he did his homework\""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434166132438597634",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:41:12",
+				"anthony"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434166140755902465",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:41:14",
+				"ur trash"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434166150927220746",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:41:16",
+				"at drawing"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434166255684026378",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:41:41",
+				"ur mom gay"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434166377289482241",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:42:10",
+				"no u"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434166465931771933",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:42:31",
+				"<:ooof:434154502061424640>"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434166611042107412",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:43:06",
+				"tfw your blanket looks like ramen attached to a box"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434166636644139008",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:43:12",
+				"<:kms:425396201731653642>"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434166707108446215",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:43:29",
+				"im screwed for the test"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434166730751737869",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:43:35",
+				"i legit dont know any of it"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434167106452455424",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:45:04",
+				"**Next week**",
+				"Yash: OMG NOOOOOOO I got a 99%"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434167189654732803",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:45:24",
+				"no"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434167223159095296",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:45:32",
+				"best i can get is a 98 or 97"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434167275331911680",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:45:44",
+				"idk what to drawwwwwwwwwwwwwwwwwwwwwww"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434167360887193600",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:46:05",
+				"my trees look like lobster claws"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434167365568036864",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:46:06",
+				"what should i use my AMAZING artistic ability for"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434167373742866442",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:46:08",
+				"*sigh*"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434167384895389700",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:46:11",
+				"lol gj"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434168489910075403",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:50:34",
+				"i just drew a bunch of starving and dying cherokees"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434168501650063382",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:50:37",
+				"took a couple of seconds"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434168546067480596",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:50:47",
+				"basically just scribbled circles"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434168554867261461",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:50:50",
+				"it works"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434168629458894849",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:51:07",
+				"nah"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434168702708088844",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:51:25",
+				"yes felipe"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434168711687962624",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:51:27",
+				"how do u not know"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434168716675121152",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:51:28",
+				"ur felipe"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434168740675059713",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:51:34",
+				"someone send a picture of theirs"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434168810744971265",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:51:51",
+				"lol"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434168856362090502",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:52:01",
+				"na"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434168879959375880",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:52:07",
+				"ugh firk"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434169024650149889",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:52:42",
+				"firk?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434169032481177621",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:52:43",
+				"bro"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434169040953409536",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:52:45",
+				"thats the new meta"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434169047823679489",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:52:47",
+				"FIRK"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434169060880547840",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:52:50",
+				"SOMEONE ADD A FIRK EMOJI"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434169077586591754",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:52:54",
+				"frik u"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434169100130844684",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:53:00",
+				"FIRK YOU TOO"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434169144854708225",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:53:10",
+				"CMSB%warn : <@!409804347073888266> : Saying fr*k"
+			],
+			[
+				"DELETED 21:53:14",
+				"A",
+				"u",
+				"t",
+				"o",
+				"m",
+				"a",
+				"t",
+				"i",
+				"c",
+				" ",
+				"d",
+				"e",
+				"l",
+				"e",
+				"t",
+				"e",
+				" ",
+				"f",
+				"o",
+				"r",
+				" ",
+				"`",
+				"C",
+				"M",
+				"S",
+				"B",
+				"%",
+				"w",
+				"a",
+				"r",
+				"n",
+				"`",
+				" ",
+				"c",
+				"a",
+				"l",
+				"l"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "434169146406600715",
+		"channel": "#member_logs (426464529107517458)",
+		"updates": [
+			[
+				"SENT 21:53:11",
+				""
+			],
+			[
+				"EDITED 21:53:11",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434169189524045835",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:53:21",
+				"FEIPE"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434169215830720522",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:53:27",
+				"<:FELIPE:433365560135385090>"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434169268410777610",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:53:40",
+				"jeffrey"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434169271527145472",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:53:40",
+				"kys"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434169292540608535",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:53:45",
+				"FELIPE"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434169297510727680",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:53:47",
+				"warn that"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434169325826473987",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:53:53",
+				"nuuuuuuuuuuuu"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434169332562526209",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:53:55",
+				"FELIPEEEEEEEEEEEE"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434169354825891861",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:54:00",
+				"CUZ BABY UR A FIREEEEEEEEEEEEEEEEEEEEEEEEEEEWORK"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434169381254201368",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:54:07",
+				"shut up"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "jkim8027#5702 (322119379313623043)",
+		"id": "434169382432931841",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:54:07",
+				"..."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434169386513727498",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:54:08",
+				"🤦"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434169398492790826",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:54:11",
+				"CMSB%warn : <@!409804347073888266> : <:FELIPE:433365560135385090> no death threats. This week is the kindness challenge"
+			],
+			[
+				"DELETED 21:54:14",
+				"Automatic delete for `CMSB%warn` call"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "434169399579115530",
+		"channel": "#member_logs (426464529107517458)",
+		"updates": [
+			[
+				"SENT 21:54:11",
+				""
+			],
+			[
+				"EDITED 21:54:11",
+				""
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434169415416938496",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:54:15",
+				"no"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434169478893535276",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:54:30",
+				"i suddenly thought of that song cuz i suddenly remebred the interview"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434169497620971532",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:54:34",
+				"with kim jung un"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434169504969523210",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:54:36",
+				"love  that movie"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434169542369869834",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:54:45",
+				"hirloious"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434169573890326528",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:54:52",
+				"wut da frik did u frikin frikers friking draw"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434169590717612032",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:54:56",
+				"yash"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434169640395210763",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:55:08",
+				"imma go up to ppl and be like kys"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434169650922782720",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:55:11",
+				"if u can take on some sexual hirliousmeant watch the movie"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434169714172755968",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:55:26",
+				"hilariousmeant?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434169728416743466",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:55:29",
+				"has curse words"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434169742132248576",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:55:33",
+				"idk"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434169750243770368",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:55:34",
+				"somethin like dat"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434169772611993620",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:55:40",
+				"um i watched deadpool"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434169793331986433",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:55:45",
+				"CUZ BABY UR A FIREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEWORK"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434169820125331470",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:55:51",
+				"jkjkjkjk"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434169839389638667",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:55:56",
+				"shut upppppppppppp"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434169840153133067",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:55:56",
+				"omg i gotta listen to that"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434169890077802516",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:56:08",
+				"wut da frik did u drawwwwwwwwwwwwwwwwwwwwwwwwwwwwww"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434169898055368705",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:56:10",
+				"https://www.youtube.com/watch?v=QGJuMBdaqIw"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434169914555760650",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:56:14",
+				"bo"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434169926283165698",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:56:17",
+				"nooooooooooooooo"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434170206185586699",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 21:57:23",
+				"is there any more random songs i cna listen to that isnt memes"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434172167740063755",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:05:11",
+				"no"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434172262640386048",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:05:33",
+				"whats the thing about jacksons truth or jacksons tale"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434172436489961472",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:06:15",
+				"label it that"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434172454210895872",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:06:19",
+				"i drew bad crops"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434172460892684289",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:06:21",
+				"a tent"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434172481952284672",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:06:26",
+				"and clothes"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434172497173151744",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:06:29",
+				"done"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434172582913376256",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:06:50",
+				"it says to label it only one of them"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434172612516773888",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:06:57",
+				"choose."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434172629801238529",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:07:01",
+				"does it matter"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434172653545193473",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:07:07",
+				"no"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434172668460138506",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:07:10",
+				"ok"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434172966473826314",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:08:21",
+				"MWHAHAHAHHA"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434172978708611072",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:08:24",
+				"UR ALL USESLSs"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434172982601187329",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:08:25",
+				"https://www.youtube.com/watch?v=smq2ulwqF3I"
+			],
+			[
+				"EDITED 22:08:26",
+				"https://www.youtube.com/watch?v=smq2ulwqF3I"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434173049655394319",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:08:41",
+				"https://www.youtube.com/watch?v=InacWJYn2fI"
+			],
+			[
+				"EDITED 22:08:42",
+				"https://www.youtube.com/watch?v=InacWJYn2fI"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434173189137104896",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:09:14",
+				"color or no?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434173208162336770",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:09:19",
+				"why tf"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434173228349652993",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:09:24",
+				"no"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434173235114803213",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:09:25",
+				"im not"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434173237505687552",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:09:26",
+				"yes"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434173248738164736",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:09:29",
+				"frik y'all"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434173265091756033",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:09:33",
+				"k same"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434173278827839508",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:09:36",
+				"this is mostly for yt vids"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434173325825015818",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:09:47",
+				"cuz i need to know better yt vids"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434173434109493258",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:10:13",
+				"in that case...........https://www.youtube.com/watch?v=JE4WuJVm7LI&ab_channel=YashPorwal"
+			],
+			[
+				"EDITED 22:10:13",
+				"in that case...........https://www.youtube.com/watch?v=JE4WuJVm7LI&ab_channel=YashPorwal"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434173477369544704",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:10:23",
+				"https://www.youtube.com/watch?v=JE4WuJVm7LI&ab_channel=YashPorwal"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434173508126507011",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:10:31",
+				"https://www.youtube.com/watch?v=ws4nzXcAZGY&ab_channel=YashPorwal"
+			],
+			[
+				"EDITED 22:10:31",
+				"https://www.youtube.com/watch?v=ws4nzXcAZGY&ab_channel=YashPorwal"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434173548290899972",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:10:40",
+				"https://www.youtube.com/watch?v=c7MeCu_bQAA&ab_channel=YashPorwal"
+			],
+			[
+				"EDITED 22:10:41",
+				"https://www.youtube.com/watch?v=c7MeCu_bQAA&ab_channel=YashPorwal"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "434173554796265494",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:10:42",
+				"i did"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434173589483421697",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:10:50",
+				"LMAO"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434173590615752716",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:10:50",
+				"self-branding icu"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434173593723863040",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:10:51",
+				"OMG"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434173617333469185",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:10:57",
+				"lel"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434173619921354763",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:10:57",
+				"LEGENDEARY CHEST"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434173625613156353",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:10:58",
+				"OH NO"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434173628184133632",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:10:59",
+				"tryhard"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434173645116407819",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:11:03",
+				"I GOT THE WROST LEGENDARY"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434173644818612235",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:11:03",
+				"frik uuuuuuuuuuuuu"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434173662166515733",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:11:07",
+				"AN ICE WIZARD"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434173665165312011",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:11:08",
+				"nurd"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434173680080388098",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:11:12",
+				"HAHAHA"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434173708253396992",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:11:18",
+				"im being bullied lol"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434173719447863297",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:11:21",
+				"when jack got his first legendary it was an ice wizard"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434173736132804618",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:11:25",
+				"everyone was so excited"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434173752214028288",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:11:29",
+				"ice wizard is as crappy as frikkkkkkkk"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434173762846326786",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:11:31",
+				"FEIPE"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434173790784585729",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:11:38",
+				"FELIPE GO KYS TJ"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434173794207399936",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:11:39",
+				"ice wizard is so underrated"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434173807486435329",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:11:42",
+				"its actually rly good"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434173817548701699",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:11:44",
+				"its trash"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434173827040280576",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:11:46",
+				"wdymmmmmmmmmmmm"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434173830697713674",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:11:47",
+				"wut u talkin bout"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434173894040092672",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:12:02",
+				"crappy damage but it slows so u put him behind a tank"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434173898393911296",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:12:03",
+				"it get countered by friking bomber"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434173915036909569",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:12:07",
+				"lmao tru"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434173925102977024",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:12:10",
+				"lol"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434173946011844608",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:12:15",
+				"dont put him alone"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "434173952269746176",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:12:16",
+				"hey"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kaevun#3737 (302238344656715776)",
+		"id": "434173962839392258",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:12:19",
+				"im not a tryhard"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434173971999490061",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:12:21",
+				"always put a tank in front"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434174003192659978",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:12:28",
+				"giant"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174011610497025",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:12:31",
+				"just tornado rocket or lighting or poison"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174033718935552",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:12:36",
+				"..."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174034364858369",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:12:36",
+				"then i usually inferno drag and mini pekka"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434174039603281922",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:12:37",
+				"lmao"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174040828280833",
+		"channel": "#history (423933034551836672)",
+		"updates": [
+			[
+				"SENT 22:12:37",
+				"nurd"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174065583063062",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:12:43",
+				"tj"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174070364569600",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:12:44",
+				"and everything wipes"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174079747227649",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:12:47",
+				"ur legit so bad at cr"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174089813557259",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:12:49",
+				"its funny"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174097639997440",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:12:51",
+				"i dont play"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174108561965056",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:12:54",
+				"at lunch"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434174121971286016",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:12:57",
+				"tj dont u have hw to do"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174125553221633",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:12:58",
+				"im better than u"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174129537810432",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:12:59",
+				"ur so crappyyyyyyyyyyyyyyyyy"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174132268171286",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:12:59",
+				"i carry"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174142082973697",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:02",
+				"oh frik"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174144209485824",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:02",
+				"mhm"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174153663315968",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:04",
+				"i have hw"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174154737188884",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:05",
+				"i dont play lol"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174175582617600",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:10",
+				"wow gj"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174183417577472",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:11",
+				"im like lvl 37"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174204397617153",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:17",
+				"scheetz tbh isnt that mean"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174226576965642",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:22",
+				"i was pretty sure i was lvl 36 a day ago"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174250576904202",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:27",
+				"she loves ppl who like math"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174268616474625",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:32",
+				"frik lol"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174298630914058",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:39",
+				"play starcraft"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174301265068032",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:40",
+				"yash"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174308701700108",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:41",
+				"download it"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174310341672970",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:42",
+				"no"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174317387972609",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:43",
+				"and ill teach u"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174327202643979",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:46",
+				"i can carry"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174334248943626",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:47",
+				"hecknooooooooooooooooooo"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174350661517313",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:51",
+				"laterrrrrrrrrrrrrrrr"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174369846001667",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:56",
+				"fine"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174373700698120",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:57",
+				"im gonna color in case"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174377148284929",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:13:58",
+				"FRIK"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174394605109249",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:14:02",
+				"no tengo marron"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174426951581706",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:14:09",
+				"estoy screwedo"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174467887988736",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:14:19",
+				"u dont have brown?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174494643322892",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:14:26",
+				"wai not use ur face"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174542450262027",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:14:37",
+				"..."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174561681145867",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:14:42",
+				"tj go kys"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174578399641600",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:14:46",
+				"die in a ditch"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174578588385280",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:14:46",
+				"gdiah"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174598657998879",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:14:50",
+				"is that a new thing"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174612268384266",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:14:54",
+				"gdiad?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174632959016972",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:14:59",
+				"diad?"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174635328929793",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:14:59",
+				"gdiad"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174643079872532",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:01",
+				"idk"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174651938111508",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:03",
+				"no"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174671899066368",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:08",
+				"its not as fresh as gdiah"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174686109237259",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:11",
+				"gdiafd"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174699438866442",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:14",
+				"so just use gdiah"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174706162204684",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:16",
+				"no gdiad"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434174712076042243",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:18",
+				"stiap"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174717746872320",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:19",
+				"go die in a frikin ditch"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174731298537472",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:22",
+				"yash"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174733009944587",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:22",
+				"no"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434174744284233730",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:25",
+				"slay thyself in a pit"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174748633595904",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:26",
+				"that sounds dumb"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "434174755831152651",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:28",
+				"stiap"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174761837395968",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:29",
+				"lol"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174766564376588",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:31",
+				"gakys"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174781743431683",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:34",
+				"gafks"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174795412668417",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:37",
+				"gafkys"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174829722075146",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:46",
+				"two houses both a like in dignity"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174840430133250",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:48",
+				"no"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174850295267329",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:50",
+				"i hate jeff"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174859770069012",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:53",
+				"in fait vernoa where we lay our scene"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174873712066561",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:56",
+				"and then idk"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174887997734913",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:15:59",
+				"yes fair"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174929689247746",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:16:10",
+				"from ancient grudge to new muitiny"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434174951814332426",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:16:15",
+				"oh"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434174962576916480",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:16:17",
+				"and then idrc cuz frik shakespeare"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434175183712944132",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:17:10",
+				"tomorrow is band"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434175208522383362",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:17:16",
+				"and its kahoot time"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434175233759379457",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:17:22",
+				"and u know what that means.........................."
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434175265510260739",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:17:30",
+				"<:weSmart:425396200741535745>"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434175805262921730",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:19:38",
+				"sra. g shut down kahoot because people were using fake names"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "434175820114690058",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:19:42",
+				"feels bad"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434176006736183307",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:20:26",
+				"ikr"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434176027699445790",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:20:31",
+				"i found out the name"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434176050105286656",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:20:36",
+				"and then i could have hacked"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "434176064588349442",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:20:40",
+				"but noooooooo"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434177724895068160",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:27:16",
+				"omg"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434177731941367819",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:27:18",
+				"i cant walk"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434177749813297153",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:27:22",
+				"my thigh hurts too much"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434177803265638402",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:27:35",
+				"plus health wh"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "Kimbab_2_Good#9031 (321070340950196224)",
+		"id": "434177808714039296",
+		"channel": "#useless_stuff_as_requested_by_tj (434172895028314113)",
+		"updates": [
+			[
+				"SENT 22:27:36",
+				"yay"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "xXAutisticMidgetXx#9575 (274640028204793856)",
+		"id": "434185140122550282",
+		"channel": "#math (423980153182355466)",
+		"updates": [
+			[
+				"SENT 22:56:44",
+				"Meow"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434186440167915522",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 23:01:54",
+				"did she give any extra handouts on the wednsday after spring break"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434186449651236865",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 23:01:56",
+				"cuz i wasnt there"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "em_wang#9793 (390460931446013954)",
+		"id": "434186540458180618",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 23:02:18",
+				"did u get the subtext one"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434192469442428928",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 23:25:51",
+				"yea"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434192474374668288",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 23:25:52",
+				"is that all"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "em_wang#9793 (390460931446013954)",
+		"id": "434194174267621378",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 23:32:38",
+				"i think so"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	},
+	{
+		"author": "JustPassinBy#4058 (385179266306015232)",
+		"id": "434198562759376907",
+		"channel": "#english (423932900526915595)",
+		"updates": [
+			[
+				"SENT 23:50:04",
+				"kk tyty"
+			]
+		],
+		"server": "CMS Discord Server (409906924050710539)",
+		"date": "2018-4-12.json"
+	}
+]
