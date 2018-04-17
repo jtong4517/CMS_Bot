@@ -1,1 +1,11 @@
-{}
+{
+	"MC_CDR": {
+		"creator": "284799940843274240",
+		"tests": [
+			"MC_Ccd2017",
+			"AJHSME1985"
+		],
+		"problems": 4,
+		"time": 45
+	}
+}

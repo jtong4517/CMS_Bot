@@ -203,20 +203,57 @@ var consoles = {
 var cmd = {
     cd: [
         ["config", false, function (m, args) {
-            if (!args[0]) {
+            if (args.length < 4) {
                 m.channel.send(
                     ":pencil: | **Instructions for creating a Countdown Configuration Set**\
-                    \n1. Choose a six-character alphanumeric identifier as <arg1>. You can also edit an existing set by using its identifier.\
-                    \n2. Select at least one test from the following list:\
-                    \n" + Object.keys(tJSON).map(k => `\t\`${k}\`(${tJSON[k].full}): Difficulty ${tJSON[k].difficulty}/10, ${tJSON[k].numProblems} problems`).join('\n') + "\
-                    \n*(Join the abbreviations of the tests together into a single string separated by a comma in <arg2>.)*\
-                    \n3. Specify the number of correct answers needed to win and add the number at the end of <arg2>."
+                    \n1⃣ Choose a six-character alphanumeric identifier(underscores also allowed) as <arg1>. You can also edit an existing set by using its identifier.\
+                    \n\
+                    \n2⃣ Specify the number of correct answers needed to win in <arg2>.\
+                    \n\
+                    \n3⃣ Enter the time in seconds for each problem as <arg3>.\
+                    \n\
+                    \n4⃣ Select at least one test from the following list:\
+                    \n" + Object.keys(tJSON).map(k => `\t▫\`${k}\`(${tJSON[k].full}):\n\t\tDifficulty ${tJSON[k].difficulty}/10,\n\t\t${tJSON[k].numProblems} problems`).join('\n') + "\
+                    \n*Join the abbreviations of the tests together into a single string separated by a comma and a space(, ) in <arg4>. Leave this argument as \"all\" to include all tests(Note: This will not update as new tests are added).*"
                 )
             } else {
-                m.channel.send("This doesn't work yet, sorry!")
+                if (configs[args[0]]) {
+                    consoles.append(m, "Detected existing configuration set", 2);
+                    if (configs[args[0]].creator != m.author.id) return consoles.append(m, "PermissionsError: You are not the creator of this set.", 0);
+                }
+                consoles.append(m, "Parsing configuration set...", 4);
+                if (args[0].length != 6) return consoles.append(m, "Set identifier is not 6 characters long", 0);
+                if (/[^\w]/.test(args[0])) return consoles.append(m, "Set identifier contains characters that are not alphanumeric or underscores.", 0);
+                for (let i = 1; i < 3; i++) {
+                    args[i] = parseInt(args[i]);
+                    if (isNaN(args[i])) return consoles.append(m, "Invalid " + ["number of problems", "problem time"][i - 1] + " passed.", 0);
+                    if (args[i] < 4) return consoles.append(m, "The " + ["number of problems", "problem time"][i - 1] + " must be at least 4.", 0);
+                }
+                var tests = [];
+                if (args[3] == "all") tests = Object.keys(tJSON);
+                else {
+                    args[3] = args[3].split(', ');
+                    args[3].forEach(a => {
+                        if (!tJSON[a]) consoles.append(m, "Test `" + a + "` does not exist.", 1);
+                        else if (tests.indexOf(a) < 0) tests.push(a);
+                    });
+                }
+                if (tests.length) {
+                    configs[args[0]] = {
+                        creator: m.author.id,
+                        tests: tests,
+                        problems: args[1],
+                        time: args[2]
+                    };
+                    fs.writeFile("./countdown/configs.json", JSON.stringify(configs, null, '\t'), function (err) {
+                        if (err) console.log(err);
+                        console.log("@" + dispDate() + " > New config set created.");
+                        consoles.append(m, "Configuration set successfully created!", 3);
+                    });
+                } else consoles.append(m, "No valid tests were specified.", 0);
             }
 
-        }, "Creates a new configuration set <arg1> with data <arg2>. If the arguments are omitted, instructions will be given for hoe to create the set."],
+        }, "Creates a new configuration set <arg1> with problems <arg2>, time <arg3>, and tests <arg4>. If arguments are omitted, instructions will be given for hoe to create the set."],
         ["rules", false, function (m) {
             m.channel.send("Attached is a document containing rules for CD games.", {
                 files: ["./CDrules.pdf"]
@@ -232,7 +269,6 @@ var cmd = {
             if (m.channel.id != '426369194020306954') return m.channel.send("Please only do CD games in <#426369194020306954>.")
             if (startedAt) return consoles.append(m, "A CD game has already been started.", 0);
             m.guild.members.forEach(member => {
-                if (!players[member.id]) players[member.id] = { rating: 1200 };
                 Object.assign(players[member.id], {
                     score: 0,
                     lastAnswered: 0,
@@ -482,7 +518,7 @@ var cmd = {
                     if (!args[1]) result = result.last();
                     result.delete().then(() => {
                         setTimeout(() => {
-                            reasons[m.id] = ["Reason: Automatic delete for CMSB/del/reason call"]
+                            reasons[m.id] = ["Reason: Automatic delete for CMSB%del%reason call"]
                             m.delete();
                         }, 5000);
                         reasons[result.id] = ["Moderator: " + m.author.tag + ' (' + m.author.id + ')', "Reason: " + args[0]];
@@ -495,18 +531,53 @@ var cmd = {
     ],
     warn: [
         '', true, function (m, args) {
-            if (args.length < 2) consoles.append(m, "This command requires two arguments!", 0);
+            if (args.length < 2) return consoles.append(m, "This command requires two arguments!", 0);
+            var user = players[args[0].substr(3, 18)];
+            if (!user) return consoles.append(m, "Cannot find member " + args[0], 0);
+            m.react('✅').then(() => {
+                setTimeout(() => {
+                    reasons[m.id] = ["Automatic delete for `CMSB%warn` call"];
+                    m.delete();
+                }, 3000);
+            })
+            user.warns++;
             m.guild.channels.find("name", "member_logs").send({
                 embed: {
                     color: 0xff8800,
                     title: "Warn issued",
-                    description: args[0] + ':\n' + args[1],
+                    description: args[1],
+                    fields: [
+                        {
+                            name: "Member:",
+                            value: args[0],
+                            inline: true
+                        },
+                        {
+                            name: "Moderator:",
+                            value: m.author.toString(),
+                            inline: true
+                        }
+                    ],
                     footer: {
-                        text: "Moderator: " + m.author.tag
+                        text: "Warn #" + user.warns
                     }
                 }
             });
-        }, "Issues <arg1> a warning with reason <arg2>. Although warnings are not used for any administrative purposes within the bot currently, they may be in the future."
+            if (user.warns % 3 == 0 && user.warns) {
+                m.guild.members.get(args[0].substr(3, 18)).addRole("435899135766560782").then(() => {
+                    m.guild.channels.find("name", "member_logs").send({
+                        embed: {
+                            color: 0xff00ff,
+                            title: "Automatic action",
+                            description: args[0] + " was muted in this server for 1 minute for the third warn."
+                        }
+                    });
+                    setTimeout(() => {
+                        m.guild.members.get(args[0].substr(3, 18)).removeRole("435899135766560782");
+                    }, 60000);
+                })
+            }
+        }, "Issues <arg1> a warning with reason <arg2>. Every third warning, the user is muted for a minute."
     ]
 };
 
@@ -523,7 +594,7 @@ fs.readdir("./logs", function (err, files) {
 });
 
 bot.on("ready", () => {
-    //console.log(bot.guilds.array()[1].roles.array().map(r=>r.name + ' ' + r.id).join('\n'))
+    // console.log(bot.guilds.array()[1].roles.array().map(r=>r.name + ' ' + r.id).join('\n'))
     bot.user.setPresence({game: {name: 'Use CMSB', type: 0}});
     console.log("@" + dispDate() + " > Started client");
     setInterval(() => {
@@ -539,18 +610,21 @@ bot.on("ready", () => {
                 logMap[date].push(logs[i]);
                 logs[i].date = date;
             }
-            console.log("@" + dispDate() + " > Saved " + (logs.length - savedLogs) + " new log entries (" + edits + " edits).");
+            
+            var saved = 0;
             for (let d in logMap) {
-                if (!fs.existsSync("./logs/" + d)) console.log("@" + dispDate() + " | Created new log file for " + d + '.');
+                if (!fs.existsSync("./logs/" + d)) console.log("@" + dispDate() + " > Created new log file for " + d + '.');
                 fs.writeFile("./logs/" + d, JSON.stringify(logMap[d], null, '\t'), function (err) {
-                    console.log("@" + dispDate() + " > Written " + (logMap[d] || { length : '?' }).length + " entries to " + d + '.');
-                    savedLogs = logs.length;
-                    edits = 0;
+                    saved++;
+                    if (saved == Object.keys(logMap).length) {
+                        console.log("@" + dispDate() + " > Saved " + (logs.length - savedLogs) + " new log entries (" + edits + " edits).");
+                        savedLogs = logs.length;
+                        edits = 0;
+                    }
                 });
             }
             fs.writeFile("./countdown/players.json", JSON.stringify(players, null, '\t'), function (err) {
                 if (err) console.log(err);
-                console.log("@" + dispDate() + " > Saved player data.");
             });
             reasons = {};
         }
@@ -655,6 +729,14 @@ var lastCall = 0;
 
 bot.on("message", (message) => {
     if (message.guild.name=="Emojis: 11-60") return;
+    message.guild.members.forEach(member => {
+        if (!players[member.id]) {
+            players[member.id] = {
+                rating: 1200,
+                warns: 0
+            };
+        }
+    });
     logs.push(Object.assign({
         author: message.author.tag + " (" + message.author.id + ')',
         id: message.id,
