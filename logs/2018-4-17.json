@@ -2711,5 +2711,304 @@
 		],
 		"server": "CMS Discord (409906924050710539)",
 		"date": "2018-4-17.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "435903485540565003",
+		"channel": "#member_logs (426464529107517458)",
+		"updates": [
+			[
+				"SENT 16:44:50",
+				"CMSB%del%num : 100"
+			],
+			[
+				"DELETED 16:44:50"
+			]
+		],
+		"server": "CMS Discord (409906924050710539)",
+		"date": "2018-4-17.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "435903486320967680",
+		"channel": "#member_logs (426464529107517458)",
+		"updates": [
+			[
+				"SENT 16:44:50",
+				"`20:44:49` | <@&423932073854631936> Indexing messages..."
+			],
+			[
+				"EDITED 16:44:50",
+				"`20:44:49` | <@&423932073854631936> Indexing messages...",
+				"`20:44:50` | <@&423932022155771908> (2/100) Active console waiting on finished stream, cannot delete [435903486320967680]."
+			],
+			[
+				"DELETED 16:44:51",
+				"R",
+				"e",
+				"a",
+				"s",
+				"o",
+				"n",
+				":",
+				" ",
+				"N",
+				"u",
+				"m",
+				"e",
+				"r",
+				"i",
+				"c",
+				"a",
+				"l",
+				" ",
+				"b",
+				"u",
+				"l",
+				"k",
+				" ",
+				"d",
+				"e",
+				"l",
+				"e",
+				"t",
+				"e",
+				" ",
+				"b",
+				"y",
+				" ",
+				"O",
+				"h",
+				" ",
+				"n",
+				"o",
+				"e",
+				"s",
+				"!",
+				"#",
+				"4",
+				"5",
+				"6",
+				"5",
+				" ",
+				"(",
+				"2",
+				"8",
+				"4",
+				"7",
+				"9",
+				"9",
+				"9",
+				"4",
+				"0",
+				"8",
+				"4",
+				"3",
+				"2",
+				"7",
+				"4",
+				"2",
+				"4",
+				"0",
+				")",
+				"."
+			]
+		],
+		"server": "CMS Discord (409906924050710539)",
+		"date": "2018-4-17.json"
+	},
+	{
+		"author": "CMS Bot#3539 (423937849461571594)",
+		"id": "435903489659502606",
+		"channel": "#member_logs (426464529107517458)",
+		"updates": [
+			[
+				"SENT 16:44:51",
+				"`16:44:50` | <@&423932073854631936> Indexing messages..."
+			],
+			[
+				"EDITED 16:44:51",
+				"`16:44:50` | <@&423932073854631936> Indexing messages...",
+				"`16:44:50` | <@&423932022155771908> (2/100) Active console waiting on finished stream, cannot delete [435903489659502606]."
+			]
+		],
+		"server": "CMS Discord (409906924050710539)",
+		"date": "2018-4-17.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "435906686675582979",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:57:32",
+				"test"
+			]
+		],
+		"server": "CMS Discord (409906924050710539)",
+		"date": "2018-4-17.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "435906689938751488",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:57:33",
+				"test"
+			]
+		],
+		"server": "CMS Discord (409906924050710539)",
+		"date": "2018-4-17.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "435906692446814238",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:57:34",
+				"test"
+			]
+		],
+		"server": "CMS Discord (409906924050710539)",
+		"date": "2018-4-17.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "435906700558729226",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:57:36",
+				"test"
+			]
+		],
+		"server": "CMS Discord (409906924050710539)",
+		"date": "2018-4-17.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "435906702798225433",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:57:36",
+				"test"
+			]
+		],
+		"server": "CMS Discord (409906924050710539)",
+		"date": "2018-4-17.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "435906707277873154",
+		"channel": "#bots_spam (424292529454972958)",
+		"updates": [
+			[
+				"SENT 16:57:37",
+				"test"
+			]
+		],
+		"server": "CMS Discord (409906924050710539)",
+		"date": "2018-4-17.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "435907660483919873",
+		"channel": "#updates (423930200896569344)",
+		"updates": [
+			[
+				"SENT 17:01:25",
+				"*A few things about the warn function:*",
+				"1) Fixed the member search. All warnings have been reset.",
+				"2) Warns are now counted. For every third warning, <@!423937849461571594> will automatically mute the member for a minute.",
+				"3) As requested by Kaevun, a spam detector has been implemented: If you send more than 5 messages in a span of 10 seconds in any channel other than <#434172895028314113> or <#424292529454972958>, you will be given a warning.",
+				"",
+				"If you think these laws give the federal government too much power, you can start your own capital in Richmond, VA and secede the union in 1861."
+			]
+		],
+		"server": "CMS Discord (409906924050710539)",
+		"date": "2018-4-17.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "435911671194845195",
+		"channel": "#science (423932940829982720)",
+		"updates": [
+			[
+				"SENT 17:17:21",
+				"they're due wednesday"
+			]
+		],
+		"server": "CMS Discord (409906924050710539)",
+		"date": "2018-4-17.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "435957789999759369",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:20:36",
+				"ah I see you practice davidism"
+			]
+		],
+		"server": "CMS Discord (409906924050710539)",
+		"date": "2018-4-17.json"
+	},
+	{
+		"author": "Oh noes!#4565 (284799940843274240)",
+		"id": "435958065263542292",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:21:42",
+				"**Dhriti and Yash:** NOOOOOOOO I missed half a point of extra credit now my record is screwed",
+				"**Average student:** Hmmmm...I got a low-A, that's pretty good",
+				"**David and Anthony:** *What's the most efficient way to pass all my classes?*"
+			]
+		],
+		"server": "CMS Discord (409906924050710539)",
+		"date": "2018-4-17.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "435959299882090497",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:26:36",
+				"dude they look"
+			]
+		],
+		"server": "CMS Discord (409906924050710539)",
+		"date": "2018-4-17.json"
+	},
+	{
+		"author": "GDIAH#4042 (409804347073888266)",
+		"id": "435959345822433301",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:26:47",
+				"but doesnt matter that much"
+			]
+		],
+		"server": "CMS Discord (409906924050710539)",
+		"date": "2018-4-17.json"
+	},
+	{
+		"author": "Raisinbran1510#0126 (347194907414233088)",
+		"id": "435959978805952512",
+		"channel": "#general (423931033910509568)",
+		"updates": [
+			[
+				"SENT 20:29:18",
+				"honestly the average student would be happy with low B"
+			]
+		],
+		"server": "CMS Discord (409906924050710539)",
+		"date": "2018-4-17.json"
 	}
 ]

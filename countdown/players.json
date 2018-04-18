@@ -1,70 +1,94 @@
 {
 	"133024315602894848": {
 		"rating": 1200,
-		"warns": 0
+		"warns": 0,
+		"messageTimes": []
 	},
 	"253374331839578114": {
 		"rating": 1200,
-		"warns": 0
+		"warns": 0,
+		"messageTimes": []
 	},
 	"274640028204793856": {
 		"rating": 1200,
-		"warns": 0
+		"warns": 0,
+		"messageTimes": []
 	},
 	"284799940843274240": {
 		"rating": 1200,
-		"warns": 0
+		"warns": 1,
+		"messageTimes": [
+			1523998885114,
+			1524010902494
+		]
 	},
 	"297168847692234753": {
 		"rating": 1200,
-		"warns": 0
+		"warns": 0,
+		"messageTimes": []
 	},
 	"302238344656715776": {
 		"rating": 1200,
-		"warns": 0
+		"warns": 0,
+		"messageTimes": []
 	},
 	"321070340950196224": {
 		"rating": 1200,
-		"warns": 0
+		"warns": 0,
+		"messageTimes": []
 	},
 	"322119379313623043": {
 		"rating": 1200,
-		"warns": 0
+		"warns": 0,
+		"messageTimes": []
 	},
 	"323461426297438208": {
 		"rating": 1200,
-		"warns": 0
+		"warns": 0,
+		"messageTimes": []
 	},
 	"343459904587169792": {
 		"rating": 1200,
-		"warns": 0
+		"warns": 0,
+		"messageTimes": []
 	},
 	"347194907414233088": {
 		"rating": 1200,
-		"warns": 0
+		"warns": 0,
+		"messageTimes": [
+			1524011358718
+		]
 	},
 	"373294118958268418": {
 		"rating": 1200,
-		"warns": 0
+		"warns": 0,
+		"messageTimes": []
 	},
 	"385179266306015232": {
 		"rating": 1200,
-		"warns": 0
+		"warns": 0,
+		"messageTimes": []
 	},
 	"390460931446013954": {
 		"rating": 1200,
-		"warns": 0
+		"warns": 0,
+		"messageTimes": []
 	},
 	"409804347073888266": {
 		"rating": 1200,
-		"warns": 0
+		"warns": 0,
+		"messageTimes": [
+			1524011207850
+		]
 	},
 	"423937849461571594": {
 		"rating": 1200,
-		"warns": 3
+		"warns": 0,
+		"messageTimes": []
 	},
 	"431295159733583882": {
 		"rating": 1200,
-		"warns": 0
+		"warns": 0,
+		"messageTimes": []
 	}
 }

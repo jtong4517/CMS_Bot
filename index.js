@@ -733,10 +733,12 @@ bot.on("message", (message) => {
         if (!players[member.id]) {
             players[member.id] = {
                 rating: 1200,
-                warns: 0
+                warns: 0,
+                messageTimes: []
             };
         }
     });
+    var mPTimes = players[message.author.id].messageTimes;
     logs.push(Object.assign({
         author: message.author.tag + " (" + message.author.id + ')',
         id: message.id,
@@ -744,6 +746,26 @@ bot.on("message", (message) => {
         updates: [["SENT " + dispTime(), ... message.content.split('\n')]],
         date: dispDate() + ".json"
     }, message.channel.name ? { server: (message.guild.name + ' (' + message.guild.id + ')')} : {}));
+    // Spam detector
+    for (let i = 0; i < mPTimes.length; i++) {
+        if (new Date().getTime() - mPTimes[i] > 10000) {
+            mPTimes.splice(i, 1);
+        }
+    }
+    if (["bots_spam", "useless_stuff_as_requested_by_tj"].indexOf(message.channel.name) < 0) mPTimes.push(new Date().getTime());
+    if (mPTimes.length > 5) {
+        players[message.author.id].warns++;
+        message.guild.channels.find("name", "member_logs").send({
+            embed: {
+                color: 0xff00ff,
+                title: "Automatic action",
+                description: "**Spam detector activated:** " + message.author.toString() + " was automatically given a warning.",
+                footer: {
+                    text: "Warn #" + players[message.author.id].warns
+                }
+            }
+        });
+    }
     if (message.channel.id == '426369194020306954' && startedAt && message.author.id != bot.user.id) {
         if (!message.content.startsWith("CMSB%cd%answer : ") || players[message.author.id].lastAnswered == problemNum || !players[message.author.id].joined) {
             chat.push('**' + message.author.username + '**: ' + message.content
