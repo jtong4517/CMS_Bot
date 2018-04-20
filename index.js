@@ -599,8 +599,12 @@ var cmd = {
 setInterval(function() {
     var options = {
         host: "cms-bot.herokuapp.com",
-        port: process.env.PORT,
-        path: '/'
+        port: 80,
+        path: "https://cms-bot.herokuapp.com/",
+        method: "GET",
+        headers: {
+            Host: "www.herokuapp.com"
+        }
     };
     http.get(options, function(res) {
         res.on('data', function(chunk) {
