@@ -8,9 +8,9 @@
 const Discord = require("discord.js"), fs = require("fs"), request = require("request");
 var express = require("express"), app = express();
 
-
-
 const bot = new Discord.Client();
+
+var http = require('http'); //importing http
 
 app.set("port", process.env.PORT || 5000);
 
@@ -26,7 +26,22 @@ app.listen(app.get("port"), function() {
 
 app.get('/', function(request, response) {
     //response.render('pages/index');
-    response.send("Success")
+    response.send(`<strong>What brings thou here?</strong>
+       ⠰⡿⠿⠛⠛⠻⠿⣷ 
+    ⠀⠀⠀⠀⠀⠀⣀⣄⡀⠀⠀⠀⠀⢀⣀⣀⣤⣄⣀⡀ 
+    ⠀⠀⠀⠀⠀⢸⣿⣿⣷⠀⠀⠀⠀⠛⠛⣿⣿⣿⡛⠿⠷ 
+    ⠀⠀⠀⠀⠀⠘⠿⠿⠋⠀⠀⠀⠀⠀⠀⣿⣿⣿⠇ 
+    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠁
+    ⠀⠀⠀⠀⣿⣷⣄⠀⢶⣶⣷⣶⣶⣤⣀ 
+    ⠀⠀⠀⠀⣿⣿⣿⠀⠀⠀⠀⠀⠈⠙⠻⠗ 
+    ⠀⠀⠀⣰⣿⣿⣿⠀⠀⠀⠀⢀⣀⣠⣤⣴⣶⡄ 
+    ⠀⣠⣾⣿⣿⣿⣥⣶⣶⣿⣿⣿⣿⣿⠿⠿⠛⠃ 
+    ⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄ 
+    ⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡁ 
+    ⠈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁ 
+    ⠀⠀⠛⢿⣿⣿⣿⣿⣿⣿⡿⠟ 
+    ⠀⠀⠀⠀⠀⠉⠉⠉
+    `)
 });
 
 bot.login(process.env.BOT_TOKEN);
@@ -580,6 +595,27 @@ var cmd = {
         }, "Issues <arg1> a warning with reason <arg2>. Every third warning, the user is muted for a minute."
     ]
 };
+
+setInterval(function() {
+    var options = {
+        host: "cms-bot.herokuapp.com",
+        port: process.env.PORT,
+        path: '/'
+    };
+    http.get(options, function(res) {
+        res.on('data', function(chunk) {
+            try {
+                // optional logging... disable after it's working
+                console.log('@' + dispDate + " > Heroku ping response: " + chunk);
+            } catch (err) {
+                console.log('@' + dispDate + " > Heroku ping error: " + err);
+            }
+        });
+    }).on('error', function(err) {
+        console.log("Error: " + err.message);
+    });
+}, 60000);
+// Ping domain each minute
 
 const dateStr = new Date().getFullYear() + '-' + (new Date().getMonth() + 1) + '-' + new Date().getDate();
 var logs = [], logMap = {}, reasons = {}, savedLogs = 0, edits = 0;
