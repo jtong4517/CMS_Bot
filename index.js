@@ -29,7 +29,7 @@ app.get('/', function(request, response) {
     response.send("Success")
 });
 
-bot.login("NDIzOTM3ODQ5NDYxNTcxNTk0.DYxmag.Ryny9aAAiZfkvCoXPrUzrtitUiQ");
+bot.login(process.env.BOT_TOKEN);
 //JSON.parse(fs.readFileSync("../SSH.json"))
 
 /* CD round! */
@@ -73,7 +73,7 @@ function updateProblem (txt, params) {
                 fields: [
                     {
                         name: "Scoreboard",
-                        value: joined.map(p => '<@' + p + ">(<:rating:426837451563335713>" + players[p].rating + '): ' + players[p].score + " points").join('\n')
+                        value: joined.map(p => '<@' + p + ">(<:rating:436264387976888332>" + players[p].rating + '): ' + players[p].score + " points").join('\n')
                     },
                     {
                         name: "Chat",
@@ -106,7 +106,7 @@ function problem () {
         });
         bot.channels.get('426369194020306954').send("Loading final results!").then(result => {
             embedID = result.id;
-            updateProblem("Congratulations " + winner + "!\n**Rating changes:**\n" + joined.map(p => '<@' + p + ">: <:rating:426837451563335713>" + players[p].ratingChange).join('\n') + "\n*The scoreboard below reflects ratings after this game.*", {
+            updateProblem("Congratulations " + winner + "!\n**Rating changes:**\n" + joined.map(p => '<@' + p + ">: <:rating:436264387976888332>" + players[p].ratingChange).join('\n') + "\n*The scoreboard below reflects ratings after this game.*", {
                 title: "Final results: Game #" + gameNum,
                 color: 0xffff00,
                 override: true
@@ -333,7 +333,7 @@ var cmd = {
                 problemNum++;
                 clearInterval(intervalID);
                 if (players[m.author.id].score == 4) {
-                    chat.push(":tada: | **" + m.author.toString() + " has won the game! Awarded <:rating:426837451563335713>" + Math.round(joined.length * Math.random() * 10 + 14) + ".**");
+                    chat.push(":tada: | **" + m.author.toString() + " has won the game! Awarded <:rating:436264387976888332>" + Math.round(joined.length * Math.random() * 10 + 14) + ".**");
                     winner = m.author.toString();
                     players[m.author.id].ratingChange += joined.length * Math.random() * 10 + 14;
                     for (let p of joined) {
@@ -748,23 +748,27 @@ bot.on("message", (message) => {
     }, message.channel.name ? { server: (message.guild.name + ' (' + message.guild.id + ')')} : {}));
     // Spam detector
     for (let i = 0; i < mPTimes.length; i++) {
-        if (new Date().getTime() - mPTimes[i] > 10000) {
+        if (new Date().getTime() - mPTimes[i] > 7500) {
             mPTimes.splice(i, 1);
         }
     }
     if (["bots_spam", "useless_stuff_as_requested_by_tj"].indexOf(message.channel.name) < 0) mPTimes.push(new Date().getTime());
-    if (mPTimes.length > 5) {
+    if (mPTimes.length > 5 && message.author.id != bot.user.id) {
+        message.channel.send("CMSB%warn : <@!" + message.author.id + "> : **Spam detector activated**");
+        mPTimes = [];
+        /*
         players[message.author.id].warns++;
         message.guild.channels.find("name", "member_logs").send({
             embed: {
                 color: 0xff00ff,
                 title: "Automatic action",
-                description: "**Spam detector activated:** " + message.author.toString() + " was automatically given a warning.",
+                description: " " + message.author.toString() + " was automatically given a warning.",
                 footer: {
                     text: "Warn #" + players[message.author.id].warns
                 }
             }
         });
+        */
     }
     if (message.channel.id == '426369194020306954' && startedAt && message.author.id != bot.user.id) {
         if (!message.content.startsWith("CMSB%cd%answer : ") || players[message.author.id].lastAnswered == problemNum || !players[message.author.id].joined) {
@@ -806,7 +810,7 @@ bot.on("message", (message) => {
         command = command.find(v => v[0] == splits[1]);
         if (typeof command == "undefined") return consoles.append(message, "bash: " + splits.join('/') + ": command not found", 0);
     }
-    if (command[1] && ['284799940843274240', '302238344656715776', '133024315602894848'].indexOf(message.author.id) < 0) return consoles.append(message, "PermissionsError: Please run this command again as root/Administrator", 0)
+    if (command[1] && ['284799940843274240', '302238344656715776', '133024315602894848', '423937849461571594'].indexOf(message.author.id) < 0) return consoles.append(message, "PermissionsError: Please run this command again as root/Administrator", 0)
     try {
         command[2](message, a);
     } catch (err) {
@@ -814,3 +818,6 @@ bot.on("message", (message) => {
     }
     lastCall = new Date().getTime();
 });
+
+// Use node stream call to listen for $PORT response
+process.stdin.resume();
