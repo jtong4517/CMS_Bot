@@ -581,30 +581,29 @@ var cmd = {
     ]
 };
 
-setInterval(
-    function() {
-    var options = {
-        host: "www.herokuapp.com",
-        port: 80,
-        path: "https://cms-bot.herokuapp.com/",
-        method: "GET",
-        headers: {
-            Host: "www.herokuapp.com"
-        }
-    };
-    http.get(options, function (res) {
-        res.on('data', function (chunk) {
-            try {
-                // optional logging... disable after it's working
-                console.log('@' + dispDate() + " > Heroku ping response: " + chunk);
-            } catch (err) {
-                console.log('@' + dispDate() + " > Heroku ping error: " + err);
-            }
+function startKeepAlive() {
+    setInterval(function() {
+        var options = {
+            host: "cms-bot.herokuapp.com",
+            port: 80,
+            path: '/'
+        };
+        http.get(options, function (res) {
+            res.on('data', function (chunk) {
+                try {
+                    // optional logging... disable after it's working
+                    console.log(dispDate() + " > Heroku ping: " + chunk);
+                } catch (err) {
+                    console.log(dispDate() + " > Ping error: " + err.message);
+                }
+            });
+        }).on('error', function(err) {
+            console.log(dispDate() + " > Internal Error: " + err.message);
         });
-    }).on('error', function(err) {
-        console.log("Error: " + err.message);
-    });
-}, 60000);
+    }, 60000); // load every 20 minutes
+}
+
+startKeepAlive();
 // Ping domain each minute
 
 const dateStr = new Date().getFullYear() + '-' + (new Date().getMonth() + 1) + '-' + new Date().getDate();
