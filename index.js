@@ -24,24 +24,9 @@ app.listen(app.get("port"), function() {
     console.log('Node app is running on port', app.get('port'));
 });
 
-app.get('/', function(request, response) {
+app.get('/', function (request, response) {
     //response.render('pages/index');
-    response.send(`<strong>What brings thou here?</strong>
-       ⠰⡿⠿⠛⠛⠻⠿⣷ 
-    ⠀⠀⠀⠀⠀⠀⣀⣄⡀⠀⠀⠀⠀⢀⣀⣀⣤⣄⣀⡀ 
-    ⠀⠀⠀⠀⠀⢸⣿⣿⣷⠀⠀⠀⠀⠛⠛⣿⣿⣿⡛⠿⠷ 
-    ⠀⠀⠀⠀⠀⠘⠿⠿⠋⠀⠀⠀⠀⠀⠀⣿⣿⣿⠇ 
-    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠁
-    ⠀⠀⠀⠀⣿⣷⣄⠀⢶⣶⣷⣶⣶⣤⣀ 
-    ⠀⠀⠀⠀⣿⣿⣿⠀⠀⠀⠀⠀⠈⠙⠻⠗ 
-    ⠀⠀⠀⣰⣿⣿⣿⠀⠀⠀⠀⢀⣀⣠⣤⣴⣶⡄ 
-    ⠀⣠⣾⣿⣿⣿⣥⣶⣶⣿⣿⣿⣿⣿⠿⠿⠛⠃ 
-    ⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄ 
-    ⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡁ 
-    ⠈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁ 
-    ⠀⠀⠛⢿⣿⣿⣿⣿⣿⣿⡿⠟ 
-    ⠀⠀⠀⠀⠀⠉⠉⠉
-    `)
+    response.send("Success");
 });
 
 bot.login(process.env.BOT_TOKEN);
@@ -596,9 +581,10 @@ var cmd = {
     ]
 };
 
-setInterval(function() {
+setInterval(
+    function() {
     var options = {
-        host: "cms-bot.herokuapp.com",
+        host: "www.herokuapp.com",
         port: 80,
         path: "https://cms-bot.herokuapp.com/",
         method: "GET",
@@ -606,13 +592,13 @@ setInterval(function() {
             Host: "www.herokuapp.com"
         }
     };
-    http.get(options, function(res) {
-        res.on('data', function(chunk) {
+    http.get(options, function (res) {
+        res.on('data', function (chunk) {
             try {
                 // optional logging... disable after it's working
-                console.log('@' + dispDate + " > Heroku ping response: " + chunk);
+                console.log('@' + dispDate() + " > Heroku ping response: " + chunk);
             } catch (err) {
-                console.log('@' + dispDate + " > Heroku ping error: " + err);
+                console.log('@' + dispDate() + " > Heroku ping error: " + err);
             }
         });
     }).on('error', function(err) {
@@ -858,6 +844,3 @@ bot.on("message", (message) => {
     }
     lastCall = new Date().getTime();
 });
-
-// Use node stream call to listen for $PORT response
-process.stdin.resume();
