@@ -12,6 +12,24 @@ const bot = new Discord.Client();
 
 var http = require('http'); //importing http
 
+const { Pool } = require('pg');
+const pool = new Pool({
+  connectionString: process.env.DATABASE_URL,
+  ssl: true
+});
+
+app.get('/db', async (req, res) => {
+  try {
+    const client = await pool.connect()
+    const result = await client.query('SELECT * FROM test_table');
+    res.render('pages/db', result);
+    client.release();
+  } catch (err) {
+    console.error(err);
+    res.send("Error " + err);
+  }
+});
+
 app.set("port", process.env.PORT || 5000);
 
 app.use(express.static(__dirname + '/public'));
@@ -181,7 +199,7 @@ var consoles = {
         var appendTo = this.list.find(c => c.caller == msg.id);
         if (appendTo) {
             appendTo.edit(appendTo.content + "\n`" + dispTime() + '` | ' + type + ' ' + val).then(() => {
-                if (type == "<@&423209869508870146>") {
+                if (type == 4) {
                     for (let c = 0; c < this.list.length; c++) {
                         if (this.list[c].id == appendTo.id) this.list.splice(c, 1);
                     }
@@ -591,8 +609,7 @@ function startKeepAlive() {
         http.get(options, function (res) {
             res.on('data', function (chunk) {
                 try {
-                    // optional logging... disable after it's working
-                    console.log(dispDate() + " > Heroku ping: " + chunk);
+                    //console.log(dispDate() + " > Heroku ping: " + chunk);
                 } catch (err) {
                     console.log(dispDate() + " > Ping error: " + err.message);
                 }
@@ -600,7 +617,7 @@ function startKeepAlive() {
         }).on('error', function(err) {
             console.log(dispDate() + " > Internal Error: " + err.message);
         });
-    }, 60000); // load every 20 minutes
+    }, 600000); // check every 10 minutes
 }
 
 startKeepAlive();
@@ -777,7 +794,6 @@ bot.on("message", (message) => {
             mPTimes.splice(i, 1);
         }
     }
-    if (["bots_spam", "useless_stuff_as_requested_by_tj"].indexOf(message.channel.name) < 0) mPTimes.push(new Date().getTime());
     if (mPTimes.length > 5 && message.author.id != bot.user.id) {
         message.channel.send("CMSB%warn : <@!" + message.author.id + "> : **Spam detector activated**");
         mPTimes = [];
@@ -795,6 +811,7 @@ bot.on("message", (message) => {
         });
         */
     }
+    if (["bots_spam", "useless_stuff_as_requested_by_tj"].indexOf(message.channel.name) < 0) mPTimes.push(new Date().getTime());
     if (message.channel.id == '426369194020306954' && startedAt && message.author.id != bot.user.id) {
         if (!message.content.startsWith("CMSB%cd%answer : ") || players[message.author.id].lastAnswered == problemNum || !players[message.author.id].joined) {
             chat.push('**' + message.author.username + '**: ' + message.content
